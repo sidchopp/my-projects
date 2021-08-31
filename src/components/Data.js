@@ -16,7 +16,7 @@ const Data = [
     "title": "Purva's Kitchen",
     "dates": "May 2015 - December 2015",
     "duties": [
-      "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid."
+      "You will get a detailed Menu of all the items we serve at our Restaurant."
     ],
     "techUsed": "ReactJS",
     "company": "BIGDROP"

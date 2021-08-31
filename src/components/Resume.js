@@ -1,7 +1,6 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CodeIcon from '@material-ui/icons/Code';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -87,6 +86,11 @@ export default function Album() {
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
               Siddharth Chopra
             </Typography>
+            <div>
+              <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
+                Full Stack Developer
+              </Typography>
+            </div>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               These are some of my Projects that I have worked on, since I have started learning about Stack Development.
             </Typography>
@@ -117,8 +121,8 @@ export default function Album() {
                   <Card className={classes.card}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="https://source.unsplash.com/random"
-                      title={title}
+                      image="https://media-exp1.licdn.com/dms/image/C5603AQFN_jQwkt3R5g/profile-displayphoto-shrink_200_200/0/1603252414332?e=1635984000&v=beta&t=tWKBLXaIWk3gV8JWFk0mtq1hBc-WaOmxGxsVv_hUYfU"
+                      alt={title}
                     />
                     <CardContent className={classes.cardContent}>
                       <Typography gutterBottom variant="h5" component="h2">
@@ -129,12 +133,10 @@ export default function Album() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button size="small" color="primary">
-                        View
+                      <Button color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
+                        More
                       </Button>
-                      <Button size="small" color="primary">
-                        Edit
-                      </Button>
+
                     </CardActions>
                   </Card>
                 </Grid>
@@ -146,7 +148,7 @@ export default function Album() {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Footer
+          Siddharth Chopra
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
           Something here to give the footer a purpose!
