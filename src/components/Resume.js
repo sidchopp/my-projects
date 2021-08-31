@@ -66,8 +66,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
 export default function Album() {
   const classes = useStyles();
 
@@ -78,7 +76,7 @@ export default function Album() {
         <Toolbar>
           <CodeIcon className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
-            Siddharth Chopra
+            My Projects
           </Typography>
         </Toolbar>
       </AppBar>
@@ -87,7 +85,7 @@ export default function Album() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              My Projects
+              Siddharth Chopra
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               These are some of my Projects that I have worked on, since I have started learning about Stack Development.
@@ -95,12 +93,12 @@ export default function Album() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justifyContent="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="primary" href='https://github.com/sidchopp' target="_blank">
                     <GitHubIcon />
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
                     <LinkedInIcon />
                   </Button>
                 </Grid>
@@ -113,7 +111,7 @@ export default function Album() {
           <Grid container spacing={4}>
             {Data.map((card) => {
 
-              const { id, order, title, dates, duties } = card
+              const { id, order, title, dates, duties, techUsed } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
@@ -127,7 +125,7 @@ export default function Album() {
                         {title}
                       </Typography>
                       <Typography>
-                        This is a media card. You can use this section to describe the content.
+                        {duties}
                       </Typography>
                     </CardContent>
                     <CardActions>
