@@ -1,41 +1,32 @@
 const ResumeData = [
   {
     "id": "recAGJfiU4CeaV0HL",
-    "order": 3,
-    "title": "Full Stack Web Developer",
-    "dates": "December 2015 - Present",
+    "order": 2,
+    "title": "Full Stack Developer",
+    "dates": "September 2020 - Present",
     "duties": [
-      "Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.",
-      "Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.",
-      "Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian."
+      "Successfully completed a Full Stack Developer Course (Projects based, full time 6 months experience) while working independently as well as in cross-functional Scrum teams in an Agile environment.",
+      "Implemented Agile Scrum methodology by facilitating exercises like Sprints and team leading standups using Slack and Trello boards for effectively working in teams. Continuous delivery of valuable software to clients at the end of every Sprint.",
+      "Fundamental knowledge and hands-on experience of fundamental AWS services, Web application technologies and frameworks such as React, Node, JavaScript, HTML/CSS, RESTful APIs, Version control (Git), VS Code, Command-line interface, Python (Basic) etc.",
+      "Created FUSION- A MERN tech stack application built from the scratch while collaborating with a cohesive team of learners at InceptionU Ltd. to improve accessibility and awareness of Tech related events in Calgary, Alberta ( https://fusion-alberta.herokuapp.com/ ). Worked directly with a client while understanding the need, taking ownership before delivering the project to completion.",
+      "Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian.",
+      "Fast learner with great attention to detail and strong desire to fundamentally understand things at a much deeper level for sound learning. "
     ],
-    "company": "TOMMY"
+    "company": "Stack Developer"
   },
   {
     "id": "recIL6mJNfWObonls",
-    "order": 2,
-    "title": "Front-End Engineer",
-    "dates": "May 2015 - December 2015",
-    "duties": [
-      "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid.",
-      "Franzen af pitchfork, mumblecore try-hard kogi XOXO roof party la croix cardigan neutra retro tattooed copper mug. Meditation lomo biodiesel scenester",
-      "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1",
-      "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1"
-    ],
-    "company": "BIGDROP"
-  },
-  {
-    "id": "rec61x18GVY99hQq5",
     "order": 1,
-    "title": "Engineering Intern",
-    "dates": "May 2014 - September 2015",
+    "title": "MCAT Physics Instructor, The Princeton Review - Calgary, Canada (Part time)",
+    "dates": "March 2020 - Present",
     "duties": [
-      "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",
-      "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.",
-      "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism."
+      "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more.",
+      "Successfully completed the TPR Instructor certification program.",
+      "Delivering Online lectures to students (typically 1st or 2nd year level science undergraduates) who are preparing for the MCAT exam.",
     ],
-    "company": "CUKER"
-  }
+    "company": "Physics Instructor"
+  },
+
 ]
 
 export default ResumeData;
