@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 //CSS
-import './index.css'
+import '../style.css'
 //components
 
 import ResumeData from './ResumeData.js'
