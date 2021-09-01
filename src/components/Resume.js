@@ -53,8 +53,6 @@ function Resume() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            {/* <h2 id="transition-modal-title">Transition modal</h2>
-            <p id="transition-modal-description">react-transition-group animates me.</p> */}
             <DetailedResume />
           </div>
         </Fade>

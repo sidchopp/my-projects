@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
+
+
 
 //CSS
 import '../style.css'
@@ -29,8 +32,9 @@ function DetailedResume() {
   // }
   const { company, dates, duties, title } = jobs[value]
   return (
-    <section className="section">
+    <section style={{ maxHeight: '100vh', OverflowY: 'auto' }} className="section">
       <div className="title">
+
         <h2>experience</h2>
         <div className="underline"></div>
       </div>
@@ -53,11 +57,11 @@ function DetailedResume() {
         <article className="job-info">
           <h3>{title}</h3>
           <h4>{company}</h4>
-          <p className="job-date">{dates}</p>
+          <i><p className="job-date">{dates}</p></i>
           {duties.map((duty, index) => {
             return (
               <div key={index} className="job-desc">
-                {/* <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight> */}
+                <ArrowRightIcon className="job-icon" />
                 <p>{duty}</p>
               </div>
             )
