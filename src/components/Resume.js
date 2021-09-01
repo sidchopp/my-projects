@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
+
+// components
+
+import DetailedResume from './DetailedResume.js';
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -18,9 +22,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Resume(openResume) {
+function Resume() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
     setOpen(true);
@@ -49,11 +53,14 @@ export default function Resume(openResume) {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">Transition modal</h2>
-            <p id="transition-modal-description">react-transition-group animates me.</p>
+            {/* <h2 id="transition-modal-title">Transition modal</h2>
+            <p id="transition-modal-description">react-transition-group animates me.</p> */}
+            <DetailedResume />
           </div>
         </Fade>
       </Modal>
     </div>
   );
 }
+
+export default Resume;

@@ -114,8 +114,15 @@ export default function Projects() {
               </Grid>
               <Grid container spacing={4} justifyContent="center">
                 <Grid item>
+
+                  {/*/////// component import */}
+
                   <Resume />
+
+                  {/* //////// */}
+
                 </Grid>
+
               </Grid>
             </div>
           </Container>
