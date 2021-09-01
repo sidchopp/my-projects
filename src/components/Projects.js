@@ -132,13 +132,13 @@ export default function Projects() {
           <Grid container spacing={4}>
             {Data.map((card) => {
 
-              const { id, order, title, dates, duties, techUsed } = card
+              const { id, order, title, dates, duties, techUsed, website, img } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
                     <CardMedia
                       className={classes.cardMedia}
-                      image="https://media-exp1.licdn.com/dms/image/C5603AQFN_jQwkt3R5g/profile-displayphoto-shrink_200_200/0/1603252414332?e=1635984000&v=beta&t=tWKBLXaIWk3gV8JWFk0mtq1hBc-WaOmxGxsVv_hUYfU"
+                      image={img}
                       alt={title}
                     />
                     <CardContent className={classes.cardContent}>
@@ -150,7 +150,7 @@ export default function Projects() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
+                      <Button color="primary" href={website} target="_blank" >
                         More
                       </Button>
 
