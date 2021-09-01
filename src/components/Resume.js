@@ -36,7 +36,7 @@ function Resume() {
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Button>Resume</Button>}
+        trigger={<Button primary>My Resume</Button>}
       >
         <Modal.Header>Experience</Modal.Header>
         <Modal.Content >
