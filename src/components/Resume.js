@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
-import Backdrop from '@material-ui/core/Backdrop';
-import Fade from '@material-ui/core/Fade';
 
-// components
+// Material UI
+import { makeStyles } from '@material-ui/core/styles';
+
+// React-Semantic-UI
+import { Button, Icon, Image, Modal } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
+
+// Components
 
 import DetailedResume from './DetailedResume.js';
 
@@ -26,36 +29,28 @@ function Resume() {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
   return (
     <div>
-      <button variant="contained" color="primary" type="button" onClick={handleOpen}>
-        Resume
-      </button>
       <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        className={classes.modal}
+        closeIcon
         open={open}
-        onClose={handleClose}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
+        onClose={() => setOpen(false)}
+        onOpen={() => setOpen(true)}
+        trigger={<Button>Resume</Button>}
       >
-        <Fade in={open}>
-          <div className={classes.paper}>
+        <Modal.Header>Experience</Modal.Header>
+        <Modal.Content >
+          <Modal.Description>
+            {/* Imported Component */}
             <DetailedResume />
-          </div>
-        </Fade>
+            {/*  */}
+          </Modal.Description>
+        </Modal.Content>
+        <Modal.Actions>
+          <Button primary onClick={() => setOpen(false)}>
+            <Icon name='chevron left' />Back
+          </Button>
+        </Modal.Actions>
       </Modal>
     </div>
   );
