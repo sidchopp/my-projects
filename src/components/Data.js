@@ -20,9 +20,7 @@ const Data = [
     "duties": [
       "You will get a detailed Menu of all the items we serve at our Restaurant."
     ],
-    'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
-    "website": "https://my-periodic-table.netlify.app/",
-    "website": "https://my-periodic-table.netlify.app/",
+    'img': "https://images.unsplash.com/photo-1557499305-bd68d0ad468d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1130&q=80",
     "techUsed": "ReactJS",
     "company": "BIGDROP"
   },
@@ -34,7 +32,7 @@ const Data = [
     "duties": [
       "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free."
     ],
-    'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
+    'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://my-periodic-table.netlify.app/",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "HTML/CSS and Java Script",
@@ -48,7 +46,7 @@ const Data = [
     "duties": [
       "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free."
     ],
-    'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
+    'img': "https://images.unsplash.com/photo-1522069213448-443a614da9b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80",
     "website": "https://my-periodic-table.netlify.app/",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "ReactJS",
@@ -62,7 +60,7 @@ const Data = [
     "duties": [
       "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free."
     ],
-    'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
+    'img': "https://images.unsplash.com/photo-1598091875294-04a7539c972c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "website": "https://my-periodic-table.netlify.app/",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "ReactJS",
@@ -76,7 +74,7 @@ const Data = [
     "duties": [
       "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free."
     ],
-    'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
+    'img': "https://images.unsplash.com/photo-1532289031496-d0162979f71f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://my-periodic-table.netlify.app/",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "ReactJS",
