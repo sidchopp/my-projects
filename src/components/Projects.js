@@ -5,6 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CodeIcon from '@material-ui/icons/Code';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import DescriptionIcon from '@material-ui/icons/Description';
+import TouchAppIcon from '@material-ui/icons/TouchApp';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -150,10 +151,9 @@ export default function Projects() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button color="primary" href={website} target="_blank" >
-                        More
+                      <Button variant="contained" color="primary" href={website} target="_blank" >
+                        <TouchAppIcon /> More
                       </Button>
-
                     </CardActions>
                   </Card>
                 </Grid>

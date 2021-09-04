@@ -5,12 +5,25 @@ const Data = [
     "title": "Periodic Table",
     "dates": "December 2015 - Present",
     "duties": [
-      "The periodic table is a tabular display of the chemical elements. It is widely used in chemistry, Physics, and other sciences, and is generally seen as an icon of chemistry."
+      "The periodic table is a tabular display of the chemical elements. It is widely used in chemistry, Physics, and other sciences, and is generally seen as an icon of Chemistry."
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "ReactJS",
     "company": "TOMMY"
+  },
+  {
+    "id": "rec61x18GVY99hQq5",
+    "order": 1,
+    "title": "About My Location",
+    "dates": "May 2014 - September 2015",
+    "duties": [
+      "This React App will show not only tell the location of the user but also provide a lot of info about the that country"
+    ],
+    'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "website": "https://about-my-location.netlify.app/",
+    "techUsed": "HTML/CSS and Java Script",
+    "company": "CUKER"
   },
   {
     "id": "recIL6mJNfWObonls",
@@ -21,23 +34,11 @@ const Data = [
       "You will get a detailed Menu of all the items we serve at our Restaurant."
     ],
     'img': "https://images.unsplash.com/photo-1557499305-bd68d0ad468d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1130&q=80",
-    "website": "https://my-periodic-table.netlify.app/",
+    "website": "",
     "techUsed": "ReactJS",
     "company": "BIGDROP"
   },
-  {
-    "id": "rec61x18GVY99hQq5",
-    "order": 1,
-    "title": "About Country",
-    "dates": "May 2014 - September 2015",
-    "duties": [
-      "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free."
-    ],
-    'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "website": "https://my-periodic-table.netlify.app/",
-    "techUsed": "HTML/CSS and Java Script",
-    "company": "CUKER"
-  },
+
   {
     "id": "rec61x18GVY19hQq5",
     "order": 1,
