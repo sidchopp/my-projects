@@ -17,6 +17,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import clsx from 'clsx';
+import IconButton from '@material-ui/core/IconButton';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 // components
 
@@ -73,6 +76,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Projects() {
   const classes = useStyles();
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
 
   return (
     <React.Fragment>
@@ -151,9 +159,19 @@ export default function Projects() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button variant="contained" color="primary" href={website} target="_blank" >
+                      <Button variant="contained" href={website} target="_blank" >
                         <TouchAppIcon /> More
                       </Button>
+                      <IconButton
+                        className={clsx(classes.expand, {
+                          [classes.expandOpen]: expanded,
+                        })}
+                        onClick={handleExpandClick}
+                        aria-expanded={expanded}
+                        aria-label="show more"
+                      >
+                        <ExpandMoreIcon />
+                      </IconButton>
                     </CardActions>
                   </Card>
                 </Grid>
