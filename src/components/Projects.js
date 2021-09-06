@@ -90,7 +90,7 @@ export default function Projects() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <CodeIcon className={classes.icon} />
+          <CodeIcon style={{ fontSize: 40 }} className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
             My Projects
           </Typography>
