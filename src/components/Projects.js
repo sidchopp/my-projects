@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -76,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Projects() {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -160,7 +160,7 @@ export default function Projects() {
                     </CardContent>
                     <CardActions>
                       <Button variant="contained" href={website} target="_blank" >
-                        <TouchAppIcon /> More
+                        <TouchAppIcon /> Check Out
                       </Button>
                       <IconButton
                         className={clsx(classes.expand, {
