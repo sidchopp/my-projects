@@ -22,6 +22,7 @@ import Link from '@material-ui/core/Link';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import Collapse from '@material-ui/core/Collapse';
 
 // components
@@ -173,12 +174,12 @@ export default function Projects() {
                         aria-expanded={expanded}
                         aria-label="show more"
                       >
-                        <ExpandMoreIcon />
+                        {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
                       </IconButton>
                     </CardActions>
-                    <Collapse in={expanded} timeout="auto" unmountOnExit>
-                      <CardContent>Hi</CardContent>
-                    </Collapse>
+                    {/* <Collapse in={expanded} timeout="auto" unmountOnExit> */}
+                    {expanded && <CardContent>{techUsed}</CardContent>}
+                    {/* </Collapse> */}
                   </Card>
                 </Grid>
               )
