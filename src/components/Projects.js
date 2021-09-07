@@ -76,6 +76,16 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
+  expand: {
+    transform: 'rotate(0deg)',
+    marginLeft: 'auto',
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+    }),
+  },
+  expandOpen: {
+    transform: 'rotate(180deg)',
+  },
 
 }));
 
@@ -165,23 +175,26 @@ export default function Projects() {
                     </CardContent>
                     <CardActions>
                       <Button variant="contained" href={website} target="_blank" >
-                        <TouchAppIcon /> Check Out
+                        <TouchAppIcon /> View
                       </Button>
-                      <IconButton style={{ marginLeft: 'auto' }} edge='end'
-                        // className={clsx(classes.expand, {
-                        //   [classes.expandOpen]: expanded,
-                        // })}
+                      <IconButton style={{ marginLeft: 'auto' }}
+                        className={clsx(classes.expand, {
+                          [classes.expandOpen]: expanded,
+                        })}
                         onClick={handleExpandClick}
                         aria-expanded={expanded}
                         aria-label="show more"
 
                       >
                         {/* To change the icon with each click depending on state */}
-                        {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                        {/* {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />} */}
+                        <ExpandMoreIcon />
                       </IconButton>
                     </CardActions>
                     {/* Iff only showInfo is true, only then show info, use AND operator */}
-                    {expanded && <CardContent>Technologies Used: {techUsed}</CardContent>}
+                    {expanded && <CardContent>
+                      Technologies Used: {techUsed}
+                    </CardContent>}
 
                   </Card>
                 </Grid>
