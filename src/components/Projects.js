@@ -7,6 +7,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import DescriptionIcon from '@material-ui/icons/Description';
 import TouchAppIcon from '@material-ui/icons/TouchApp';
 import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -160,15 +161,29 @@ export default function Projects() {
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
+                    <CardHeader
+                      // avatar={
+                      //   <Avatar aria-label="recipe" className={classes.avatar}>
+                      //     R
+                      //   </Avatar>
+                      // }
+                      // action={
+                      //   <IconButton aria-label="settings">
+                      //     <MoreVertIcon />
+                      //   </IconButton>
+                      // }
+                      title={title}
+                      subheader="September 14, 2016"
+                    />
                     <CardMedia
                       className={classes.cardMedia}
                       image={img}
                       alt={title}
                     />
                     <CardContent className={classes.cardContent}>
-                      <Typography gutterBottom variant="h5" component="h2">
+                      {/* <Typography gutterBottom variant="h5" component="h2">
                         {title}
-                      </Typography>
+                      </Typography> */}
                       <Typography>
                         {duties}
                       </Typography>
