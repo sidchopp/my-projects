@@ -157,7 +157,7 @@ export default function Projects() {
           <Grid container spacing={4}>
             {Data.map((card) => {
 
-              const { id, order, title, dates, duties, techUsed, website, img } = card
+              const { id, order, title, dates, duties, techUsed, website, img, bestView } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
@@ -173,7 +173,8 @@ export default function Projects() {
                       //   </IconButton>
                       // }
                       title={title}
-                      subheader="September 14, 2016"
+                      subheader={dates}
+
                     />
                     <CardMedia
                       className={classes.cardMedia}
@@ -186,6 +187,9 @@ export default function Projects() {
                       </Typography> */}
                       <Typography>
                         {duties}
+                      </Typography>
+                      <Typography variant="subtitle2" gutterBottom>
+                        BEST VIEW: {bestView}
                       </Typography>
                     </CardContent>
                     <CardActions>
