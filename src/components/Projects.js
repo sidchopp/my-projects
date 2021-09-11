@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import CodeIcon from '@material-ui/icons/Code';
+import CollectionsIcon from '@material-ui/icons/Collections';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import DescriptionIcon from '@material-ui/icons/Description';
 import TouchAppIcon from '@material-ui/icons/TouchApp';
@@ -101,9 +101,12 @@ export default function Projects() {
   return (
     <React.Fragment>
       <CssBaseline />
+
+      {/* Header */}
+
       <AppBar position="relative">
         <Toolbar>
-          <CodeIcon style={{ fontSize: 40 }} className={classes.icon} />
+          <CollectionsIcon style={{ fontSize: 40 }} className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
             My Projects
           </Typography>
