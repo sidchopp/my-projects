@@ -24,16 +24,13 @@ import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-//import Collapse from '@material-ui/core/Collapse';
 
+// Amimate.css
 import "animate.css"
 
-// components
-
+// omponents
 import Data from './Data'
 import Resume from './Resume'
-
-
 
 
 function Copyright() {
@@ -125,10 +122,6 @@ export default function Projects() {
             <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
               Developer |  Instructor
             </Typography>
-
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              These are some of my Projects that I have worked on, since I have started learning about Stack Development.
-            </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justifyContent="center">
                 <Grid item>
@@ -137,27 +130,25 @@ export default function Projects() {
                   </Button>
                   </div>
                 </Grid>
-
                 <Grid item>
                   <div class="animate__animated animate__lightSpeedInRight">  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
                     <LinkedInIcon />
                   </Button>
                   </div>
                 </Grid>
-
               </Grid>
-              <Grid container spacing={4} justifyContent="center">
+              <Grid container spacing={6} justifyContent="center">
                 <Grid item>
 
                   {/*/////// component import */}
-
                   <div class="animate__animated animate__backInUp"> <Resume /></div>
-
                   {/* //////// */}
 
                 </Grid>
-
               </Grid>
+              <div style={{ margin: '10px' }}> <Typography variant="h3" align="center" color="textSecondary" paragraph>
+                My Recent Projects
+              </Typography></div>
             </div>
           </Container>
         </div>
@@ -165,25 +156,13 @@ export default function Projects() {
           {/* End hero unit */}
           <Grid container spacing={4}>
             {Data.map((card) => {
-
               const { id, order, title, dates, duties, techUsed, website, img, bestView } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
                     <CardHeader
-                      // avatar={
-                      //   <Avatar aria-label="recipe" className={classes.avatar}>
-                      //     R
-                      //   </Avatar>
-                      // }
-                      // action={
-                      //   <IconButton aria-label="settings">
-                      //     <MoreVertIcon />
-                      //   </IconButton>
-                      // }
                       title={title}
                       subheader={dates}
-
                     />
                     <CardMedia
                       className={classes.cardMedia}
@@ -191,9 +170,6 @@ export default function Projects() {
                       alt={title}
                     />
                     <CardContent className={classes.cardContent}>
-                      {/* <Typography gutterBottom variant="h5" component="h2">
-                        {title}
-                      </Typography> */}
                       <Typography>
                         {duties}
                       </Typography>
@@ -212,7 +188,6 @@ export default function Projects() {
                         onClick={handleExpandClick}
                         aria-expanded={expanded}
                         aria-label="show more"
-
                       >
                         {/* To change the icon with each click depending on state */}
                         {/* {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />} */}
@@ -223,7 +198,6 @@ export default function Projects() {
                     {expanded && <CardContent>
                       Technologies Used: {techUsed}
                     </CardContent>}
-
                   </Card>
                 </Grid>
               )
@@ -231,6 +205,7 @@ export default function Projects() {
           </Grid>
         </Container>
       </main>
+
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
@@ -239,10 +214,10 @@ export default function Projects() {
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
           Something here to give the footer a purpose!
         </Typography>
-
         <Copyright />
       </footer>
       {/* End footer */}
+
     </React.Fragment>
   );
 }
