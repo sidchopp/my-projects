@@ -125,14 +125,18 @@ export default function Projects() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justifyContent="center">
                 <Grid item>
-                  <div class="animate__animated animate__lightSpeedInLeft">   <Button variant="contained" color="primary" href='https://github.com/sidchopp' target="_blank">
-                    <GitHubIcon />
-                  </Button>
+                  <div class="animate__animated animate__lightSpeedInLeft">
+                    <Button variant="contained" color="primary" href='https://github.com/sidchopp'
+                      target="_blank">
+                      <GitHubIcon style={{ fontSize: 28 }} >
+
+                      </GitHubIcon>
+                    </Button>
                   </div>
                 </Grid>
                 <Grid item>
                   <div class="animate__animated animate__lightSpeedInRight">  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
-                    <LinkedInIcon />
+                    <LinkedInIcon style={{ fontSize: 28 }} />
                   </Button>
                   </div>
                 </Grid>
