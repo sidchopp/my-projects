@@ -119,13 +119,13 @@ export default function Projects() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              <div >Siddharth Chopra</div>
+              Siddharth Chopra
             </Typography>
-            <div>
-              <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
-                <div >Full Stack Developer</div>
-              </Typography>
-            </div>
+
+            <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
+              Developer |  Instructor
+            </Typography>
+
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               These are some of my Projects that I have worked on, since I have started learning about Stack Development.
             </Typography>
