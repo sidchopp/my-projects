@@ -208,11 +208,11 @@ export default function Projects() {
 
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography variant="h3" align="center" gutterBottom>
           Siddharth Chopra
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
+          <i>These were some of my projects. Hope you liked them. Please let me know if I can be helpful.</i>
         </Typography>
         <Copyright />
       </footer>
