@@ -26,6 +26,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 //import Collapse from '@material-ui/core/Collapse';
 
+import "animate.css"
+
 // components
 
 import Data from './Data'
@@ -117,11 +119,11 @@ export default function Projects() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Siddharth Chopra
+              <div >Siddharth Chopra</div>
             </Typography>
             <div>
               <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
-                Full Stack Developer
+                <div >Full Stack Developer</div>
               </Typography>
             </div>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
@@ -130,22 +132,26 @@ export default function Projects() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justifyContent="center">
                 <Grid item>
-                  <Button variant="contained" color="primary" href='https://github.com/sidchopp' target="_blank">
+                  <div class="animate__animated animate__lightSpeedInLeft">   <Button variant="contained" color="primary" href='https://github.com/sidchopp' target="_blank">
                     <GitHubIcon />
                   </Button>
+                  </div>
                 </Grid>
+
                 <Grid item>
-                  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
+                  <div class="animate__animated animate__lightSpeedInRight">  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
                     <LinkedInIcon />
                   </Button>
+                  </div>
                 </Grid>
+
               </Grid>
               <Grid container spacing={4} justifyContent="center">
                 <Grid item>
 
                   {/*/////// component import */}
 
-                  <Resume />
+                  <div class="animate__animated animate__backInUp"> <Resume /></div>
 
                   {/* //////// */}
 
