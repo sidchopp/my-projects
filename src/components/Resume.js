@@ -9,7 +9,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 // Components
 
-import DetailedResume from './DetailedResume.js';
+import DetailedResume from './DetailedResume';
 
 const useStyles = makeStyles((theme) => ({
   modal: {
