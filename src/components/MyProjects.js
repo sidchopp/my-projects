@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function Projects() {
+function MyProjects() {
   const classes = useStyles();
   const [expanded, setExpanded] = useState(false);
 
@@ -192,3 +192,5 @@ export default function Projects() {
     </React.Fragment>
   );
 }
+
+export default MyProjects;

@@ -1,7 +1,8 @@
-import Projects from './components/Projects'
+import MyProjects from './components/MyProjects'
+
 function App() {
   return (
-    <div><Projects /></div>
+    <div><MyProjects /></div>
   );
 }
 
