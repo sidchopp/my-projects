@@ -29,7 +29,7 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import "animate.css"
 
 // omponents
-import Data from './Data'
+import ProjectData from '../data/ProjectData'
 import Resume from './Resume'
 
 
@@ -159,7 +159,7 @@ export default function Projects() {
         <Container className={classes.cardGrid} maxWidth="lg">
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {Data.map((card) => {
+            {ProjectData.map((card) => {
               const { id, order, title, dates, duties, techUsed, website, img, bestView } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>

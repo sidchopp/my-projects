@@ -1,4 +1,4 @@
-const Data = [
+const ProjectData = [
   {
     "id": "1",
     "order": 3,
@@ -85,4 +85,4 @@ const Data = [
 
 ];
 
-export default Data;
+export default ProjectData;

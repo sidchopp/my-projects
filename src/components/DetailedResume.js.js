@@ -3,7 +3,7 @@ import { Button, Segment, Icon } from 'semantic-ui-react'
 
 //components
 
-import ResumeData from './ResumeData.js'
+import ResumeData from '../data/ResumeData.js'
 
 function DetailedResume() {
 
