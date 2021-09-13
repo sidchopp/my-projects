@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CollectionsIcon from '@material-ui/icons/Collections';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import DescriptionIcon from '@material-ui/icons/Description';
 import TouchAppIcon from '@material-ui/icons/TouchApp';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -28,23 +27,10 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 // Amimate.css
 import "animate.css"
 
-// omponents
+// Components
 import ProjectData from '../data/ProjectData'
 import Resume from './Resume'
-
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://github.com/sidchopp" target="_blank">
-        My GitHub
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+import Footer from './Footer';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -71,10 +57,6 @@ const useStyles = makeStyles((theme) => ({
   },
   cardContent: {
     flexGrow: 1,
-  },
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -211,15 +193,7 @@ export default function Projects() {
       </main>
 
       {/* Footer */}
-      <footer className={classes.footer}>
-        <Typography variant="h3" align="center" gutterBottom>
-          Siddharth Chopra
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          <i>These were some of my projects. Hope you liked them. Please let me know if I can be helpful.</i>
-        </Typography>
-        <Copyright />
-      </footer>
+      <Footer />
       {/* End footer */}
 
     </React.Fragment>
