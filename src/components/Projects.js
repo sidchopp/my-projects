@@ -22,7 +22,6 @@ import Link from '@material-ui/core/Link';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 
 // Amimate.css
 import "animate.css"
@@ -31,6 +30,7 @@ import "animate.css"
 import ProjectData from '../data/ProjectData'
 import Resume from './Resume'
 import Footer from './Footer';
+import Header from './Header';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -85,14 +85,7 @@ export default function Projects() {
 
       {/* Header */}
 
-      <AppBar position="relative">
-        <Toolbar>
-          <CollectionsIcon style={{ fontSize: 40 }} className={classes.icon} />
-          <Typography variant="h6" color="inherit" noWrap>
-            My Projects
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <Header />
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
