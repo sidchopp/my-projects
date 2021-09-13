@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import CollectionsIcon from '@material-ui/icons/Collections';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import TouchAppIcon from '@material-ui/icons/TouchApp';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -12,25 +8,20 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Link from '@material-ui/core/Link';
-
-
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-// Amimate.css
-import "animate.css"
+
 
 // Components
 import ProjectData from '../data/ProjectData'
-import Resume from './Resume'
 import Footer from './Footer';
 import Header from './Header';
+import HeroUnit from './HeroUnit';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -82,57 +73,10 @@ function MyProjects() {
   return (
     <React.Fragment>
       <CssBaseline />
-
-      {/* Header */}
-
       <Header />
       <main>
-        {/* Hero unit */}
-        <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Siddharth Chopra
-            </Typography>
-
-            <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
-              Developer |  Instructor
-            </Typography>
-            <div className={classes.heroButtons}>
-              <Grid container spacing={2} justifyContent="center">
-                <Grid item>
-                  <div class="animate__animated animate__lightSpeedInLeft">
-                    <Button variant="contained" color="primary" href='https://github.com/sidchopp'
-                      target="_blank">
-                      <GitHubIcon style={{ fontSize: 28 }} >
-
-                      </GitHubIcon>
-                    </Button>
-                  </div>
-                </Grid>
-                <Grid item>
-                  <div class="animate__animated animate__lightSpeedInRight">  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
-                    <LinkedInIcon style={{ fontSize: 28 }} />
-                  </Button>
-                  </div>
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} justifyContent="center">
-                <Grid item>
-
-                  {/*/////// component import */}
-                  <div class="animate__animated animate__backInUp"> <Resume /></div>
-                  {/* //////// */}
-
-                </Grid>
-              </Grid>
-              <div style={{ margin: '10px' }}> <Typography variant="h3" align="center" color="textSecondary" paragraph>
-                My Recent Projects
-              </Typography></div>
-            </div>
-          </Container>
-        </div>
+        <HeroUnit />
         <Container className={classes.cardGrid} maxWidth="lg">
-          {/* End hero unit */}
           <Grid container spacing={4}>
             {ProjectData.map((card) => {
               const { id, order, title, dates, duties, techUsed, website, img, bestView } = card
