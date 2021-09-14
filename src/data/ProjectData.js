@@ -16,7 +16,7 @@ const ProjectData = [
   {
     "id": "2",
     "order": 1,
-    "bestView": 'Big Screens, Laptops, Tablets, Mobiles',
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
@@ -44,15 +44,14 @@ const ProjectData = [
   {
     "id": "4",
     "order": 1,
-    "title": "Rolling Dice",
-    "bestView": 'Big Screens and Laptops only',
-    "dates": "July 2021 - August 2021",
+    "title": "Face Detection",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "September 2021 - September 2021",
     "duties": [
-      "A Wonderful game of 'Rolling a Dice' between two players."
+      "This App will detect a face in an image."
     ],
-    'img': "https://images.unsplash.com/photo-1522069213448-443a614da9b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80",
-    "website": "https://my-periodic-table.netlify.app/",
-    "techUsed": "HTMT/CSS, JavaScript",
+    'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "techUsed": "ReactJS, Material-UI",
     "company": "CUKER"
   },
   {
