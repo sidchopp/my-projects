@@ -46,9 +46,10 @@ function HeroUnit() {
               </div>
             </Grid>
             <Grid item>
-              <div class="animate__animated animate__lightSpeedInRight">  <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
-                <LinkedInIcon style={{ fontSize: 28 }} />
-              </Button>
+              <div class="animate__animated animate__lightSpeedInRight">
+                <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
+                  <LinkedInIcon style={{ fontSize: 28 }} />
+                </Button>
               </div>
             </Grid>
           </Grid>

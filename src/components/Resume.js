@@ -41,9 +41,11 @@ function Resume() {
         <Modal.Header>Experience</Modal.Header>
         <Modal.Content >
           <Modal.Description>
+
             {/* Imported Component */}
             <DetailedResume />
             {/*  */}
+
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
