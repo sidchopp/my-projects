@@ -9,7 +9,10 @@ const ResumeData = [
       "Implemented Agile Scrum methodology by facilitating exercises like Sprints and team leading standups using Slack and Trello boards for effectively working in teams.",
       "Fundamental knowledge and hands-on experience of fundamental AWS services, Web application technologies and frameworks such as React, Node, JavaScript, HTML/CSS, RESTful APIs, Version control (Git), VS Code, Command-line interface, Python (Basic) etc.",
     ],
-    "company": "Stack Developer"
+    "company": "Stack Developer",
+    "certifications": [
+      "AWS Certified Cloud Practitioner",
+    ]
   },
   {
     "id": "recIL6mJNfWObonls",

@@ -14,7 +14,7 @@ function DetailedResume() {
   const [value, setValue] = useState(0)
   //const [activeItem, setActiveItem] = useState(value)
 
-  const { company, dates, duties, title, image } = jobs[value]
+  const { company, dates, duties, title, image, certifications } = jobs[value]
   return (
     <>
       <div>
@@ -35,6 +35,14 @@ function DetailedResume() {
         return (
           <div key={index} >
             <p><Icon disabled name='angle right' />{duty}</p>
+          </div>
+        )
+      })}
+      <h3>Certifications</h3>
+      {certifications.map((certificate, index) => {
+        return (
+          <div key={index} >
+            <p><Icon disabled name='angle right' />{certificate}</p>
           </div>
         )
       })}
