@@ -27,8 +27,8 @@ function Footer() {
   const classes = useStyles();
   return (
     <footer className={classes.footer}>
-      <Typography variant="h3" align="center" gutterBottom>
-        Siddharth Chopra
+      <Typography variant="h4" align="center" gutterBottom>
+        My Projects
       </Typography>
       <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         <i>These were some of my projects. Hope you liked them. Please let me know if I can be helpful.</i>
