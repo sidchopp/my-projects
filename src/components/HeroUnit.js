@@ -10,6 +10,9 @@ import Container from '@material-ui/core/Container';
 // Components
 import Resume from './Resume'
 
+//CSS
+import '../App.css'
+
 // Amimate.css
 import "animate.css"
 
@@ -29,10 +32,10 @@ function HeroUnit() {
     <div className={classes.heroContent}>
       <Container maxWidth="sm">
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-          Siddharth Chopra
+          <span className='font-name' >Siddharth Chopra</span>
         </Typography>
         <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
-          Developer |  Instructor
+          <span className='font-profile'  >  Developer |  Instructor</span>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
@@ -61,7 +64,7 @@ function HeroUnit() {
             </Grid>
           </Grid>
           <div style={{ margin: '10px' }}> <Typography variant="h3" align="center" color="textSecondary" paragraph>
-            My Recent Projects
+            <span className='font-link'>My Projects</span>
           </Typography></div>
         </div>
       </Container>
