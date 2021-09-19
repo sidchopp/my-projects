@@ -59,7 +59,9 @@ function HeroUnit() {
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/*/////// component import */}
-              <div class="animate__animated animate__backInUp"> <Resume /></div>
+              <div class="animate__animated animate__backInUp">
+                <Resume />
+              </div>
               {/* //////// */}
             </Grid>
           </Grid>
