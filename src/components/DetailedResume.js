@@ -5,8 +5,6 @@ import { Button, Segment, Icon } from 'semantic-ui-react'
 
 import ResumeData from '../data/ResumeData'
 
-
-
 function DetailedResume() {
 
   //state
@@ -14,7 +12,7 @@ function DetailedResume() {
   const [value, setValue] = useState(0)
   //const [activeItem, setActiveItem] = useState(value)
 
-  const { company, dates, duties, title, image, certifications } = jobs[value]
+  const { role, dates, duties, title, image, certifications } = jobs[value]
   return (
     <>
       <div>
@@ -23,7 +21,8 @@ function DetailedResume() {
             <button
               class={` ui medium button ui basic button  ${index === value && 'ui large button ui blue button  '}`}
               onClick={() => setValue(index)} key={item.id}
-            >{item.company}
+            >
+              {item.role}
             </button>
           )
         })}
