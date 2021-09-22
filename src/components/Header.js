@@ -17,9 +17,9 @@ function Header() {
   return (
     <AppBar position="relative">
       <Toolbar>
-        <CollectionsIcon style={{ fontSize: 40 }} className={classes.icon} />
-        <Typography variant="h6" color="inherit" noWrap>
-          My Projects
+        {/* <CollectionsIcon style={{ fontSize: 40 }} className={classes.icon} /> */}
+        <Typography variant="h4" color="inherit" noWrap>
+          <span className='font-link'> My Projects</span>
         </Typography>
       </Toolbar>
     </AppBar>

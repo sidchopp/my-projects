@@ -65,9 +65,9 @@ function HeroUnit() {
               {/* //////// */}
             </Grid>
           </Grid>
-          <div style={{ margin: '10px' }}> <Typography variant="h3" align="center" color="textSecondary" paragraph>
+          {/* <div style={{ margin: '10px' }}> <Typography variant="h3" align="center" color="textSecondary" paragraph>
             <span className='font-link'>My Projects</span>
-          </Typography></div>
+          </Typography></div> */}
         </div>
       </Container>
     </div>
