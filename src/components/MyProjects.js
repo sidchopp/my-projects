@@ -73,7 +73,7 @@ function MyProjects() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Header />
+      {/* <Header /> */}
       <main>
         <HeroUnit />
         <Container className={classes.cardGrid} maxWidth="lg">
