@@ -11,7 +11,7 @@ const ProjectData = [
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "ReactJS, Semantic UI React",
-    "company": "TOMMY"
+    "company": "SID"
   },
   {
     "id": "2",
@@ -25,7 +25,7 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
     "techUsed": "ReactJS, Semantic UI React",
-    "company": "CUKER"
+    "company": "SID"
   },
   {
     "id": "3",
@@ -51,8 +51,8 @@ const ProjectData = [
       "This App will detect a face in an image."
     ],
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "techUsed": "ReactJS, Material-UI",
-    "company": "CUKER"
+    "techUsed": "ReactJS, MUI, Semantic UI React, clarifai, bcrypt.js, Heroku",
+    "company": "SID"
   },
   {
     "id": "5",
@@ -66,7 +66,7 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1598091875294-04a7539c972c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     "website": "https://my-periodic-table.netlify.app/",
     "techUsed": "HTMT/CSS, JavaScript",
-    "company": "CUKER"
+    "company": "SID"
   },
   {
     "id": "6",
@@ -79,7 +79,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "techUsed": "MERN Stack",
-    "company": "CUKER"
+    "company": "SID"
   },
 
 ];
