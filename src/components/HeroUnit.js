@@ -20,6 +20,10 @@ const useStyles = makeStyles((theme) => ({
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundImage: `url(https://images.unsplash.com/photo-1505136026201-bbc1bc0949fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG5vcnRoZXJuJTIwbGlnaHR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)`,
   },
   heroButtons: {
     marginTop: theme.spacing(4),
