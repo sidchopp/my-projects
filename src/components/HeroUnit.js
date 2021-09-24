@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundImage: `url(https://images.unsplash.com/photo-1505136026201-bbc1bc0949fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG5vcnRoZXJuJTIwbGlnaHR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)`,
+    backgroundImage: `url(https://images.unsplash.com/photo-1548685913-fe6678babe8d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1138&q=80)`,
   },
   heroButtons: {
     marginTop: theme.spacing(4),
