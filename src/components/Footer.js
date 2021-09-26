@@ -13,10 +13,10 @@ const useStyles = makeStyles((theme) => ({
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://github.com/sidchopp" target="_blank">
+      {'Sid © '}
+      {/* <Link color="inherit" href="https://github.com/sidchopp" target="_blank">
         My GitHub
-      </Link>{' '}
+      </Link>{' '} */}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
@@ -32,6 +32,9 @@ function Footer() {
       </Typography>
       <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
         <i> Hope you liked them. Please let me know if I can be helpful.</i>
+      </Typography>
+      <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+        Email: sidchopp@gmail.com | Mobile: (587)-436-7497
       </Typography>
       <Copyright />
     </footer>
