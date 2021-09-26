@@ -14,7 +14,7 @@ import Container from '@material-ui/core/Container';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import PreviewIcon from '@mui/icons-material/Preview';
 
 
 // Components
@@ -98,7 +98,7 @@ function MyProjects() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button variant="contained" href={website} target="_blank" >
+                      <Button color='primary' variant="contained" href={website} target="_blank" >
                         <TouchAppIcon /> View
                       </Button>
                       <IconButton style={{ marginLeft: 'auto' }}
@@ -117,7 +117,7 @@ function MyProjects() {
                     {/* Iff only showInfo is true, only then show info, use AND operator */}
                     {expanded && <CardContent>
                       <div style={{ margin: '3px' }}> <h4>Technologies Used: </h4>{techUsed}</div>
-                      <div style={{ margin: '3px' }}> <h4>Best View: </h4> {bestView}</div>
+                      <div style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
                     </CardContent>}
                   </Card>
                 </Grid>
