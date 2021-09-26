@@ -96,9 +96,6 @@ function MyProjects() {
                       <Typography>
                         {duties}
                       </Typography>
-                      <Typography variant="subtitle2" gutterBottom>
-                        BEST VIEW: {bestView}
-                      </Typography>
                     </CardContent>
                     <CardActions>
                       <Button variant="contained" href={website} target="_blank" >
@@ -119,7 +116,8 @@ function MyProjects() {
                     </CardActions>
                     {/* Iff only showInfo is true, only then show info, use AND operator */}
                     {expanded && <CardContent>
-                      Technologies Used: {techUsed}
+                      <div style={{ margin: '3px' }}> <h4>Technologies Used: </h4>{techUsed}</div>
+                      <div style={{ margin: '3px' }}> <h4>Best View: </h4> {bestView}</div>
                     </CardContent>}
                   </Card>
                 </Grid>
