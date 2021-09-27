@@ -51,6 +51,7 @@ const ProjectData = [
       "This App will detect a face in an image."
     ],
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "website": "https://sid-face-detect.herokuapp.com/",
     "techUsed": "ReactJS, MUI, Semantic UI React, clarifai, bcrypt.js, Heroku",
     "company": "SID"
   },

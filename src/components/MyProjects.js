@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
-    backgroundColor: '#f8f6f8'
+    backgroundColor: "#e2e3e8    "
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
@@ -99,7 +99,7 @@ function MyProjects() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button color='primary' variant="contained" href={website} target="_blank" >
+                      <Button variant="contained" href={website} target="_blank" >
                         <TouchAppIcon /> View
                       </Button>
                       <IconButton style={{ marginLeft: 'auto' }}
@@ -132,7 +132,7 @@ function MyProjects() {
       <Footer />
       {/* End footer */}
 
-    </React.Fragment>
+    </React.Fragment >
   );
 }
 

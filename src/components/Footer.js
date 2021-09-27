@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography style={{ color: 'black' }} variant="body2" color="textSecondary" align="center">
       {'Sid © '}
       {/* <Link color="inherit" href="https://github.com/sidchopp" target="_blank">
         My GitHub
@@ -30,19 +30,21 @@ function Footer() {
   const classes = useStyles();
   return (
     <footer className={classes.footer}>
+
       <Typography variant="h4" align="center" gutterBottom>
-        <span className='font-link'> My Projects</span>
+        <span style={{ color: 'black' }} className='font-link'> My Projects</span>
       </Typography>
-      <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
         <i> Hope you liked them. Please let me know if I can be helpful.</i>
       </Typography>
-      <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-        <Icon name='mail' />sidchopp@gmail.com
+      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
+        <Icon style={{ color: 'black' }} name='mail' />sidchopp@gmail.com
       </Typography>
-      <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-        <Icon name='mobile alternate' />(587)-436-7497
+      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
+        <Icon style={{ color: 'black' }} name='mobile alternate' />(587)-436-7497
       </Typography>
       <Copyright />
+
     </footer>
   )
 }

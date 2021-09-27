@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundImage: `url(https://images.unsplash.com/photo-1490604001847-b712b0c2f967?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1853&q=80)`,
+    backgroundImage: `url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
   },
   heroButtons: {
     marginTop: theme.spacing(4),
@@ -45,7 +45,7 @@ function HeroUnit() {
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
               <div class="animate__animated animate__lightSpeedInLeft">
-                <Button variant="contained" color="primary" href='https://github.com/sidchopp'
+                <Button variant="contained" style={{ color: 'black' }} href='https://github.com/sidchopp'
                   target="_blank">
                   <GitHubIcon style={{ fontSize: 28 }} >
                   </GitHubIcon>
@@ -54,7 +54,7 @@ function HeroUnit() {
             </Grid>
             <Grid item>
               <div class="animate__animated animate__lightSpeedInRight">
-                <Button variant="contained" color="primary" href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
+                <Button variant="contained" style={{ color: 'black' }} href='https://www.linkedin.com/in/sidchopp/' target="_blank" >
                   <LinkedInIcon style={{ fontSize: 28 }} />
                 </Button>
               </div>
