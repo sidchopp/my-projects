@@ -16,17 +16,18 @@ const ProjectData = [
   {
     "id": "2",
     "order": 1,
+    "title": "Face Detection",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "This React App will show not only tell the location of the user but also provide a lot of info about the that country"
+      "A registered User of this App will paste a URL of an image with a face and the App will 'detect that face' in the image."
     ],
-    'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "website": "https://about-my-location.netlify.app/",
-    "techUsed": "ReactJS, Semantic UI React",
+    'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "website": "https://sid-face-detect.herokuapp.com/",
+    "techUsed": "ReactJS, MUI, Semantic UI React, clarifai, bcrypt.js, Heroku",
     "company": "SID"
   },
+
   {
     "id": "3",
     "order": 3,
@@ -44,28 +45,29 @@ const ProjectData = [
   {
     "id": "4",
     "order": 1,
-    "title": "Face Detection",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "This App will detect a face in an image."
+      "This React App will show not only tell the location of the user but also provide a lot of info about the that country."
     ],
-    'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "website": "https://sid-face-detect.herokuapp.com/",
-    "techUsed": "ReactJS, MUI, Semantic UI React, clarifai, bcrypt.js, Heroku",
+    'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "website": "https://about-my-location.netlify.app/",
+    "techUsed": "ReactJS, Semantic UI React",
     "company": "SID"
   },
+
   {
     "id": "5",
     "order": 1,
-    "title": "Guess a Number",
+    "title": "Rolling Dice",
     "bestView": 'Big Screens and Laptops only',
     "dates": "July 2021 - July 2021",
     "duties": [
-      "Guess a randomly generated whole number between 0 and 20."
+      "Two players throw a dice till one of them scores a 50 and WINS!!"
     ],
-    'img': "https://images.unsplash.com/photo-1598091875294-04a7539c972c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    "website": "https://my-periodic-table.netlify.app/",
+    'img': "https://images.unsplash.com/photo-1581788927061-ac0e09850ed0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80",
+    "website": "https://sid-rolling-dice.netlify.app/",
     "techUsed": "HTMT/CSS, JavaScript",
     "company": "SID"
   },

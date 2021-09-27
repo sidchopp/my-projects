@@ -14,13 +14,13 @@ import Container from '@material-ui/core/Container';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import PreviewIcon from '@mui/icons-material/Preview';
+
 
 
 // Components
 import ProjectData from '../data/ProjectData'
 import Footer from './Footer';
-import Header from './Header';
+// import Header from './Header';
 import HeroUnit from './HeroUnit';
 
 const useStyles = makeStyles((theme) => ({
@@ -80,7 +80,7 @@ function MyProjects() {
         <Container className={classes.cardGrid} maxWidth="lg">
           <Grid container spacing={4}>
             {ProjectData.map((card) => {
-              const { id, order, title, dates, duties, techUsed, website, img, bestView } = card
+              const { title, dates, duties, techUsed, website, img, bestView } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>

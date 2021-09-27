@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import { Icon } from 'semantic-ui-react'
 
-import Link from '@material-ui/core/Link';
+
 
 const useStyles = makeStyles((theme) => ({
   footer: {
@@ -17,9 +17,6 @@ function Copyright() {
   return (
     <Typography style={{ color: 'black' }} variant="body2" color="textSecondary" align="center">
       {'Sid © '}
-      {/* <Link color="inherit" href="https://github.com/sidchopp" target="_blank">
-        My GitHub
-      </Link>{' '} */}
       {new Date().getFullYear()}
       {'.'}
     </Typography>

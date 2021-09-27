@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Button, Segment, Icon } from 'semantic-ui-react'
+import React, { useState } from 'react'
+import { Icon } from 'semantic-ui-react'
 
 //components
 
