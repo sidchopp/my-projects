@@ -35,7 +35,7 @@ const ProjectData = [
     "bestView": 'Big Screens and Laptops only',
     "dates": "December 2020 - February 2021",
     "duties": [
-      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(earlier EvolveU) which I worked on with three other learners."
+      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(earlier EvolveU) which I worked on with a team of three other learners."
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
@@ -49,7 +49,7 @@ const ProjectData = [
     "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "This React App will show not only tell the location of the user but also provide a lot of info about the that country."
+      "This App will show not only tell  about the location of the user but also provide a lot of other useful info about that country."
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
@@ -64,7 +64,7 @@ const ProjectData = [
     "bestView": 'Big Screens and Laptops only',
     "dates": "July 2021 - July 2021",
     "duties": [
-      "Two players throw a dice till one of them scores a 50 and WINS!!"
+      "An exciting game in which two players throw a dice, till one of them scores a 50 and WINS!!"
     ],
     'img': "https://images.unsplash.com/photo-1581788927061-ac0e09850ed0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80",
     "website": "https://sid-rolling-dice.netlify.app/",

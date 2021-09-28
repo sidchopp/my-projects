@@ -46,7 +46,7 @@ function DetailedResume() {
           </div>
         )
       })}
-      <h3>Certifications</h3>
+      <h3>Qualifications & Certifications</h3>
       {certifications.map((certificate, index) => {
         return (
           <div key={index} >

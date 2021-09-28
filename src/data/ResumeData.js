@@ -5,12 +5,17 @@ const ResumeData = [
     "title": "Full Stack Developer",
     "dates": "September 2020 - Present",
     "duties": [
-      "Successfully completed a Full Stack Developer Course (Projects based, full time 6 months experience) while working independently as well as in cross-functional Scrum teams in an Agile environment.",
-      "Implemented Agile Scrum methodology by facilitating exercises like Sprints and team leading standups using Slack and Trello boards for effectively working in teams.",
-      "Fundamental knowledge and hands-on experience of fundamental AWS services, Web application technologies and frameworks such as React, Node, JavaScript, HTML/CSS, RESTful APIs, Version control (Git), VS Code, Command-line interface, Python (Basic) etc.",
+      "Successfully completed a Full time 6 months, Projects-based, Full Stack Developer Course from InceptionU Ltd (https://www.inceptionu.com/), while working independently as well as in cross-functional Scrum teams.",
+      "Implemented Agile methodology by facilitating exercises like Sprints and team leading standups using Slack and Trello boards for effectively working in teams.",
+      "Efficient in writing clean, functional codes on the Front-end as well as Back-end.",
+      "Responsive to fast-paced environment, strong aptitude for solving problems efficiently.",
+      "Fast learner with great attention to details and strong desire to fundamentally understand things at a much deeper level for sound learning.",
+      "Desire to learn, listen to feedback, with a growth mindset."
+
+
     ],
     "frameworks": [
-      "React", "Node", "JavaScript", "HTML/CSS", "RESTful APIs", "Version control (Git)", "VS Code", "Command-line interface", "Python (Basic)"
+      "React", "Node.js", "JavaScript", "HTML/CSS", "RESTful API", "Version control (Git)", "Visual Studio Code", "Command Line Interface", "Python (Basic)"
     ],
     "role": " As Stack Developer",
     "certifications": [
@@ -33,6 +38,7 @@ const ResumeData = [
     ],
     "role": "As Physics Instructor",
     "certifications": [
+      "A Master’s Degree (with Honors) in Physics, assessed by IQAS (International Qualifications Assessment Service).",
       "CSIR UGC NET - It is a national-level exam conducted by the National Testing Agency (NTA) to select candidates for the award of Junior Research Fellowship (JRF) and for determining their eligibility for appointment as lecturers in Indian universities and colleges.",
     ]
   },
