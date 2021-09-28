@@ -49,7 +49,7 @@ const ProjectData = [
     "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "This App will show not only tell  about the location of the user but also provide a lot of other useful info about that country."
+      "This App will not only tell about the exact location of the user, but also provide a lot of other useful info about that country."
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
