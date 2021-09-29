@@ -15,7 +15,7 @@ const ResumeData = [
 
     ],
     "frameworks": [
-      "React", "Node.js", "JavaScript", "HTML/CSS", "RESTful API", "Version control (Git)", "Visual Studio Code", "Command Line Interface", "Python (Basic)"
+      "React", "Node.js", "JavaScript", "HTML/CSS", "RESTful API", "Express", "MongoDB", "postgreSQL", "GitHub/Git", "Visual Studio Code", "Command Line Interface", "Python (Basic)"
     ],
     "role": " As Stack Developer",
     "certifications": [
