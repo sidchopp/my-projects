@@ -10,6 +10,7 @@ import 'semantic-ui-css/semantic.min.css'
 // Components
 
 import DetailedResume from './DetailedResume';
+import image from '../image.png'
 
 // const useStyles = makeStyles((theme) => ({
 //   modal: {
@@ -38,7 +39,7 @@ function Resume() {
         onOpen={() => setOpen(true)}
         trigger={<Button color='secondary'> <span className="font-resume"> Resume</span> </Button>}
       >
-        <Image size='medium' src='https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80' rounded bordered centered />
+        <div><Image fluid src={image} rounded bordered centered /></div>
         <Modal.Header>Experience</Modal.Header>
         <Modal.Content >
           <Modal.Description>
