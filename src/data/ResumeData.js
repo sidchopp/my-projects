@@ -54,11 +54,11 @@ const ResumeData = [
       "Ensured all incoming shipments are sent in designated storage areas according to established protocols. "
     ],
     "frameworks": [
-      "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.", "Adhering to state health and safety practices."
+      "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.", "Adhering to Warehouse's health and safety practices."
     ],
     "role": " As Fulfillment Centre Associate",
     "certifications": [
-      "Trained a Customer complaint Associate, Receiver, Picker.",
+      "Got training for muliple roles like Customer complaint Associate, Receiver, Picker, etc.",
     ]
   },
 
