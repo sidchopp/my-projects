@@ -19,6 +19,7 @@ function DetailedResume() {
         {jobs.map((item, index) => {
           return (
             <button
+              style={{ margin: '2px' }}
               class={` ui medium button ui basic button  ${index === value && 'ui large button ui blue button  '}`}
               onClick={() => setValue(index)} key={item.id}
             >

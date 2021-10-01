@@ -25,7 +25,7 @@ const ResumeData = [
   {
     "id": "recIL6mJNfWObonls",
     "order": 2,
-    "title": "MCAT Physics Instructor, The Princeton Review - Calgary, Canada (Part time)",
+    "title": "MCAT Physics Instructor, The Princeton Review - Calgary AB, Canada (Permanent Part time)",
     "dates": "March 2020 - Present",
     "duties": [
       "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more.",
@@ -40,6 +40,25 @@ const ResumeData = [
     "certifications": [
       "A Master’s Degree (with Honors) in Physics, assessed by IQAS (International Qualifications Assessment Service).",
       "CSIR UGC NET - It is a national-level exam conducted by the National Testing Agency (NTA) to select candidates for the award of Junior Research Fellowship (JRF) and for determining their eligibility for appointment as lecturers in Indian universities and colleges.",
+    ]
+  },
+  {
+    "id": "secAGJfiU4CeaV0HL",
+    "order": 3,
+    "title": "FC Associate, Amazon- Balzac AB, Canada(Seasonal Full time)",
+    "dates": "September 2019 - January 2020",
+    "duties": [
+      "Received and understood customers' orders/complaints and determine the appropriate solution.",
+      "Received and processed incoming stock and materials.",
+      "Ascertained that all picked and packed items are properly recorded into the Amazon order database.",
+      "Ensured all incoming shipments are sent in designated storage areas according to established protocols. "
+    ],
+    "frameworks": [
+      "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.", "Adhering to state health and safety practices."
+    ],
+    "role": " As Fulfillment Centre Associate",
+    "certifications": [
+      "Trained a Customer complaint Associate, Receiver, Picker.",
     ]
   },
 
