@@ -1,18 +1,22 @@
+// Not using Header at the moment...
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
+
+// Components
+import UseStyles from './UseStyles';
 
 
-const useStyles = makeStyles((theme) => ({
-  icon: {
-    marginRight: theme.spacing(2),
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   icon: {
+//     marginRight: theme.spacing(2),
+//   },
+// }));
 
 function Header() {
-  // const classes = useStyles();
+  const classes = UseStyles();
   return (
     <AppBar position="relative">
       <Toolbar>

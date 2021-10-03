@@ -4,11 +4,12 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
 // Components
 import Resume from './Resume'
+import UseStyles from './UseStyles';
 
 //CSS
 import '../App.css'
@@ -16,22 +17,22 @@ import '../App.css'
 // Amimate.css
 import "animate.css"
 
-const useStyles = makeStyles((theme) => ({
-  heroContent: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6),
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundImage: `url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
-  },
-  heroButtons: {
-    marginTop: theme.spacing(4),
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   heroContent: {
+//     backgroundColor: theme.palette.background.paper,
+//     padding: theme.spacing(8, 0, 6),
+//     backgroundSize: 'cover',
+//     backgroundRepeat: 'no-repeat',
+//     backgroundPosition: 'center',
+//     backgroundImage: `url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
+//   },
+//   heroButtons: {
+//     marginTop: theme.spacing(4),
+//   },
+// }));
 
 function HeroUnit() {
-  const classes = useStyles();
+  const classes = UseStyles();
   return (
     <div className={classes.heroContent}>
       <Container maxWidth="sm">

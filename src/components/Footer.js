@@ -1,17 +1,20 @@
 
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import { Icon } from 'semantic-ui-react'
 
-const useStyles = makeStyles((theme) => ({
-  footer: {
-    // backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
-  },
-}));
+// Components
+import UseStyles from './UseStyles';
+
+// const useStyles = makeStyles((theme) => ({
+//   footer: {
+//     // backgroundColor: theme.palette.background.paper,
+//     padding: theme.spacing(6),
+//   },
+// }));
 
 function Footer() {
-  const classes = useStyles();
+  const classes = UseStyles();
   return (
     <footer className={classes.footer}>
       <Typography variant="h4" align="center" gutterBottom>
