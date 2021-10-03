@@ -35,7 +35,7 @@ const ProjectData = [
     "bestView": 'Big Screens and Laptops only',
     "dates": "December 2020 - February 2021",
     "duties": [
-      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(earlier EvolveU) which I worked on with a team of three other learners."
+      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(EvolveU-Full Stack Program) which I worked on with a team of three other learners."
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
