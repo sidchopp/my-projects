@@ -10,7 +10,7 @@ const ProjectData = [
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://my-periodic-table.netlify.app/",
-    "techUsed": "Node.js, ReactJS, Semantic UI React",
+    "techUsed": "Node.js, React, Semantic UI React",
     "company": "SID"
   },
   {
@@ -24,7 +24,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://sid-face-detect.herokuapp.com/",
-    "techUsed": "Node.js, ReactJS, MUI, Semantic UI React,postgreSQL, Heroku",
+    "techUsed": "Node.js, React, MUI, Semantic UI React, postgreSQL, Heroku",
     "company": "SID"
   },
 
@@ -53,7 +53,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
-    "techUsed": "Node.js, ReactJS, Semantic UI React",
+    "techUsed": "Node.js, React, Semantic UI React",
     "company": "SID"
   },
 
@@ -68,7 +68,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1581788927061-ac0e09850ed0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80",
     "website": "https://sid-rolling-dice.netlify.app/",
-    "techUsed": "HTMT/CSS, JavaScript",
+    "techUsed": "HTML, CSS, JavaScript",
     "company": "SID"
   },
   {
