@@ -56,9 +56,23 @@ const ProjectData = [
     "techUsed": "Node.js, React, Semantic UI React",
     "company": "SID"
   },
-
   {
     "id": "5",
+    "order": 1,
+    "title": "Seasons",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "October 2021 - October 2021",
+    "duties": [
+      "This App will show the weather season based on User's location on the globe. It also displays the Latitude and Longitude of that location."
+    ],
+    'img': "https://images.unsplash.com/photo-1572094817599-7d34e31239a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+    "website": "https://sid-seasons.netlify.app/",
+    "techUsed": "Node.js, React, Semantic UI React",
+    "company": "SID"
+  },
+
+  {
+    "id": "6",
     "order": 1,
     "title": "Rolling Dice",
     "bestView": 'Big Screens and Laptops only',
@@ -72,7 +86,7 @@ const ProjectData = [
     "company": "SID"
   },
   {
-    "id": "6",
+    "id": "7",
     "order": 1,
     "title": "Share",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
