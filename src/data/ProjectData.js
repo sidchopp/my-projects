@@ -9,7 +9,7 @@ const ProjectData = [
       "The periodic table is a tabular display of the chemical elements. It is widely used in Chemistry, Physics, and other sciences, and is generally seen as an icon of Chemistry."
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
-    "website": "https://my-periodic-table.netlify.app/",
+    "website": "https://sid-periodic-table.netlify.app/",
     "techUsed": "Node.js, React, Semantic UI React",
     "company": "SID"
   },
