@@ -63,10 +63,9 @@ const ProjectData = [
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "October 2021 - October 2021",
     "duties": [
-      "This App will show the weather season based on User's location on the globe. It also displays the Latitude and Longitude of that location."
+      "This App will show the season (Spring, Summer, Winter or Fall) based on the User's location on the globe. It also displays the Latitude and Longitude of that location."
     ],
-    'img': "https://images.unsplash.com/photo-1572094817599-7d34e31239a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
-    "website": "https://sid-seasons.netlify.app/",
+    'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
     "techUsed": "Node.js, React, Semantic UI React",
     "company": "SID"
   },
