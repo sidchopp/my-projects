@@ -1,3 +1,10 @@
+
+//Images 
+import developerPic from '../images/developer.jpg';
+import associatePic from '../images/associate.jpg';
+import instructorPic from '../images/instructor.jpg';
+
+
 const ResumeData = [
   {
     "id": "recAGJfiU4CeaV0HL",
@@ -20,7 +27,8 @@ const ResumeData = [
     "role": " As Stack Developer",
     "certifications": [
       "AWS Certified Cloud Practitioner.",
-    ]
+    ],
+    "img": `${developerPic}`
   },
   {
     "id": "recIL6mJNfWObonls",
@@ -40,7 +48,8 @@ const ResumeData = [
     "certifications": [
       "A Master’s Degree (with Honors) in Physics, assessed by IQAS (International Qualifications Assessment Service).",
       "CSIR UGC NET - It is a national-level exam conducted by the National Testing Agency (NTA) to select candidates for the award of Junior Research Fellowship (JRF) and for determining their eligibility for appointment as lecturers in Indian universities and colleges.",
-    ]
+    ],
+    "img": `${instructorPic}`
   },
   {
     "id": "secAGJfiU4CeaV0HL",
@@ -59,8 +68,10 @@ const ResumeData = [
     "role": " As Fulfillment Centre Associate",
     "certifications": [
       "Got training for muliple roles like Customer complaint Associate, Receiver, Picker, etc.",
-    ]
+    ],
+    "img": `${associatePic}`
   },
+
 
 ]
 

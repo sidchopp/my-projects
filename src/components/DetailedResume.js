@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Icon } from 'semantic-ui-react'
+import { Icon, Image } from 'semantic-ui-react'
 
 //components
 
@@ -12,10 +12,11 @@ function DetailedResume() {
   const [value, setValue] = useState(0)
   //const [activeItem, setActiveItem] = useState(value)
 
-  const { role, dates, duties, title, image, certifications, frameworks } = jobs[value]
+  const { role, dates, duties, title, img, certifications, frameworks } = jobs[value]
   return (
     <>
       <div>
+
         {jobs.map((item, index) => {
           return (
             <button
@@ -28,6 +29,7 @@ function DetailedResume() {
           )
         })}
       </div>
+      <div><Image fluid src={img} rounded bordered centered /></div>
       <h3>{title}</h3>
       {/* <h4>{company}</h4> */}
       <p ><i>{dates}</i></p>
