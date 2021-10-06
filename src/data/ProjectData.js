@@ -16,7 +16,7 @@ const ProjectData = [
   {
     "id": "2",
     "order": 1,
-    "title": "Face Detection",
+    "title": "Face Detect",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "September 2021 - September 2021",
     "duties": [
@@ -66,6 +66,7 @@ const ProjectData = [
       "This App will show the season (Spring, Summer, Winter or Fall) based on the User's location on the globe. It also displays the Latitude and Longitude of that location."
     ],
     'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
+    "website": "https://sid-seasons.netlify.app/",
     "techUsed": "Node.js, React, Semantic UI React",
     "company": "SID"
   },
