@@ -37,7 +37,7 @@ const ContactMe = () => {
         trigger={
           <div >
             <Icon style={{ color: 'black' }} name='mail' />
-            <a >Drop a message</a>
+            Not a big talker? Drop a  <a style={{ cursor: 'pointer' }} > Message</a>
           </div>
         }
         onClose={() => {
@@ -47,12 +47,12 @@ const ContactMe = () => {
         onOpen={() => setOpen(true)}
         size='small'
       >
-        <Modal.Header style={{ backgroundColor: "#7DF9FF" }} >
+        <Modal.Header style={{ backgroundColor: "#e2e3e8" }} >
           <Header textAlign='center' >
             Contact Me
           </Header>
         </Modal.Header>
-        <Modal.Content style={{ backgroundColor: "#7DF9FF" }} >
+        <Modal.Content style={{ backgroundColor: "#e2e3e8" }} >
           <Modal.Description>
 
             {/* <Image rounded bordered centered fluid src='https://images.unsplash.com/photo-1581349437898-cebbe9831942?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80' wrapped /> */}
@@ -79,11 +79,11 @@ const ContactMe = () => {
                 <textarea placeholder="Tell me what do you want to talk about..." rows="10" name="message" ></textarea>
               </div>
               <div className="field">
-                <button className="ui button positive " value="Send" >
+                <button className="ui button primary " value="Send" >
                   Submit
                 </button>
                 <button
-                  className="ui right floated button primary"
+                  className="ui right floated button secondary"
                   value="Send"
                   onClick={() => {
                     setOpen(false);

@@ -1,7 +1,7 @@
 
 import Typography from '@material-ui/core/Typography';
 // import { makeStyles } from '@material-ui/core/styles';
-import { Icon } from 'semantic-ui-react'
+import { Icon, Divider } from 'semantic-ui-react'
 import ContactMe from './ContactMe';
 
 // Components
@@ -21,8 +21,17 @@ function Footer() {
       <Typography variant="h4" align="center" gutterBottom>
         <span style={{ color: 'black' }} className='font-link'> My Projects</span>
       </Typography>
-      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
+      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p" gutterBottom>
         <i> Hope you liked them. Please let me know if I can be helpful.</i>
+      </Typography>
+      {/* <Divider horizontal></Divider> */}
+
+      {/* <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
+        <Icon style={{ color: 'black' }} name='mail' />sidchopp@gmail.com
+      </Typography> */}
+      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
+
+        <Icon style={{ color: 'black' }} name='mobile alternate' /> Wanna Talk? Just dial  (587)-436-7497
       </Typography>
       <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
 
@@ -30,21 +39,17 @@ function Footer() {
         <ContactMe />
       </Typography>
 
-      {/* <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
-        <Icon style={{ color: 'black' }} name='mail' />sidchopp@gmail.com
+      <Typography style={{ color: 'black' }} variant="body2" color="textSecondary" align="center" gutterBottom>
+        Sid, Calgary-AB, Canada.
       </Typography>
-      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
-        <Icon style={{ color: 'black' }} name='mobile alternate' />(587)-436-7497
-      </Typography> */}
 
-      <Typography variant="body2" color="textSecondary" align="center">
-        {'Sid © '}
-        {new Date().getFullYear()}
+      <Typography variant="body2" color="textSecondary" align="center" >
+        {/* <Divider horizontal></Divider> */}
+        {'My Projects © '}{new Date().getFullYear()}
+
         {/* {'.'} */}
       </Typography>
-      <Typography style={{ color: 'black' }} variant="body2" color="textSecondary" align="center">
-        Canada
-      </Typography>
+
     </footer>
   )
 }
