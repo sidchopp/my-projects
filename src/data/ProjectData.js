@@ -111,12 +111,6 @@ const ProjectData = [
     "techUsed": "MERN Stack, Firebase, Semantic UI React, Heroku, EmailJS.",
     "company": "InceptionU Ltd."
   },
-
-
-
-
-
-
 ];
 
 export default ProjectData;
