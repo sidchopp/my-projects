@@ -37,7 +37,7 @@ const ContactMe = () => {
         trigger={
           <div >
             <Icon style={{ color: 'black' }} name='mail' />
-            Not a big talker? Drop a  <a style={{ cursor: 'pointer' }} > Message</a>
+            Not a big talker? Drop a <a style={{ cursor: 'pointer' }} >Message</a>
           </div>
         }
         onClose={() => {
@@ -49,16 +49,14 @@ const ContactMe = () => {
       >
         <Modal.Header style={{ backgroundColor: "#e2e3e8" }} >
           <Header textAlign='center' >
-            Contact Me
+            <Icon name='mail' /> Contact Me
           </Header>
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#e2e3e8" }} >
           <Modal.Description>
 
             {/* <Image rounded bordered centered fluid src='https://images.unsplash.com/photo-1581349437898-cebbe9831942?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80' wrapped /> */}
-            <Header>
-              <Icon name='mail' /> Drop a Message
-            </Header>
+
             <form style={{ marginTop: '30px' }} className="ui form" ref={form} onSubmit={sendEmail}>
               <div className="equal width fields">
                 <div className="field">
@@ -76,7 +74,7 @@ const ContactMe = () => {
               </div>
               <div className="field">
                 <label>Your Message</label>
-                <textarea placeholder="Tell me what do you want to talk about..." rows="10" name="message" ></textarea>
+                <textarea placeholder="Tell me how can I help..." rows="10" name="message" ></textarea>
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
