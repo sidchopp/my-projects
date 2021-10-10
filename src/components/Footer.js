@@ -1,11 +1,13 @@
 
 import Typography from '@material-ui/core/Typography';
+
 // import { makeStyles } from '@material-ui/core/styles';
 import { Icon, Divider } from 'semantic-ui-react'
-import ContactMe from './ContactMe';
 
 // Components
+import ContactMe from './ContactMe';
 import UseStyles from './UseStyles';
+
 
 // const useStyles = makeStyles((theme) => ({
 //   footer: {
@@ -35,21 +37,20 @@ function Footer() {
       </Typography>
       <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
 
-
         <ContactMe />
       </Typography>
 
       <Typography style={{ color: 'black' }} variant="body2" color="textSecondary" align="center" gutterBottom>
-        Sid, Calgary-AB, Canada.
+        <Icon name='map marker alternate' fitted /> Calgary-AB, Canada
       </Typography>
 
       <Typography variant="body2" color="textSecondary" align="center" >
         {/* <Divider horizontal></Divider> */}
-        {'My Projects © '}{new Date().getFullYear()}
+        {' © '}{new Date().getFullYear()}
 
-        {/* {'.'} */}
+        {' '}
+        <span className="font-link"> My Projects</span>
       </Typography>
-
     </footer>
   )
 }
