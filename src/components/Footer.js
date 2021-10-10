@@ -33,7 +33,7 @@ function Footer() {
       </Typography> */}
       <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
 
-        <Icon style={{ color: 'black' }} name='mobile alternate' fitted /> Wanna Talk? Just Dial (587)-436-7497
+        <Icon style={{ color: 'black' }} name='mobile alternate' fitted /> Wanna Talk? Dial (587)-436-7497
       </Typography>
       <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
 
