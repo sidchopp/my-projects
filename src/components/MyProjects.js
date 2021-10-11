@@ -84,7 +84,7 @@ function MyProjects() {
               const { title, dates, duties, techUsed, website, img, bestView } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
-                  <Card variant="outlined" className={classes.card}>
+                  <Card className={classes.card}>
                     <CardHeader
                       title={title}
                       subheader={dates}

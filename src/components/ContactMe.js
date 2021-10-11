@@ -47,12 +47,12 @@ const ContactMe = () => {
         onOpen={() => setOpen(true)}
         size='small'
       >
-        <Modal.Header style={{ backgroundColor: "#e2e3e8" }} >
+        <Modal.Header style={{ backgroundColor: "#f1f2f5" }} >
           <Header textAlign='center' >
             <Icon name='mail' /> Contact Me
           </Header>
         </Modal.Header>
-        <Modal.Content style={{ backgroundColor: "#e2e3e8" }} >
+        <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
           <Modal.Description>
 
             {/* <Image rounded bordered centered fluid src='https://images.unsplash.com/photo-1581349437898-cebbe9831942?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80' wrapped /> */}
