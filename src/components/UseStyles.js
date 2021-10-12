@@ -54,6 +54,11 @@ const UseStyles = makeStyles((theme) => ({
   footer: {
     // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
+    // backgroundImage: `url(https://images.unsplash.com/photo-1489679407847-02d21ceb0e80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)`,
+    // backgroundSize: 'cover',
+    // backgroundPosition: 'center',
+    // backgroundPosition: 'center',
+
   },
 
 }));
