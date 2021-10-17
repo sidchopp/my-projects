@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import { Icon, Image } from 'semantic-ui-react'
 
 //components
-
 import ResumeData from '../data/ResumeData'
 
 function DetailedResume() {
 
-  //state
+  //states
   const [jobs, setJobs] = useState(ResumeData)
   const [value, setValue] = useState(0)
   //const [activeItem, setActiveItem] = useState(value)
@@ -16,7 +15,6 @@ function DetailedResume() {
   return (
     <>
       <div>
-
         {jobs.map((item, index) => {
           return (
             <button
