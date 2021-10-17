@@ -9,7 +9,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-// import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
@@ -24,47 +23,9 @@ import Footer from './Footer';
 import HeroUnit from './HeroUnit';
 import UseStyles from './UseStyles';
 
-// const useStyles = makeStyles((theme) => ({
-//   icon: {
-//     marginRight: theme.spacing(2),
-//   },
-//   heroContent: {
-//     backgroundColor: theme.palette.background.paper,
-//     padding: theme.spacing(8, 0, 6),
-//   },
-//   heroButtons: {
-//     marginTop: theme.spacing(4),
-//   },
-//   cardGrid: {
-//     paddingTop: theme.spacing(8),
-//     paddingBottom: theme.spacing(8),
-//   },
-//   card: {
-//     height: '100%',
-//     display: 'flex',
-//     flexDirection: 'column',
-//     backgroundColor: "#e2e3e8    "
-//   },
-//   cardMedia: {
-//     paddingTop: '56.25%', // 16:9
-//   },
-//   cardContent: {
-//     flexGrow: 1,
-//   },
-//   expand: {
-//     transform: 'rotate(0deg)',
-//     marginLeft: 'auto',
-//     transition: theme.transitions.create('transform', {
-//       duration: theme.transitions.duration.shortest,
-//     }),
-//   },
-//   expandOpen: {
-//     transform: 'rotate(180deg)',
-//   },
-
-// }));
-
 function MyProjects() {
+
+  //States
   const classes = UseStyles();
   const [expanded, setExpanded] = useState(false);
 
@@ -103,7 +64,8 @@ function MyProjects() {
                       <Button variant="contained" href={website} target="_blank" >
                         <TouchAppIcon /> View
                       </Button>
-                      <IconButton style={{ marginLeft: 'auto' }}
+                      <IconButton
+                        style={{ marginLeft: 'auto' }}
                         className={clsx(classes.expand, {
                           [classes.expandOpen]: expanded,
                         })}
@@ -129,7 +91,7 @@ function MyProjects() {
         </Container>
       </main>
 
-      {/* Footer */}
+      {/* Footer import */}
       <Footer />
       {/* End footer */}
 
