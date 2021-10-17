@@ -40,7 +40,7 @@ function HeroUnit() {
           <span className='font-name' >Siddharth Chopra</span>
         </Typography>
         <Typography variant="h4" align="center" color="textPrimary" gutterBottom>
-          <span className='font-profile'  >  Developer |  Instructor</span>
+          <span className='font-profile'  >  Full Stack Developer |  Physics Instructor</span>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
