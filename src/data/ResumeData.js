@@ -12,17 +12,15 @@ const ResumeData = [
     "title": "Full Stack Developer",
     "dates": "September 2020 - Present",
     "duties": [
-      "Successfully completed a Full time 6 months, Projects-based, Full Stack Developer Course from InceptionU Ltd (https://www.inceptionu.com/), while working independently as well as in cross-functional Scrum teams.",
-      "Implemented Agile methodology by facilitating exercises like Sprints and team leading standups using Slack and Trello boards for effectively working in teams.",
-      "Efficient in writing clean, functional codes on the Front-end as well as Back-end.",
+      "Successfully completed a Full time 6 months, Projects-based, Full Stack Developer Course from InceptionU Ltd. (https://www.inceptionu.com/)", "Hand-on experience with Full Stack application engineering while working independently as well as in agile teams with Scrum Development processes like engaging in sprint cycle around planning with estimation, designing, implementation, version control, testing, demo and retrospective.",
+      "Experience in implementing responsive designs and optimizing performance across common devices and browsers.",
+      "Proven experience as a React Developer, efficient in writing clean, functional codes on the Front-end as well as Back-end.",
       "Responsive to fast-paced environment, strong aptitude for solving problems efficiently.",
-      "Fast learner with great attention to details and strong desire to fundamentally understand things at a much deeper level for sound learning.",
-      "Desire to learn, listen to feedback, with a growth mindset."
-
-
+      "Fast learner with great attention to details and make User experience a top priority.",
+      "Strong desire to learn new technologies and frameworks, improve upon software development skills, to deliver consistently with little or no supervision, listen to feedback with a growth mindset."
     ],
     "frameworks": [
-      "React", "Node.js", "JavaScript", "HTML/CSS", "RESTful API", "Express", "MongoDB", "postgreSQL", "EmailJS", "GitHub/Git", "Visual Studio Code", "Command Line Interface", "Python (Basic)"
+      "React.js", "Node.js", "JavaScript", "HTML/CSS", "RESTful API & CRUD functions", "Express", "MongoDB", "postgreSQL", "EmailJS", "GitHub/Git", "Visual Studio Code", "Command Line Interface", "Python (Basic)", "Material UI/ Semantic UI"
     ],
     "role": " As Stack Developer",
     "certifications": [
@@ -38,7 +36,9 @@ const ResumeData = [
     "duties": [
       "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more.",
       "Successfully completed the TPR Instructor certification program.",
-      "Delivering Online lectures to students (typically 1st or 2nd year level science undergraduates) who are preparing for the MCAT exam.",
+      "Delivering Online lectures to students (typically 1st or 2nd year science undergraduates) who are preparing for the MCAT exam, while maintaining high standards of professionalism, consistently producing high-quality results.",
+      "Demonstrate flexibility and openness to bring creative solutions to address issues.",
+      "Ability to self-motivate and effective in working remotely."
     ],
     "frameworks": [
       "Teaching Classes with strength of more than 100 under-grads.",
