@@ -12,12 +12,13 @@ const ResumeData = [
     "title": "Full Stack Developer",
     "dates": "September 2020 - Present",
     "duties": [
-      "Successfully completed a Full time 6 months, Projects-based, Full Stack Developer Course from InceptionU Ltd. (https://www.inceptionu.com/)", "Hand-on experience with Full Stack application engineering while working independently as well as in agile teams with Scrum Development processes like engaging in sprint cycle around planning with estimation, designing, implementation, version control, testing, demo and retrospective.",
-      "Experience in implementing responsive designs and optimizing performance across common devices and browsers.",
-      "Proven experience as a React Developer, efficient in writing clean, functional codes on the Front-end as well as Back-end.",
+      "Successfully completed a full time 6-month Full Stack Developer Course (Facilitator’s lead, Projects based in a fast-paced environment), while working independently as well as in Agile teams using Scrum Development processes like engaging in sprint cycles around planning with estimation, using Figma, Trello boards and version control, unit testing, demos and retrospectives.",
+      "Hands-on experience in implementing responsive designs and optimizing performance across common devices and browsers and identifying potential risks and issues.",
+      "Demonstrable experience with applying design patterns, writing unit tests, clean functional codes on Front-end as well Back-end and optimizing performance in highly-scalable web applications.",
       "Responsive to fast-paced environment, strong aptitude for solving problems efficiently.",
       "Fast learner with great attention to details and make User experience a top priority.",
-      "Strong desire to learn new technologies and frameworks, improve upon software development skills, to deliver consistently with little or no supervision, listen to feedback with a growth mindset."
+      "Strong desire to learn, improve upon software development skills, deliver consistent results with little or no supervision, listen to feedback with a growth mindset.",
+      "Strong work ethics & openness to differentiated learning approaches and experiential learning."
     ],
     "frameworks": [
       "React.js", "Node.js", "JavaScript", "HTML/CSS", "RESTful API & CRUD functions", "Express", "MongoDB", "postgreSQL", "EmailJS", "GitHub/Git", "Visual Studio Code", "Command Line Interface", "Python (Basic)", "Material UI/ Semantic UI"
@@ -36,8 +37,9 @@ const ResumeData = [
     "duties": [
       "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more.",
       "Successfully completed the TPR Instructor certification program.",
-      "Delivering Online lectures to students (typically 1st or 2nd year science undergraduates) who are preparing for the MCAT exam, while maintaining high standards of professionalism, consistently producing high-quality results.",
+      "Delivering Online lectures, engaging and educating students (typically 3rd or 2nd year science undergrads) who are preparing for the MCAT exam, while maintaining high standards of professionalism and consistency in producing high quality results.",
       "Demonstrate flexibility and openness to bring creative solutions to address issues.",
+      "Contributed to a culture of innovation, ownership, and continuous improvement.",
       "Ability to self-motivate and effective in working remotely."
     ],
     "frameworks": [
@@ -57,10 +59,9 @@ const ResumeData = [
     "title": "FC Associate, Amazon- Balzac AB, Canada(Seasonal Full time)",
     "dates": "September 2019 - January 2020",
     "duties": [
-      "Received and understood customers' orders/complaints and determine the appropriate solution.",
-      "Received and processed incoming stock and materials.",
-      "Ascertained that all picked and packed items are properly recorded into the Amazon order database.",
-      "Ensured all incoming shipments are sent in designated storage areas according to established protocols. "
+      "Resolved customers' complaints/problems quickly. Hands on experience of verifying information accuracy in work orders, inspecting received products following standard operating procedure in a quickly growing, fast-paced & constantly changing environment.",
+      "Fostered an environment where teamwork and inclusivity are prioritized.",
+
     ],
     "frameworks": [
       "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.", "Adhering to Warehouse's health and safety practices."
