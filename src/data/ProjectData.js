@@ -2,14 +2,14 @@ const ProjectData = [
   {
     "id": "8",
     "order": 1,
-    "title": "Share",
+    "title": "My Recipes",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "September 2021 - present",
+    "dates": "October 2021 - Present",
     "duties": [
       "I am currently working on this amazing project.Will update shortly...."
     ],
     'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "techUsed": "MERN Stack",
+    "techUsed": " Node.js, React, Semantic UI React, Google Firebase",
     "company": "SID"
   },
   {
