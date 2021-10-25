@@ -3,6 +3,7 @@ import { Icon, Modal, Header, Divider } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
 import 'semantic-ui-css/semantic.min.css'
+import { padding } from '@mui/system';
 
 const ContactMe = () => {
 
@@ -100,10 +101,10 @@ const ContactMe = () => {
         </Modal.Content>
         <Modal.Actions>
           <Header textAlign='center' as='h5'>
-            <div>
+            <div style={{ padding: "3px" }}>
               <Icon fitted name='mail outline' />  sidchopp@gmail.com
             </div>
-            <div>
+            <div style={{ padding: "3px" }}>
               <Icon fitted name='mobile alternate' />  (587)-436-7497
             </div>
           </Header>
