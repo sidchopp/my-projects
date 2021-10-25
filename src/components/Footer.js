@@ -46,7 +46,10 @@ function Footer() {
         color="textSecondary"
         component="p"
       >
-        <ContactMe />
+        Not a big talker? Drop a
+        <a style={{ cursor: 'pointer' }} >
+          <ContactMe />
+        </a>
       </Typography>
       <Typography
         style={{ color: 'black' }}

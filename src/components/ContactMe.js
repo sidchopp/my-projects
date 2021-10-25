@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-import { Button, Icon, Modal, Header, Image, Divider } from 'semantic-ui-react';
+import { Icon, Modal, Header, Divider } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
 import 'semantic-ui-css/semantic.min.css'
@@ -17,13 +17,10 @@ const ContactMe = () => {
 
     emailjs.sendForm('service_ns631vs', 'contact_form', form.current, 'user_TnY5a5lrQ29TcAvOHuN56')
       .then((result) => {
-        // console.log(result);
-        // console.log(result.text);
         if (result.status === 200 || result.text === 'OK') {
           setMessage("Thanks for your message. I 'll be in touch soon.")
         }
       }, (error) => {
-        // console.log(error.text);
         setMessage("Some Error Occured!! Please try Again")
       });
     e.target.reset();
@@ -37,7 +34,7 @@ const ContactMe = () => {
         trigger={
           <div >
             <Icon style={{ color: 'black' }} name='mail' />
-            Not a big talker? Drop a <a style={{ cursor: 'pointer' }} >Message</a>
+            Message
           </div>
         }
         onClose={() => {
@@ -54,9 +51,6 @@ const ContactMe = () => {
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
           <Modal.Description>
-
-            {/* <Image rounded bordered centered fluid src='https://images.unsplash.com/photo-1581349437898-cebbe9831942?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80' wrapped /> */}
-
             <form style={{ marginTop: '30px' }} className="ui form" ref={form} onSubmit={sendEmail}>
               <div className="equal width fields">
                 <div className="field">
