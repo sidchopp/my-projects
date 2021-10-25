@@ -46,7 +46,8 @@ const ContactMe = () => {
       >
         <Modal.Header style={{ backgroundColor: "#f1f2f5" }} >
           <Header textAlign='center' >
-            <Icon name='mail' /> Contact Me
+            {/* <Icon name='mail' />  */}
+            Contact Me
           </Header>
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
@@ -97,6 +98,16 @@ const ContactMe = () => {
             </Header> */}
           </Modal.Description>
         </Modal.Content>
+        <Modal.Actions>
+          <Header textAlign='center' as='h5'>
+            <div>
+              <Icon fitted name='mail outline' />  sidchopp@gmail.com
+            </div>
+            <div>
+              <Icon fitted name='mobile alternate' />  (587)-436-7497
+            </div>
+          </Header>
+        </Modal.Actions>
       </Modal>
     </div >
   );
