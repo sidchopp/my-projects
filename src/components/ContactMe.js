@@ -3,7 +3,7 @@ import { Icon, Modal, Header, Divider } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
 import 'semantic-ui-css/semantic.min.css'
-import { padding } from '@mui/system';
+
 
 const ContactMe = () => {
 
