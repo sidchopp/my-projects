@@ -36,7 +36,8 @@ const ProjectData = [
       "A registered User of this App will paste a URL of an image with a face and the App will 'detect that face' in the image."
     ],
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "website": "https://sid-face-detect.herokuapp.com/",
+    "website": "https://i-will-be-back.netlify.app/",
+    "websiteOriginal": "https://sid-face-detect.herokuapp.com/",
     "techUsed": "Node.js, React, MUI, Semantic UI React, postgreSQL, Heroku",
     "company": "SID"
   },
