@@ -48,7 +48,7 @@ function MyProjects() {
                   <Card className={classes.card}>
                     <CardHeader
                       title={title}
-                      subheader={dates}
+                      subheader={techUsed}
                     />
                     <CardMedia
                       className={classes.cardMedia}
@@ -80,8 +80,8 @@ function MyProjects() {
                     </CardActions>
                     {/* Iff only showInfo is true, only then show info, use AND operator */}
                     {expanded && <CardContent>
-                      <div style={{ margin: '3px' }}> <h4>Technologies Used: </h4>{techUsed}</div>
                       <div style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
+                      <div style={{ margin: '3px' }}> <h4>Made from: </h4>{dates}</div>
                     </CardContent>}
                   </Card>
                 </Grid>
