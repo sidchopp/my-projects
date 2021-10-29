@@ -5,6 +5,7 @@ import { Icon, Divider } from 'semantic-ui-react'
 // Components
 import ContactMe from './ContactMe';
 import UseStyles from './UseStyles';
+import Today from './Today';
 
 function Footer() {
   const classes = UseStyles();
@@ -74,6 +75,12 @@ function Footer() {
 
         {' '}
         <span className="font-link"> My Projects</span>
+      </Typography>
+      <Typography
+        variant="body2"
+        color="textSecondary"
+        align="center">
+        <Today />
       </Typography>
     </footer>
   )
