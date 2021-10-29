@@ -112,20 +112,7 @@ const ProjectData = [
     "techUsed": "MERN Stack, Firebase, Semantic UI React, Heroku, EmailJS.",
     "company": "InceptionU Ltd."
   },
-  {
-    "id": "0",
-    "order": 3,
-    "title": "My First Website",
-    "bestView": 'Big Screens and Laptops only',
-    "dates": "Sept 2020 - October 2020",
-    "duties": [
-      "It is the 'First ever' website I built in my life."
-    ],
-    'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
-    "website": "https://fusion-alberta.herokuapp.com/",
-    "techUsed": "MERN Stack, Firebase, Semantic UI React, Heroku, EmailJS.",
-    "company": "InceptionU Ltd."
-  },
+
 ];
 
 export default ProjectData;
