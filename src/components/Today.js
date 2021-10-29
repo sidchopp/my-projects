@@ -5,7 +5,7 @@ function Today() {
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   return (
     <div>
-      Hope you are enjoying your <i>{days[new Date().getDay()]} !</i>
+      Hope you are enjoying <i>{days[new Date().getDay()]} !</i>
     </div>
   )
 }

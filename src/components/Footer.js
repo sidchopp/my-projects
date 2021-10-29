@@ -1,6 +1,6 @@
 
 import Typography from '@material-ui/core/Typography';
-import { Icon, Divider } from 'semantic-ui-react'
+import { Icon, Divider, Button } from 'semantic-ui-react'
 
 // Components
 import ContactMe from './ContactMe';
@@ -11,7 +11,11 @@ function Footer() {
   const classes = UseStyles();
   return (
     <footer className={classes.footer}>
-      <Typography variant="h4" align="center" gutterBottom>
+      <Typography
+        variant="h4"
+        align="center"
+        gutterBottom
+      >
         <span
           style={{ color: 'black' }}
           className='font-link'
@@ -19,7 +23,14 @@ function Footer() {
           My Projects
         </span>
       </Typography>
-      <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p" gutterBottom>
+      <Typography
+        style={{ color: 'black' }}
+        variant="subtitle1"
+        align="center"
+        color="textSecondary"
+        component="p"
+        gutterBottom
+      >
         <i> Hope you liked them. Please let me know if I can be helpful.</i>
       </Typography>
       {/* <Divider horizontal></Divider> */}
@@ -48,9 +59,13 @@ function Footer() {
         component="p"
       >
         Not a big talker? Drop a
-        <a style={{ cursor: 'pointer' }} >
+        {" "}
+        {/* <a style={{ cursor: 'pointer' }} >
           <ContactMe />
-        </a>
+        </a> */}
+        <Button compact size='tiny'>
+          <ContactMe />
+        </Button>
       </Typography>
       <Typography
         style={{ color: 'black' }}
@@ -64,22 +79,22 @@ function Footer() {
           fitted
         /> Calgary-AB, Canada
       </Typography>
-
       <Typography
         variant="body2"
         color="textSecondary"
         align="center"
+        gutterBottom
       >
         {/* <Divider horizontal></Divider> */}
         {' © '}{new Date().getFullYear()}
-
         {' '}
         <span className="font-link"> My Projects</span>
       </Typography>
       <Typography
         variant="body2"
         color="textSecondary"
-        align="center">
+        align="center"
+      >
         <Today />
       </Typography>
     </footer>
