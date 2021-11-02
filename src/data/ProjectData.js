@@ -9,7 +9,7 @@ const ProjectData = [
       "I am currently working on this amazing project.Will update shortly...."
     ],
     'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI React, Google Firebase",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI, Google Firebase",
     "company": "SID"
   },
   {
@@ -23,7 +23,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
     "website": "https://sid-seasons.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI React",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI",
     "company": "SID"
   },
   {
@@ -38,7 +38,7 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://sid-face-detect.herokuapp.com/",
     "websiteFallback": "https://i-will-be-back.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI React, postgreSQL, Heroku",
+    "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI, postgreSQL, Heroku",
     "company": "SID"
   },
   {
@@ -52,7 +52,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI React",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI",
     "company": "SID"
   },
 
@@ -67,7 +67,7 @@ const ProjectData = [
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://sid-periodic-table.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI React",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI",
     "company": "SID"
   },
   {
@@ -81,7 +81,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-projects.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI React, EmailJS",
+    "techUsed": "Web Stack : Node.js, React, MUI, Semantic",
     "company": "SID"
   },
   {
@@ -125,7 +125,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
-    "techUsed": "Web Stack : Node.js, React, Express, mongoDB, Firebase, Semantic UI, Heroku, EmailJS.",
+    "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Semantic UI, Heroku.",
     "company": "InceptionU Ltd."
   },
 
