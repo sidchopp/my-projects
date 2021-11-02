@@ -102,10 +102,10 @@ const ContactMe = () => {
         <Modal.Actions>
           <Image centered rounded size='small' src={sidImage} />
           <Header textAlign='center' as='h5'>
-            <div >
+            <div style={{ marginTop: "-15px" }}  >
               <Icon fitted name='mail outline' />  sidchopp@gmail.com
             </div>
-            <div >
+            <div style={{ padding: "3px" }}>
               <Icon fitted name='mobile alternate' />  (587)-436-7497
             </div>
           </Header>
