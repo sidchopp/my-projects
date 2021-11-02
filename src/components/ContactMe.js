@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react'
-import { Icon, Modal, Header, Divider } from 'semantic-ui-react';
+import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
 import 'semantic-ui-css/semantic.min.css'
-
+import sidImage from '../images/sidImage.jpeg'
 
 const ContactMe = () => {
 
@@ -52,7 +52,7 @@ const ContactMe = () => {
           </Header>
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
-          <Modal.Description>
+          <Modal.Description >
             <form style={{ marginTop: '30px' }} className="ui form" ref={form} onSubmit={sendEmail}>
               <div className="equal width fields">
                 <div className="field">
@@ -100,11 +100,12 @@ const ContactMe = () => {
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
+          <Image centered rounded size='small' src={sidImage} />
           <Header textAlign='center' as='h5'>
-            <div style={{ padding: "3px" }}>
+            <div >
               <Icon fitted name='mail outline' />  sidchopp@gmail.com
             </div>
-            <div style={{ padding: "3px" }}>
+            <div >
               <Icon fitted name='mobile alternate' />  (587)-436-7497
             </div>
           </Header>
