@@ -17,7 +17,7 @@ const ProjectData = [
     "order": 7,
     "title": "I Will Be Back",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "October 2021 - November 2021",
+    "dates": "October 2021 - October 2021",
     "duties": [
       "It's a Fall back for my Heroku Apps (in production) when they cosume their free monthly hours."
     ],
