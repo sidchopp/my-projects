@@ -23,7 +23,7 @@ function Resume() {
         onOpen={() => setOpen(true)}
         trigger={<Button variant="contained" style={{ color: 'black' }}>
           <span className="font-resume">
-            Resume
+            My Resume
           </span>
         </Button>
         }
