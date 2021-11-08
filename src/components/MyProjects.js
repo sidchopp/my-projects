@@ -42,7 +42,7 @@ function MyProjects() {
         <Container className={classes.cardGrid} maxWidth="lg">
           <Grid container spacing={4}>
             {ProjectData.map((card) => {
-              const { title, dates, duties, techUsed, website, img, bestView } = card
+              const { title, duties, techUsed, website, img, bestView } = card
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>

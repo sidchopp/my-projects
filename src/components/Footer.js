@@ -1,6 +1,6 @@
 
 import Typography from '@material-ui/core/Typography';
-import { Icon, Divider, Button } from 'semantic-ui-react'
+import { Icon, Button } from 'semantic-ui-react'
 
 // Components
 import ContactMe from './ContactMe';

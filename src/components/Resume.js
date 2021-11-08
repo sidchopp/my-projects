@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-
-import { Button, Icon, Image, Modal } from 'semantic-ui-react'
+import { Button, Icon, Modal } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 
 // Components
 import DetailedResume from './DetailedResume';
-import image from '../image.png'
 
 function Resume() {
   const [open, setOpen] = useState(false);
