@@ -1,31 +1,5 @@
 const ProjectData = [
-  {
-    "id": "9",
-    "order": 8,
-    "title": "My Recipes",
-    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "October 2021 - Present",
-    "duties": [
-      "I am currently working on this amazing project.Will update shortly...."
-    ],
-    'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI, Google Firebase",
-    "company": "SID"
-  },
-  {
-    "id": "8",
-    "order": 7,
-    "title": "I Will Be Back",
-    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "October 2021 - October 2021",
-    "duties": [
-      "It's a Fall back for my Heroku Apps (in production) when they cosume their free monthly hours."
-    ],
-    'img': "https://images.unsplash.com/photo-1599481238505-b8b0537a3f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80",
-    "website": "https://i-will-be-back.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI",
-    "company": "SID"
-  },
+
   {
     "id": "7",
     "order": 7,
@@ -112,6 +86,20 @@ const ProjectData = [
     "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
     "company": "SID"
   },
+  {
+    "id": "0",
+    "order": 0,
+    "title": "Fusion Alberta",
+    "bestView": 'Big Screens and Laptops only',
+    "dates": "December 2020 - February 2021",
+    "duties": [
+      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(EvolveU-Full Stack Program) which I worked on with a team of three other learners."
+    ],
+    'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
+    "website": "https://fusion-alberta.herokuapp.com/",
+    "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Semantic UI, Heroku.",
+    "company": "InceptionU Ltd."
+  },
 
   {
     "id": "1",
@@ -127,20 +115,32 @@ const ProjectData = [
     "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
     "company": "SID"
   },
-
   {
-    "id": "0",
-    "order": 0,
-    "title": "Fusion Alberta",
-    "bestView": 'Big Screens and Laptops only',
-    "dates": "December 2020 - February 2021",
+    "id": "1",
+    "order": 7,
+    "title": "I Will Be Back",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "October 2021 - October 2021",
     "duties": [
-      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(EvolveU-Full Stack Program) which I worked on with a team of three other learners."
+      "It's a Fall back for my Heroku Apps (in production) when they cosume their free monthly hours."
     ],
-    'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
-    "website": "https://fusion-alberta.herokuapp.com/",
-    "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Semantic UI, Heroku.",
-    "company": "InceptionU Ltd."
+    'img': "https://images.unsplash.com/photo-1599481238505-b8b0537a3f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80",
+    "website": "https://i-will-be-back.netlify.app/",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "company": "SID"
+  },
+  {
+    "id": "2",
+    "order": 8,
+    "title": "My Recipes",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "October 2021 - Present",
+    "duties": [
+      "I am currently working on this amazing project.Will update shortly...."
+    ],
+    'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI, Google Firebase",
+    "company": "SID"
   },
 
 ];
