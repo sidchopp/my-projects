@@ -7,7 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
 // Components
-import Resume from './Resume'
+import Resume from './Resume';
+import TechSkills from './TechSkills';
 import UseStyles from './UseStyles';
 
 //CSS
@@ -78,6 +79,17 @@ function HeroUnit() {
             </Grid>
           </Grid>
         </div>
+        {/* <div >
+          <TechSkills />
+        </div> */}
+        <Typography
+          variant="h4"
+          align="center"
+          color="textPrimary"
+          gutterBottom
+        >
+          <TechSkills />
+        </Typography>
       </Container>
     </div>
   )

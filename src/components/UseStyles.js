@@ -48,6 +48,7 @@ const UseStyles = makeStyles((theme) => ({
   },
   heroButtons: {
     marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(10),
   },
   icon: {
     marginRight: theme.spacing(2),
