@@ -13,4 +13,11 @@
   font-family: "Caveat", cursive;
 }
 
+.font-resume {
+  font-family: "Oldenburg", cursive;
+  font-size: 22px;
+  text-transform: capitalize;
+  /* font-weight: bold; */
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");

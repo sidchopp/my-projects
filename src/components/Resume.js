@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
-import { Button, Icon, Modal } from 'semantic-ui-react'
+import { Modal } from 'semantic-ui-react'
+import Button from '@material-ui/core/Button';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import 'semantic-ui-css/semantic.min.css'
 
 // Components
 import DetailedResume from './DetailedResume';
+
+//CSS
+import '../App.css'
 
 function Resume() {
   const [open, setOpen] = useState(false);
@@ -16,7 +21,12 @@ function Resume() {
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Button color='secondary'> <span className="font-resume"> Resume</span> </Button>}
+        trigger={<Button variant="contained" style={{ color: 'black' }}>
+          <span className="font-resume">
+            Resume
+          </span>
+        </Button>
+        }
       >
         {/* <div><Image fluid src={image} rounded bordered centered /></div> */}
         <Modal.Header>Experience</Modal.Header>
@@ -30,8 +40,8 @@ function Resume() {
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
-          <Button onClick={() => setOpen(false)}>
-            <Icon name='chevron left' />Back
+          <Button variant="contained" onClick={() => setOpen(false)}>
+            <ArrowBackIcon />
           </Button>
         </Modal.Actions>
       </Modal>
