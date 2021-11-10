@@ -58,7 +58,7 @@ const ContactMe = () => {
                 <div className="field">
                   <label>Your Name</label>
                   <div className="ui input">
-                    <input required type="text" placeholder="John Doe" name="user_name" />
+                    <input autoFocus required type="text" placeholder="John Doe" name="user_name" />
                   </div>
                 </div>
                 <div className="field">
