@@ -70,7 +70,7 @@ const ContactMe = () => {
               </div>
               <div className="field">
                 <label>Your Message</label>
-                <textarea placeholder="Tell me how can I help..." rows="10" name="message" ></textarea>
+                <textarea placeholder="Hi Sid," rows="10" name="message" ></textarea>
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
