@@ -48,7 +48,7 @@ const ContactMe = () => {
         <Modal.Header style={{ backgroundColor: "#f1f2f5" }} >
           <Header textAlign='center' >
             {/* <Icon name='mail' />  */}
-            Contact Me
+            Get in Touch
           </Header>
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
@@ -74,7 +74,7 @@ const ContactMe = () => {
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
-                  Submit
+                  Send Message
                 </button>
                 <button
                   className="ui right floated button secondary"
@@ -99,7 +99,7 @@ const ContactMe = () => {
             </Header> */}
           </Modal.Description>
         </Modal.Content>
-        <Modal.Actions>
+        <Modal.Actions style={{ marginTop: "-45px" }}>
           <Image centered rounded size='small' src={sidImage} />
           <Header textAlign='center' as='h5'>
             <div style={{ marginTop: "-15px" }}  >
