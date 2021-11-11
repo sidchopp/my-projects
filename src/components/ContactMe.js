@@ -56,21 +56,21 @@ const ContactMe = () => {
             <form style={{ marginTop: '30px' }} className="ui form" ref={form} onSubmit={sendEmail}>
               <div className="equal width fields">
                 <div className="field">
-                  <label>Your Name</label>
+                  {/* <label>Your Name</label> */}
                   <div className="ui input">
-                    <input autoFocus required type="text" placeholder="John Doe" name="user_name" />
+                    <input autoFocus required type="text" placeholder="Your Name" name="user_name" />
                   </div>
                 </div>
                 <div className="field">
-                  <label>Your Email</label>
+                  {/* <label>Your Email</label> */}
                   <div className="ui input">
-                    <input required type="text" placeholder="john@gmail.com" name="user_email" />
+                    <input required type="text" placeholder="Your Email" name="user_email" />
                   </div>
                 </div>
               </div>
               <div className="field">
-                <label>Your Message</label>
-                <textarea placeholder="Hi Sid," rows="10" name="message" ></textarea>
+                {/* <label>Your Message</label> */}
+                <textarea placeholder="Your Meassage.." rows="10" name="message" ></textarea>
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
