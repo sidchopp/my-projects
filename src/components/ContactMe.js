@@ -47,7 +47,6 @@ const ContactMe = () => {
       >
         <Modal.Header style={{ backgroundColor: "#f1f2f5" }} >
           <Header textAlign='center' >
-            {/* <Icon name='mail' />  */}
             Get in Touch
           </Header>
         </Modal.Header>
@@ -70,7 +69,7 @@ const ContactMe = () => {
               </div>
               <div className="field">
                 {/* <label>Your Message</label> */}
-                <textarea placeholder="Your Meassage.." rows="10" name="message" ></textarea>
+                <textarea placeholder="Your Message.." rows="10" name="message" ></textarea>
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
@@ -91,12 +90,6 @@ const ContactMe = () => {
               </Header>
             </form>
             <Divider horizontal > </Divider>
-            {/* <Header >
-              <Icon name='mobile alternate' /> +1 (587)-436-7497
-            </Header>  */}
-            {/* <Header style={{ color: 'black' }} variant="body2" color="textSecondary" align="center">
-              Calgary-AB, Canada
-            </Header> */}
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions style={{ marginTop: "-45px" }}>
