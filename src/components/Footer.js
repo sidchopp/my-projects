@@ -11,7 +11,7 @@ function Footer() {
   const classes = UseStyles();
   return (
     <footer className={classes.footer}>
-      <Typography
+      {/* <Typography
         variant="h4"
         align="center"
         gutterBottom
@@ -22,7 +22,7 @@ function Footer() {
         >
           My Projects
         </span>
-      </Typography>
+      </Typography> */}
       <Typography
         style={{ color: 'black' }}
         variant="subtitle1"
@@ -31,7 +31,7 @@ function Footer() {
         component="p"
         gutterBottom
       >
-        <i> Hope you liked them. Please let me know if I can be helpful.</i>
+        Hope you liked my work. Please let me know, if I can be helpful.
       </Typography>
       {/* <Divider horizontal></Divider> */}
 
