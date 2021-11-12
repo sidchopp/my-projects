@@ -10,6 +10,11 @@
   /* font-weight: bold; */
 }
 
+.font-projects {
+  font-family: "Oldenburg", cursive;
+  font-size: 40px;
+}
+
 .font-profile {
   font-family: "Caveat", cursive;
 }

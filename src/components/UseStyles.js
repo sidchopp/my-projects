@@ -50,6 +50,10 @@ const UseStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(4),
     marginBottom: theme.spacing(10),
   },
+  myProjectsHeader: {
+    marginBottom: theme.spacing(2),
+    textAlign: 'center'
+  },
   icon: {
     marginRight: theme.spacing(2),
   },

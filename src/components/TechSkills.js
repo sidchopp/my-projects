@@ -8,7 +8,7 @@ function TechSkills() {
   return (
     <Container  >
       <Header as="h2" textAlign='center'>
-        <span className="font-resume"> Technologies, I  Love to work with</span>
+        <span className="font-resume"> Technologies, I Love to work with</span>
       </Header>
       <Grid doubling style={{ marginTop: '10px' }}>
         <Grid.Row columns={6} id='db_1'>

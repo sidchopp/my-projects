@@ -13,8 +13,7 @@ import Container from '@material-ui/core/Container';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
-
+import { Icon } from 'semantic-ui-react';
 
 // Components
 import ProjectData from '../data/ProjectData'
@@ -40,7 +39,19 @@ function MyProjects() {
       <main>
         <HeroUnit />
         <Container className={classes.cardGrid} maxWidth="lg">
-          <Grid container spacing={4}>
+          <Container className={classes.myProjectsHeader} maxWidth="lg">
+            <Typography
+              component="h1"
+              variant="h2"
+              align="center"
+              color="textPrimary"
+              gutterBottom
+            >
+              <span className='font-projects' >My Projects</span>
+            </Typography>
+            <Icon size='big' name='chevron down' />
+          </Container>
+          <Grid style={{ marginTop: '10px' }} container spacing={4}>
             {ProjectData.map((card) => {
               const { title, duties, techUsed, website, img, bestView } = card
               return (
