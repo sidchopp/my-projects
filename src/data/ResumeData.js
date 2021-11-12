@@ -21,7 +21,7 @@ const ResumeData = [
       "Strong work ethics & openness to differentiated learning approaches and experiential learning."
     ],
     "frameworks": [
-      "React.js", "Node.js", "JavaScript", "HTML/CSS", "RESTful API & CRUD functions", "Express", "MongoDB", "postgreSQL", "EmailJS", "GitHub/Git", "Visual Studio Code", "Command Line Interface", "Python (Basic)", "Material UI/ Semantic UI"
+      "React.js", "Node.js", "JavaScript", "HTML/CSS", "RESTful API & CRUD functions", "Express", "MongoDB", "postgreSQL", "EmailJS", "GitHub/Git", "Visual Studio Code", "AWS", "Command Line Interface", "Python (Basic)", "Material UI/ Semantic UI"
     ],
     "role": " As Stack Developer",
     "certifications": [
