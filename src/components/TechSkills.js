@@ -15,6 +15,9 @@ function TechSkills() {
           <Grid.Column>
             <Popup
               inverted
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
               trigger={<Header as="h1">
                 <Icon
                   link
@@ -28,6 +31,9 @@ function TechSkills() {
           <Grid.Column>
             <Popup
               inverted
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
               trigger={<Header as="h1">
                 <Icon
                   link
@@ -40,6 +46,9 @@ function TechSkills() {
           </Grid.Column>
           <Grid.Column>
             <Popup
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
               inverted
               trigger={<Header as="h1">
                 <Icon
@@ -54,6 +63,9 @@ function TechSkills() {
           <Grid.Column>
             <Popup
               inverted
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
               trigger={<Header as="h1">
                 <Icon
                   link
@@ -67,6 +79,9 @@ function TechSkills() {
           <Grid.Column>
             <Popup
               inverted
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
               trigger={<Header as="h1">
                 <Icon
                   link
@@ -80,6 +95,9 @@ function TechSkills() {
           <Grid.Column>
             <Popup
               inverted
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
               trigger={<Header as="h1">
                 <Icon
                   link
