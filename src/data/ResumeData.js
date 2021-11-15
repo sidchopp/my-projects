@@ -35,14 +35,15 @@ const ResumeData = [
     "title": "MCAT Physics Instructor, The Princeton Review - Calgary AB, Canada (Permanent Part time)",
     "dates": "March 2020 - Present",
     "duties": [
-      "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more.",
-      "Successfully completed the TPR Instructor certification program.",
-      "Delivering Online lectures, engaging and educating students (typically 3rd or 2nd year science undergrads) who are preparing for the MCAT exam, while maintaining high standards of professionalism and consistency in producing high quality results.",
-      "Demonstrate flexibility and openness to bring creative solutions to address issues.",
-      "Contributed to a culture of innovation, ownership, and continuous improvement.",
-      "Ability to self-motivate and effective in working remotely."
+      "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more. This is where I pursue my years' old passion of TEACHING PHYSICS.",
+
     ],
     "frameworks": [
+      "Delivering Online lectures, engaging and educating students (typically 3rd or 2nd year science undergrads) who are preparing for the MCAT exam, while maintaining high standards of professionalism and consistency in producing high quality results.",
+      "Successfully completed the TPR Instructor certification program.",
+      "Demonstrate flexibility and openness to bring creative solutions to address issues.",
+      "Contributed to a culture of innovation, ownership, and continuous improvement.",
+      "Ability to self-motivate and effective in working remotely.",
       "Teaching Classes with strength of more than 100 under-grads.",
       "Monitoring Science Labs."
     ],
@@ -59,12 +60,12 @@ const ResumeData = [
     "title": "FC Associate, Amazon- Balzac AB, Canada(Seasonal Full time)",
     "dates": "September 2019 - January 2020",
     "duties": [
-      "Resolved customers' complaints/problems quickly. Hands on experience of verifying information accuracy in work orders, inspecting received products following standard operating procedure in a quickly growing, fast-paced & constantly changing environment.",
-      "Fostered an environment where teamwork and inclusivity are prioritized.",
-
+      " First time I got an opportunity to see the culture of (and actually work with) one of the largest companies in the world - AMAZON. It is also the place where i actually used AWS for the first time and this kindled a strong desire to dive deeper into AWS."
     ],
     "frameworks": [
-      "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.", "Adhering to Warehouse's health and safety practices."
+      "Resolved customers' complaints/problems quickly. Hands on experience of verifying information accuracy in work orders, inspecting received products following standard operating procedure in a quickly growing, fast-paced & constantly changing environment.",
+      "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.",
+      "Adhering to Warehouse's health and safety practices."
     ],
     "role": " As Fulfillment Centre Associate",
     "certifications": [
