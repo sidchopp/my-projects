@@ -46,6 +46,22 @@ function TechSkills() {
           </Grid.Column>
           <Grid.Column>
             <Popup
+              inverted
+              mouseEnterDelay={500}
+              mouseLeaveDelay={500}
+              on='hover'
+              trigger={<Header as="h1">
+                <Icon
+                  link
+                  name="aws"
+                />
+              </Header>}
+              content='Amazon Web Services'
+              position='bottom center'
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Popup
               mouseEnterDelay={500}
               mouseLeaveDelay={500}
               on='hover'
@@ -72,7 +88,7 @@ function TechSkills() {
                   name="html5"
                 />
               </Header>}
-              content='HTML 5'
+              content='HTML5'
               position='bottom center'
             />
           </Grid.Column>
@@ -88,26 +104,11 @@ function TechSkills() {
                   name="css3 alternate"
                 />
               </Header>}
-              content='CSS 3'
+              content='CSS3'
               position='bottom center'
             />
           </Grid.Column>
-          <Grid.Column>
-            <Popup
-              inverted
-              mouseEnterDelay={500}
-              mouseLeaveDelay={500}
-              on='hover'
-              trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="aws"
-                />
-              </Header>}
-              content='Amazon Web Services'
-              position='bottom center'
-            />
-          </Grid.Column>
+
         </Grid.Row>
       </Grid>
     </Container>
