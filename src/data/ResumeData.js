@@ -21,7 +21,7 @@ const ResumeData = [
       "Strong work ethics & openness to differentiated learning approaches and experiential learning."
     ],
     "frameworks": [
-      "React.js", "Node.js", "JavaScript", "HTML/CSS", "RESTful API & CRUD functions", "Express", "MongoDB", "postgreSQL", "EmailJS", "GitHub/Git", "Visual Studio Code", "AWS", "Command Line Interface", "Python (Basic)", "Material UI/ Semantic UI"
+      "React", "Node.js", "JavaScript", "HTML/CSS", "RESTful API & CRUD functions", "Express", "MongoDB", "postgreSQL", "GitHub/Git", "Visual Studio Code", "AWS", "Python (Basic)"
     ],
     "role": " As Stack Developer",
     "certifications": [
@@ -57,7 +57,7 @@ const ResumeData = [
   {
     "id": "secAGJfiU4CeaV0HL",
     "order": 3,
-    "title": "FC Associate, Amazon- Balzac AB, Canada(Seasonal Full time)",
+    "title": "Fulfillment Center Associate, Amazon- Balzac AB, Canada(Seasonal Full time)",
     "dates": "September 2019 - January 2020",
     "duties": [
       " First time I got an opportunity to see the culture of (and actually work with) one of the largest companies in the world - AMAZON. It is also the place where i actually used AWS for the first time and this kindled a strong desire to dive deeper into AWS."
@@ -67,7 +67,7 @@ const ResumeData = [
       "Reading and Deciphering work orders in a very fast paced environment.", "Confirming merchandise information matches that of the work order.",
       "Adhering to Warehouse's health and safety practices."
     ],
-    "role": " As Fulfillment Centre Associate",
+    "role": " As FC Associate",
     "certifications": [
       "Got training for muliple roles like Customer complaint Associate, Receiver, Picker, etc.",
     ],

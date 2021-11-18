@@ -29,7 +29,7 @@ function Resume() {
         }
       >
         {/* <div><Image fluid src={image} rounded bordered centered /></div> */}
-        <Modal.Header>Experience</Modal.Header>
+        <Modal.Header>My Experience</Modal.Header>
         <Modal.Content >
           <Modal.Description>
 
