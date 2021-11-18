@@ -27,7 +27,7 @@ function DetailedResume() {
           )
         })}
       </div>
-      <div><Image fluid src={img} rounded bordered centered /></div>
+      {/* <div><Image fluid src={img} rounded bordered centered /></div> */}
       <h3>{title}</h3>
       {/* <h4>{company}</h4> */}
       <p ><i>{dates}</i></p>
