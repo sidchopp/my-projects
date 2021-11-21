@@ -1,34 +1,7 @@
 const ProjectData = [
 
-  {
-    "id": "7",
-    "order": 7,
-    "title": "Seasons",
-    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "October 2021 - October 2021",
-    "duties": [
-      "This App will show the season (Spring, Summer, Winter or Fall) based on the User's location on the globe. It also displays the Latitude and Longitude of that location."
-    ],
-    'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
-    "website": "https://sid-seasons.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI",
-    "company": "SID"
-  },
-  {
-    "id": "6",
-    "order": 6,
-    "title": "Face Detect",
-    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "September 2021 - September 2021",
-    "duties": [
-      "A registered User of this App will paste a URL of an image with a face and the App will 'detect that face' in the image."
-    ],
-    'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "website": "https://sid-face-detect.herokuapp.com/",
-    "websiteFallback": "https://i-will-be-back.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI, postgreSQL, Heroku",
-    "company": "SID"
-  },
+
+
   {
     "id": "5",
     "order": 5,
@@ -76,7 +49,7 @@ const ProjectData = [
     "id": "2",
     "order": 2,
     "title": "Guess My Number",
-    "bestView": 'Big Screens and Laptops only',
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "July 2021 - August 2021",
     "duties": [
       "Try and guess a randomly generated whole number between 0 to 20, in minimum attempts."
@@ -116,6 +89,20 @@ const ProjectData = [
     "company": "SID"
   },
   {
+    "id": "7",
+    "order": 7,
+    "title": "Seasons",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "October 2021 - October 2021",
+    "duties": [
+      "This App will show the season (Spring, Summer, Winter or Fall) based on the User's location on the globe. It also displays the Latitude and Longitude of that location."
+    ],
+    'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
+    "website": "https://sid-seasons.netlify.app/",
+    "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "company": "SID"
+  },
+  {
     "id": "1",
     "order": 7,
     "title": "I Will Be Back",
@@ -127,6 +114,21 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1636304304049-b2e4e7ebe6bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "company": "SID"
+  },
+  {
+    "id": "6",
+    "order": 6,
+    "title": "Face Detect",
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "dates": "September 2021 - September 2021",
+    "duties": [
+      "A registered User of this App will paste a URL of an image with a face and the App will 'detect that face' in the image."
+    ],
+    'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "website": "https://sid-face-detect.herokuapp.com/",
+    "websiteFallback": "https://i-will-be-back.netlify.app/",
+    "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI, postgreSQL, Heroku",
     "company": "SID"
   },
   {
