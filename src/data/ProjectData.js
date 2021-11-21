@@ -14,7 +14,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, Semantic UI",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
 
   {
@@ -29,7 +30,8 @@ const ProjectData = [
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://sid-periodic-table.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, Semantic UI",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "3",
@@ -43,7 +45,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-projects.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, MUI, Semantic",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "2",
@@ -57,7 +60,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1620662831351-9f68f76d0b9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-guess-number.netlify.app/",
     "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "0",
@@ -71,7 +75,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
     "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Semantic UI, Heroku.",
-    "company": "InceptionU Ltd."
+    "company": "InceptionU Ltd.",
+    "typeOfProject": "Team"
   },
 
   {
@@ -86,7 +91,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1581788927061-ac0e09850ed0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80",
     "website": "https://sid-rolling-dice.netlify.app/",
     "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "7",
@@ -100,7 +106,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
     "website": "https://sid-seasons.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, Semantic UI",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "1",
@@ -114,7 +121,8 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1636304304049-b2e4e7ebe6bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, Semantic UI",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "6",
@@ -129,7 +137,8 @@ const ProjectData = [
     "website": "https://sid-face-detect.herokuapp.com/",
     "websiteFallback": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI, postgreSQL, Heroku",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
   {
     "id": "2",
@@ -142,7 +151,8 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "techUsed": "Web Stack : Node.js, React, Semantic UI, Google Firebase",
-    "company": "SID"
+    "company": "SID",
+    "typeOfProject": "Individual"
   },
 
 ];
