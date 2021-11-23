@@ -22,6 +22,9 @@ const UseStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     backgroundColor: "#f1f2f5"
   },
+  projectPaper: {
+    padding: '30px'
+  },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
   },
