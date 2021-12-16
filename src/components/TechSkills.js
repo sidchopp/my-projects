@@ -19,10 +19,12 @@ function TechSkills() {
               mouseLeaveDelay={500}
               on='hover'
               trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="react"
-                />
+                <a href='https://reactjs.org/'
+                  target="_blank" rel="noreferrer"> <Icon
+                    link
+                    name="react"
+                  />
+                </a>
               </Header>}
               content='React'
               position='bottom center'
@@ -35,10 +37,12 @@ function TechSkills() {
               mouseLeaveDelay={500}
               on='hover'
               trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="node"
-                />
+                <a href='https://nodejs.org/en/'
+                  target="_blank" rel="noreferrer"> <Icon
+                    link
+                    name="node"
+                  />
+                </a>
               </Header>}
               content='Node'
               position='bottom center'
@@ -51,10 +55,12 @@ function TechSkills() {
               mouseLeaveDelay={500}
               on='hover'
               trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="aws"
-                />
+                <a href='https://aws.amazon.com/'
+                  target="_blank" rel="noreferrer"> <Icon
+                    link
+                    name="aws"
+                  />
+                </a>
               </Header>}
               content='Amazon Web Services'
               position='bottom center'
@@ -67,10 +73,12 @@ function TechSkills() {
               on='hover'
               inverted
               trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="js square"
-                />
+                <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+                  target="_blank" rel="noreferrer"> <Icon
+                    link
+                    name="js square"
+                  />
+                </a>
               </Header>}
               content='JavaScript'
               position='bottom center'
@@ -83,10 +91,12 @@ function TechSkills() {
               mouseLeaveDelay={500}
               on='hover'
               trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="html5"
-                />
+                <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'
+                  target="_blank" rel="noreferrer"> <Icon
+                    link
+                    name="html5"
+                  />
+                </a>
               </Header>}
               content='HTML5'
               position='bottom center'
@@ -99,10 +109,12 @@ function TechSkills() {
               mouseLeaveDelay={500}
               on='hover'
               trigger={<Header as="h1">
-                <Icon
-                  link
-                  name="css3 alternate"
-                />
+                <a href='https://developer.mozilla.org/en-US/docs/Web/CSS'
+                  target="_blank" rel="noreferrer"> <Icon
+                    link
+                    name="css3 alternate"
+                  />
+                </a>
               </Header>}
               content='CSS3'
               position='bottom center'
