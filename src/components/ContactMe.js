@@ -32,12 +32,7 @@ const ContactMe = () => {
       <Modal
         closeIcon
         open={open}
-        trigger={
-          <div >
-            <Icon style={{ color: 'black' }} name='mail' />
-            Message
-          </div>
-        }
+        trigger={<Icon name='mail' />}
         onClose={() => {
           setOpen(false)
           setMessage("")

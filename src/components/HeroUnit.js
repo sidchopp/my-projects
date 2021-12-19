@@ -44,7 +44,7 @@ function HeroUnit() {
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <div class="animate__animated animate__lightSpeedInLeft">
+              <div className="animate__animated animate__lightSpeedInLeft">
                 <Button
                   variant="contained"
                   style={{ color: 'black' }}
@@ -57,7 +57,7 @@ function HeroUnit() {
               </div>
             </Grid>
             <Grid item>
-              <div class="animate__animated animate__lightSpeedInRight">
+              <div className="animate__animated animate__lightSpeedInRight">
                 <Button
                   variant="contained"
                   style={{ color: 'black' }}
@@ -72,7 +72,7 @@ function HeroUnit() {
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/* component import */}
-              <div class="animate__animated animate__backInUp">
+              <div className="animate__animated animate__backInUp">
                 <Resume />
               </div>
               {/*  */}

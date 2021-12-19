@@ -7,6 +7,10 @@ import ContactMe from './ContactMe';
 import UseStyles from './UseStyles';
 import Today from './Today';
 
+
+// Amimate.css
+import "animate.css"
+
 function Footer() {
   const classes = UseStyles();
   return (
@@ -63,9 +67,11 @@ function Footer() {
         {/* <a style={{ cursor: 'pointer' }} >
           <ContactMe />
         </a> */}
-        <Button compact size='tiny'>
-          <ContactMe />
-        </Button>
+        <span className="animate__animated animate__fadeIn animate__infinite">
+          <Button compact size='tiny'>
+            <ContactMe />
+          </Button>
+        </span>
       </Typography>
       <Typography
         style={{ color: 'black' }}
