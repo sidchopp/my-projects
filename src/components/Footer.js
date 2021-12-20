@@ -15,18 +15,6 @@ function Footer() {
   const classes = UseStyles();
   return (
     <footer className={classes.footer}>
-      {/* <Typography
-        variant="h4"
-        align="center"
-        gutterBottom
-      >
-        <span
-          style={{ color: 'black' }}
-          className='font-link'
-        >
-          My Projects
-        </span>
-      </Typography> */}
       <Typography
         style={{ color: 'black' }}
         variant="subtitle1"
@@ -37,11 +25,6 @@ function Footer() {
       >
         Hope you liked my work. Please let me know, if I can be helpful.
       </Typography>
-      {/* <Divider horizontal></Divider> */}
-
-      {/* <Typography style={{ color: 'black' }} variant="subtitle1" align="center" color="textSecondary" component="p">
-        <Icon style={{ color: 'black' }} name='mail' />sidchopp@gmail.com
-      </Typography> */}
       <Typography
         style={{ color: 'black' }}
         variant="subtitle1"
@@ -64,9 +47,6 @@ function Footer() {
       >
         Not a big talker? Drop a
         {" "}
-        {/* <a style={{ cursor: 'pointer' }} >
-          <ContactMe />
-        </a> */}
         <span className="animate__animated animate__fadeIn animate__infinite">
           <Button compact size='tiny'>
             <ContactMe />
@@ -91,7 +71,6 @@ function Footer() {
         align="center"
         gutterBottom
       >
-        {/* <Divider horizontal></Divider> */}
         {' © '}{new Date().getFullYear()}
         {' '}
         <span className="font-link"> My Projects</span>
