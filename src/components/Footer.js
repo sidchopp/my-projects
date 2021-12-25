@@ -71,8 +71,7 @@ function Footer() {
         align="center"
         gutterBottom
       >
-        {' © '}{new Date().getFullYear()}
-        {' '}
+        {' © '}2021{" "}-{" "}{new Date().getFullYear()},
         <span className="font-link"> My Projects</span>
       </Typography>
       <Typography
