@@ -41,3 +41,22 @@
     top: 10px;
   }
 }
+
+/* Scroll to top */
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 8px;
+  font-size: 1.1vw;
+  background: #ff8c00;
+  color: black;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+.back-to-top:hover {
+  background: #ffa52c;
+}

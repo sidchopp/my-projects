@@ -24,6 +24,7 @@ import Footer from './Footer';
 // import Header from './Header';
 import HeroUnit from './HeroUnit';
 import UseStyles from './UseStyles';
+import ScrollToTop from './ScrollToTop';
 
 function MyProjects() {
 
@@ -41,6 +42,7 @@ function MyProjects() {
       {/* <Header /> */}
       <main>
         <HeroUnit />
+        <ScrollToTop />
         <Container className={classes.cardGrid} maxWidth="lg">
           <Paper className={classes.projectPaper} elevation={4} >
             <Container className={classes.myProjectsHeader} maxWidth="lg">
