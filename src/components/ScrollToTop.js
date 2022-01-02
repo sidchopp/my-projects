@@ -27,8 +27,8 @@ function ScrollToTop() {
   return (
     <div>
       {showButton && (
-        <button onClick={scrollToTop} className="back-to-top" >
-          <KeyboardArrowUpIcon fontSize="large" />
+        <button onClick={scrollToTop} className="back-to-top " >
+          <KeyboardArrowUpIcon fontSize="large" className="scroll-up-animation" />
         </button>
       )}
     </div>
