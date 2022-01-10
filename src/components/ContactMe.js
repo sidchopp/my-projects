@@ -54,7 +54,7 @@ const ContactMe = () => {
           </Typography>
           <Typography variant="h5" align="center" color="text.secondary" paragraph>
             I would <span><Icon disabled name='like' />
-            </span> to hear from you so feel free to drop a line.
+            </span> to hear from you, so feel free to drop a line.
           </Typography>
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
