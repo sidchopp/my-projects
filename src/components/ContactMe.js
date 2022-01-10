@@ -1,4 +1,6 @@
 import React, { useState, useRef } from 'react'
+import Typography from '@mui/material/Typography';
+import CssBaseline from '@mui/material/CssBaseline';
 import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
@@ -41,9 +43,19 @@ const ContactMe = () => {
         size='small'
       >
         <Modal.Header style={{ backgroundColor: "#f1f2f5" }} >
-          <Header textAlign='center' >
-            Get in Touch
-          </Header>
+          <Typography
+            component="h1"
+            variant="h2"
+            align="center"
+            color="text.primary"
+            gutterBottom
+          >
+            Let's talk.
+          </Typography>
+          <Typography variant="h5" align="center" color="text.secondary" paragraph>
+            I would <span><Icon disabled name='like' />
+            </span> to hear from you so feel free to drop a line.
+          </Typography>
         </Modal.Header>
         <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
           <Modal.Description >
@@ -80,23 +92,24 @@ const ContactMe = () => {
                   Back
                 </button>
               </div>
-              <Header textAlign='center'>
+              <Typography variant="h5" align="center" color="text.primary">
                 {message}
-              </Header>
+              </Typography>
             </form>
-            <Divider horizontal > </Divider>
+            {/* <Divider horizontal > </Divider> */}
           </Modal.Description>
         </Modal.Content>
-        <Modal.Actions style={{ marginTop: "-45px" }}>
+        <Modal.Actions >
           <Image centered rounded size='small' src={sidImage} />
-          <Header textAlign='center' as='h5'>
-            <div style={{ marginTop: "-15px" }}  >
-              <Icon fitted name='mail outline' />  sidchopp@gmail.com
-            </div>
-            <div style={{ padding: "3px" }}>
-              <Icon fitted name='mobile alternate' />  (587)-436-7497
-            </div>
-          </Header>
+          <Typography variant="body1" align="center" color="text.secondary" gutterBottom >
+            For old schools like me, contact by:
+          </Typography>
+          <Typography variant="h6" align="center" color="text.secondary" >
+            <Icon fitted name='mail outline' /> sidchopp@gmail.com
+          </Typography>
+          <Typography variant="h6" align="center" color="text.secondary" >
+            <Icon fitted name='mobile alternate' />  (587)-436-7497
+          </Typography>
         </Modal.Actions>
       </Modal>
     </div >
