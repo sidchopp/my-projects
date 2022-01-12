@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
+import Grid from '@mui/material/Grid';
 import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
@@ -96,20 +97,22 @@ const ContactMe = () => {
                 {message}
               </Typography>
             </form>
-            {/* <Divider horizontal > </Divider> */}
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions >
-          <Image centered rounded size='small' src={sidImage} />
-          <Typography variant="body1" align="center" color="text.secondary" gutterBottom >
-            For old schools like me, contact by:
-          </Typography>
-          <Typography variant="h6" align="center" color="text.secondary" >
-            <Icon fitted name='mail outline' /> sidchopp@gmail.com
-          </Typography>
-          <Typography variant="h6" align="center" color="text.secondary" >
-            <Icon fitted name='mobile alternate' />  (587)-436-7497
-          </Typography>
+          {/* <Image centered rounded size='tiny' src={sidImage} /> */}
+          <Grid container>
+            <Grid item xs>
+              <Typography variant="subtitle1" display="block" gutterBottom align="left" color="text.secondary" >
+                <Icon fitted name='mail outline' /> sidchopp@gmail.com
+              </Typography>
+            </Grid>
+            <Grid item xs>
+              <Typography variant="subtitle1" display="block" gutterBottom align="right" color="text.secondary" >
+                <Icon fitted name='mobile alternate' />  (587)-436-7497
+              </Typography>
+            </Grid>
+          </Grid>
         </Modal.Actions>
       </Modal>
     </div >
