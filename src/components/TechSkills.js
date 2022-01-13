@@ -1,10 +1,11 @@
 import React from 'react'
 import { Icon, Grid, Container, Header } from 'semantic-ui-react'
-import 'animate.css';
-
 
 //CSS
 import '../App.css'
+
+//Components
+import AnimatedDownArrow from './AnimatedDownArrow';
 
 function TechSkills() {
   return (
@@ -55,10 +56,11 @@ function TechSkills() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-      <div className='animate__animated animate__fadeOutDown animate__slow animate__infinite'>
 
-        <Icon style={{ paddingTop: "70px" }} name=' chevron down' />
-      </div>
+      {/* Component import */}
+      <AnimatedDownArrow />
+      {/*  */}
+
     </Container>
   )
 }
