@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon, Grid, Container, Header } from 'semantic-ui-react'
+import 'animate.css';
 
 
 //CSS
@@ -54,7 +55,10 @@ function TechSkills() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-      <Icon className='arrow-animation' name='chevron down' />
+      <div className='animate__animated animate__fadeOutDown animate__slow animate__infinite'>
+
+        <Icon style={{ paddingTop: "70px" }} name=' chevron down' />
+      </div>
     </Container>
   )
 }
