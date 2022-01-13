@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import IconButton from '@mui/material/IconButton';
 
 function ScrollToTop() {
@@ -38,7 +38,7 @@ function ScrollToTop() {
             background: "#dae0f2"
           }}
         >
-          <KeyboardArrowUpIcon fontSize="large" />
+          <ArrowUpwardIcon fontSize="large" />
         </IconButton>
       )}
     </div>
