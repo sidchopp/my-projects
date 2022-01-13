@@ -34,7 +34,7 @@ function HeroUnit() {
         <Typography
           variant="h4"
           align="center"
-          color="textPrimary"
+          color="textSecondary"
           gutterBottom
         >
           <span className='font-profile'  >
