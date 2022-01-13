@@ -55,7 +55,7 @@ function MyProjects() {
               >
                 <span className='font-projects' >My Projects</span>
               </Typography>
-              <Icon className='arrow-animation' size='big' name='chevron down' />
+              {/* <Icon className='arrow-animation' size='big' name='chevron down' /> */}
             </Container>
             <Grid style={{ marginTop: '10px' }} container spacing={4}>
               {ProjectData.map((card) => {

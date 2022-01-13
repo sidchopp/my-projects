@@ -1,6 +1,7 @@
 import React from 'react'
 import { Icon, Grid, Container, Header } from 'semantic-ui-react'
 
+
 //CSS
 import '../App.css'
 
@@ -53,6 +54,7 @@ function TechSkills() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
+      <Icon className='arrow-animation' name='chevron down' />
     </Container>
   )
 }
