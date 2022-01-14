@@ -47,12 +47,11 @@ function HeroUnit() {
               <div className="animate__animated animate__lightSpeedInLeft">
                 <Button
                   variant="contained"
-                  style={{ color: 'black' }}
+                  color="primary"
                   href='https://github.com/sidchopp'
                   target="_blank"
                 >
-                  <GitHubIcon style={{ fontSize: 28 }} >
-                  </GitHubIcon>
+                  <GitHubIcon style={{ fontSize: 28 }} />
                 </Button>
               </div>
             </Grid>
@@ -60,7 +59,7 @@ function HeroUnit() {
               <div className="animate__animated animate__lightSpeedInRight">
                 <Button
                   variant="contained"
-                  style={{ color: 'black' }}
+                  color="primary"
                   href='https://www.linkedin.com/in/sidchopp/'
                   target="_blank"
                 >
@@ -79,9 +78,6 @@ function HeroUnit() {
             </Grid>
           </Grid>
         </div>
-        {/* <div >
-          <TechSkills />
-        </div> */}
         <Typography
           variant="h4"
           align="center"
