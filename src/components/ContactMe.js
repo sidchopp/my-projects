@@ -2,6 +2,10 @@ import React, { useState, useRef } from 'react'
 import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
@@ -101,15 +105,37 @@ const ContactMe = () => {
         </Modal.Content>
         <Modal.Actions >
           {/* <Image centered rounded size='tiny' src={sidImage} /> */}
-          <Grid container>
-            <Grid item xs>
-              <Typography variant="subtitle1" display="block" gutterBottom align="left" color="text.secondary" >
-                <Icon fitted name='mail outline' /> sidchopp@gmail.com
+          <Grid container spacing={1}>
+            <Grid item xs={6}>
+              <Typography align="left" component="h2" variant="h6">
+                <Icon fitted name='mail outline' />  EMAIL
+              </Typography>
+              <Typography gutterBottom align="left" variant="subtitle1" color="text.secondary">
+                sidchopp@gmail.com
+              </Typography>
+              <Typography align="left" component="h2" variant="h6">
+                <Icon fitted name='mobile alternate' />  MOBILE
+              </Typography>
+              <Typography align="left" variant="subtitle1" color="text.secondary">
+                (587)-436-7497
               </Typography>
             </Grid>
-            <Grid item xs>
-              <Typography variant="subtitle1" display="block" gutterBottom align="right" color="text.secondary" >
-                <Icon fitted name='mobile alternate' />  (587)-436-7497
+            <Grid item xs={6} >
+              <Typography align="right" >
+                <IconButton
+                  color="primary"
+                  onClick={() => window.open('https://www.facebook.com/siddchopp')}
+                  size="large"
+                >
+                  <FacebookIcon fontSize="large" />
+                </IconButton>
+                <IconButton
+                  color="primary"
+                  onClick={() => window.open('https://www.linkedin.com/in/sidchopp/')}
+                  size="large"
+                >
+                  <LinkedInIcon fontSize="large" />
+                </IconButton>
               </Typography>
             </Grid>
           </Grid>
