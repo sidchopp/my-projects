@@ -21,7 +21,7 @@ function Resume() {
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Button variant="contained" style={{ color: 'black' }}>
+        trigger={<Button variant="contained" color="primary" >
           <span className="font-resume">
             My Resume
           </span>
