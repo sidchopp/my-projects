@@ -26,7 +26,7 @@ function HeroUnit() {
           component="h1"
           variant="h2"
           align="center"
-          color="textPrimary"
+          // color="textPrimary"
           gutterBottom
         >
           <span className='font-name' >Siddharth Chopra</span>
@@ -34,7 +34,7 @@ function HeroUnit() {
         <Typography
           variant="h4"
           align="center"
-          color="textSecondary"
+          // color="textSecondary"
           gutterBottom
         >
           <span className='font-profile'  >
@@ -81,7 +81,7 @@ function HeroUnit() {
         <Typography
           variant="h4"
           align="center"
-          color="textPrimary"
+          // color="textPrimary"
           gutterBottom
         >
           <TechSkills />

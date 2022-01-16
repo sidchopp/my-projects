@@ -44,7 +44,7 @@ function MyProjects() {
         <HeroUnit />
         <ScrollToTop />
         <Container className={classes.cardGrid} maxWidth="lg">
-          <Paper className={classes.projectPaper} elevation={4} >
+          <Paper sx={{ backgroundColor: "#FEE715FF " }} className={classes.projectPaper} elevation={4} >
             <Container className={classes.myProjectsHeader} maxWidth="lg">
               <Typography
                 component="h1"

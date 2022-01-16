@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon, Grid, Container, Header } from 'semantic-ui-react'
+import Typography from '@material-ui/core/Typography';
 
 //CSS
 import '../App.css'
@@ -9,10 +10,10 @@ import AnimatedDownArrow from './AnimatedDownArrow';
 
 function TechSkills() {
   return (
-    <Container  >
-      <Header as="h2" textAlign='center'>
-        <span className="font-resume"> Technologies, I Love to work with</span>
-      </Header>
+    <div  >
+      <Typography variant="h5" gutterBottom component="div" >
+        <span className="font-technology"> Technologies, I Love </span>
+      </Typography>
       <Grid columns={6} divided doubling style={{ marginTop: '10px' }}>
         <Grid.Row id='db_1'>
           <Grid.Column>
@@ -61,7 +62,7 @@ function TechSkills() {
       <AnimatedDownArrow />
       {/*  */}
 
-    </Container>
+    </div>
   )
 }
 
