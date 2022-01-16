@@ -29,7 +29,7 @@ const UseStyles = makeStyles((theme) => ({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
-    // backgroundColor: "#003366"
+    backgroundColor: lightColor
   },
   projectPaper: {
     padding: '30px'

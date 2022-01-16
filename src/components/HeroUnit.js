@@ -37,7 +37,7 @@ function HeroUnit() {
           // color="textSecondary"
           gutterBottom
         >
-          <span className='font-profile'  >
+          <span style={{ color: "#abbbc6" }} className='font-profile'  >
             Full Stack Developer |  Physics Instructor
           </span>
         </Typography>
