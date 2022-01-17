@@ -34,7 +34,7 @@ const UseStyles = makeStyles((theme) => ({
     color: darkColor
   },
   projectPaper: {
-    padding: '30px',
+    padding: '22px',
     backgroundColor: midColor
   },
   cardMedia: {
