@@ -2,8 +2,9 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 // Hex codes: Charcoal #101820FF, Yellow #FEE715FF 
-const lightColor = "#FEE715FF ";
-const darkColor = "#101820FF";
+const lightColor = "#f6ebf4";
+const midColor = " #4cbfa6";
+const darkColor = "#482673";
 
 const UseStyles = makeStyles((theme) => ({
   // icon: {
@@ -18,8 +19,8 @@ const UseStyles = makeStyles((theme) => ({
   // },
 
   body: {
-    backgroundColor: darkColor,
-    color: lightColor
+    backgroundColor: lightColor,
+    color: darkColor
   },
   cardGrid: {
     paddingTop: theme.spacing(8),
@@ -29,10 +30,12 @@ const UseStyles = makeStyles((theme) => ({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
-    backgroundColor: lightColor
+    backgroundColor: lightColor,
+    color: darkColor
   },
   projectPaper: {
-    padding: '30px'
+    padding: '30px',
+    backgroundColor: midColor
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9

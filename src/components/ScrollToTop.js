@@ -35,10 +35,11 @@ function ScrollToTop() {
             right: "8.5px",
             position: "fixed",
             boxShadow: 5,
-            background: "#dae0f2"
+            background: "#482673",
+            color: '#4cbfa6'
           }}
         >
-          <ArrowUpwardIcon fontSize="large" />
+          <ArrowUpwardIcon fontSize="medium" />
         </IconButton>
       )}
     </div>
