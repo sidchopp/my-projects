@@ -80,7 +80,7 @@ function MyProjects() {
                       </Typography>
                     </CardContent>
                     <CardActions>
-                      <Button variant="contained" href={website} target="_blank" >
+                      <Button variant="outlined" color="inherit" href={website} target="_blank" >
                         <TouchAppIcon /> View
                       </Button>
                       <IconButton
