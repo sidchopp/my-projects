@@ -4,7 +4,9 @@ import UseStyles from './components/UseStyles';
 function App() {
   const classes = UseStyles();
   return (
-    <div className={classes.body}><MyProjects /></div>
+    <div className={classes.body}>
+      <MyProjects />
+    </div>
   );
 }
 
