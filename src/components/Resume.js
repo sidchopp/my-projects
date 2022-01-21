@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Modal } from 'semantic-ui-react'
 import Button from '@material-ui/core/Button';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import IconButton from '@mui/material/IconButton';
+import BackspaceIcon from '@mui/icons-material/Backspace';
 import 'semantic-ui-css/semantic.min.css'
 
 // Components
@@ -38,9 +39,9 @@ function Resume() {
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
-          <Button variant="contained" onClick={() => setOpen(false)}>
-            <ArrowBackIcon />
-          </Button>
+          <IconButton color="primary" variant="contained" size="large" onClick={() => setOpen(false)}>
+            <BackspaceIcon color="primary" fontSize='large' />
+          </IconButton >
         </Modal.Actions>
       </Modal>
     </div>
