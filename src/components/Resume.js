@@ -17,7 +17,7 @@ function Resume() {
   return (
     <div >
       <Modal
-        className={classes.resume}
+        className={classes.darkColor}
         size='small'
         closeIcon
         open={open}

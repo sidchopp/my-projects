@@ -3,9 +3,10 @@ import { Icon, Image } from 'semantic-ui-react'
 
 //components
 import ResumeData from '../data/ResumeData'
+import UseStyles from './UseStyles'
 
 function DetailedResume() {
-
+  const classes = UseStyles();
   //states
   const [jobs, setJobs] = useState(ResumeData)
   const [value, setValue] = useState(0)
@@ -31,7 +32,7 @@ function DetailedResume() {
       {/* <div><Image fluid src={img} rounded bordered centered /></div> */}
 
       <h3>
-        <Icon circular size="large" color="violet" name='address card' />
+        <Icon circular size="large" className={classes.darkColor} name='address card' />
         {" "} {title}
       </h3>
 
@@ -40,31 +41,31 @@ function DetailedResume() {
       {duties.map((duty, index) => {
         return (
           <div key={index} >
-            <p><Icon disabled name='angle right' />{duty}</p>
+            <p><Icon className={classes.darkColor} name="angle right" />{duty}</p>
           </div>
         )
       })}
 
       <h3>
-        <Icon circular size="large" color="brown" name='cogs' />
-        {" "}Hands-On experience
+        <Icon circular size="large" className={classes.darkColor} name='cogs' />
+        {" "}Hands-On Experience
       </h3>
       {frameworks.map((framework, index) => {
         return (
           <div key={index} >
-            <p><Icon disabled name='angle right' />{framework}</p>
+            <p><Icon className={classes.darkColor} name='angle right' />{framework}</p>
           </div>
         )
       })}
 
       <h3>
-        <Icon circular size="large" color="yellow" name='trophy' />
+        <Icon circular size="large" className={classes.darkColor} name='trophy' />
         {" "}Qualifications & Certifications
       </h3>
       {certifications.map((certificate, index) => {
         return (
           <div key={index} >
-            <p><Icon disabled name='angle right' />{certificate}</p>
+            <p><Icon className={classes.darkColor} name='angle right' />{certificate}</p>
           </div>
         )
       })}
