@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Icon, Image } from 'semantic-ui-react'
 
+
 //components
 import ResumeData from '../data/ResumeData'
 import UseStyles from './UseStyles'

@@ -1,6 +1,7 @@
 
 import Typography from '@material-ui/core/Typography';
-import { Icon, Button } from 'semantic-ui-react'
+import { Icon, Button } from 'semantic-ui-react';
+import IconButton from '@mui/material/IconButton';
 
 // Components
 import ContactMe from './ContactMe';
@@ -47,11 +48,9 @@ function Footer() {
       >
         Not a big talker? Drop a
         {" "}
-        <span className="animate__animated animate__fadeIn animate__infinite">
-          <Button compact size='tiny'>
-            <ContactMe />
-          </Button>
-        </span>
+        <IconButton >
+          <ContactMe />
+        </IconButton>
       </Typography>
       <Typography
         // style={{ color: 'black' }}

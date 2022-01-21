@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
@@ -11,9 +12,10 @@ import emailjs from 'emailjs-com';
 
 import 'semantic-ui-css/semantic.min.css'
 import sidImage from '../images/sidImage.jpeg'
+import UseStyles from './UseStyles'
 
 const ContactMe = () => {
-
+  const classes = UseStyles();
   //States
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState("");
@@ -37,9 +39,10 @@ const ContactMe = () => {
   return (
     <div >
       <Modal
+        className={classes.darkColor}
         closeIcon
         open={open}
-        trigger={<Icon name='mail' />}
+        trigger={<EmailIcon className={classes.darkColor} sidsi/>}
         onClose={() => {
           setOpen(false)
           setMessage("")
@@ -47,23 +50,28 @@ const ContactMe = () => {
         onOpen={() => setOpen(true)}
         size='small'
       >
-        <Modal.Header style={{ backgroundColor: "#f1f2f5" }} >
+        <Modal.Header>
           <Typography
             component="h1"
             variant="h2"
             align="center"
-            color="text.primary"
+            // color="text.primary"
             gutterBottom
           >
-            Let's talk.
+            <span className={classes.darkColor}>Let's talk.</span>
           </Typography>
-          <Typography variant="h5" align="center" color="text.secondary" paragraph>
-            I would <span><Icon disabled name='like' />
-            </span> to hear from you, so feel free to drop a line.
+          <Typography
+            variant="h5"
+            align="center"
+            // color="text.secondary"
+            paragraph
+          >
+            <span className={classes.darkColor}> I would <span><Icon name='like' />
+            </span> to hear from you, so feel free to drop a line.</span>
           </Typography>
         </Modal.Header>
-        <Modal.Content style={{ backgroundColor: "#f1f2f5" }} >
-          <Modal.Description >
+        <Modal.Content  >
+          <Modal.Description  >
             <form style={{ marginTop: '30px' }} className="ui form" ref={form} onSubmit={sendEmail}>
               <div className="equal width fields">
                 <div className="field">
