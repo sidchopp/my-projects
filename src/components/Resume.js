@@ -6,16 +6,18 @@ import 'semantic-ui-css/semantic.min.css'
 
 // Components
 import DetailedResume from './DetailedResume';
-
+import UseStyles from './UseStyles'
 //CSS
 import '../App.css'
 
 function Resume() {
+  const classes = UseStyles();
   const [open, setOpen] = useState(false);
 
   return (
-    <div>
+    <div >
       <Modal
+        className={classes.resume}
         size='small'
         closeIcon
         open={open}
@@ -29,14 +31,10 @@ function Resume() {
         }
       >
         {/* <div><Image fluid src={image} rounded bordered centered /></div> */}
-        <Modal.Header>My Experience</Modal.Header>
-        <Modal.Content >
-          <Modal.Description>
-
-            {/* Imported Component */}
+        <Modal.Header  >My Experience</Modal.Header>
+        <Modal.Content  >
+          <Modal.Description >
             <DetailedResume />
-            {/*  */}
-
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>

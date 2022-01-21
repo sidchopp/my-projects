@@ -72,6 +72,11 @@ const UseStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
+
+  resume: {
+    backgroundColor: lightColor,
+    color: darkColor
+  },
   footer: {
     // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),

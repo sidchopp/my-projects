@@ -19,7 +19,7 @@ function DetailedResume() {
           return (
             <button
               style={{ margin: '2px' }}
-              class={` ui  button medium   ${index === value && 'ui  button primary large '}`}
+              className={` ui  button medium   ${index === value && 'ui  button primary large '}`}
               onClick={() => setValue(index)} key={item.id}
             >
               {item.role}
