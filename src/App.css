@@ -7,7 +7,8 @@
 }
 .font-name {
   font-family: "Oldenburg", cursive;
-  font-size: 60px;
+  font-size: 65px;
+  /* font-weight: 700; */
   /* font-weight: bold; */
 }
 
@@ -18,7 +19,10 @@
 }
 
 .font-profile {
-  font-family: "Caveat", cursive;
+  font-family: "Oldenburg", cursive;
+  color: #f6ebf4;
+  font-size: 40px;
+  text-shadow: 2px 5px 8px #482673;
 }
 
 .font-resume {

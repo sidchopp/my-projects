@@ -21,7 +21,7 @@ function HeroUnit() {
   const classes = UseStyles();
   return (
     <div className={classes.heroContent}>
-      <Container maxWidth="sm">
+      <Container maxWidth="md">
         <Typography
           component="h1"
           variant="h2"
@@ -36,11 +36,14 @@ function HeroUnit() {
         <Typography
           variant="h4"
           align="center"
-          color="textSecondary"
+          // color="textSecondary"
           gutterBottom
         >
           <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slow'  >
-            Full Stack Developer |  Physics Instructor
+            Full Stack Developer
+          </div>
+          <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slow'  >
+            Physics Instructor
           </div>
         </Typography>
         <div className={classes.heroButtons}>
