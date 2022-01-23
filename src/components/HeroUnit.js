@@ -29,7 +29,9 @@ function HeroUnit() {
           // color="textPrimary"
           gutterBottom
         >
-          <div className='font-name animate__animated animate__fadeInRight animate__slower ' >Siddharth Chopra</div>
+          <div className='font-name animate__animated animate__fadeInRight animate__slow ' >
+            Siddharth Chopra
+          </div>
         </Typography>
         <Typography
           variant="h4"
@@ -37,14 +39,14 @@ function HeroUnit() {
           color="textSecondary"
           gutterBottom
         >
-          <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slower'  >
+          <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slow'  >
             Full Stack Developer |  Physics Instructor
           </div>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <div className="animate__animated animate__fadeInRight animate__delay-2s animate__slower">
+              <div className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
                 <Button
                   variant="contained"
                   color="primary"
@@ -56,7 +58,7 @@ function HeroUnit() {
               </div>
             </Grid>
             <Grid item>
-              <div className="animate__animated animate__fadeInRight animate__delay-3s animate__slower">
+              <div className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
                 <Button
                   variant="contained"
                   color="primary"
@@ -71,7 +73,7 @@ function HeroUnit() {
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/* component import */}
-              <div className="animate__animated animate__fadeInRight animate__delay-4s animate__slower">
+              <div className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
                 <Resume />
               </div>
 
