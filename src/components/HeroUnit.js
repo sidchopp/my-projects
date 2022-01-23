@@ -44,37 +44,37 @@ function HeroUnit() {
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              {/* <div className="animate__animated animate__lightSpeedInLeft"> */}
-              <Button
-                variant="contained"
-                color="primary"
-                href='https://github.com/sidchopp'
-                target="_blank"
-              >
-                <GitHubIcon style={{ fontSize: 28 }} />
-              </Button>
-              {/* </div> */}
+              <div className="animate__animated animate__fadeInRight animate__delay-2s animate__slower">
+                <Button
+                  variant="contained"
+                  color="primary"
+                  href='https://github.com/sidchopp'
+                  target="_blank"
+                >
+                  <GitHubIcon style={{ fontSize: 28 }} />
+                </Button>
+              </div>
             </Grid>
             <Grid item>
-              {/* <div className="animate__animated animate__lightSpeedInRight"> */}
-              <Button
-                variant="contained"
-                color="primary"
-                href='https://www.linkedin.com/in/sidchopp/'
-                target="_blank"
-              >
-                <LinkedInIcon style={{ fontSize: 28 }} />
-              </Button>
-              {/* </div> */}
+              <div className="animate__animated animate__fadeInRight animate__delay-3s animate__slower">
+                <Button
+                  variant="contained"
+                  color="primary"
+                  href='https://www.linkedin.com/in/sidchopp/'
+                  target="_blank"
+                >
+                  <LinkedInIcon style={{ fontSize: 28 }} />
+                </Button>
+              </div>
             </Grid>
           </Grid>
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/* component import */}
-              {/* <div className="animate__animated animate__backInUp"> */}
-              <Resume />
-              {/* </div> */}
-              {/*  */}
+              <div className="animate__animated animate__fadeInRight animate__delay-4s animate__slower">
+                <Resume />
+              </div>
+
             </Grid>
           </Grid>
         </div>
