@@ -29,7 +29,7 @@ function HeroUnit() {
           // color="textPrimary"
           gutterBottom
         >
-          <div className='font-name animate__animated animate__fadeInRight animate__slow ' >
+          <div className='font-name animate__animated animate__fadeIn animate__slow ' >
             Siddharth Chopra
           </div>
         </Typography>
@@ -39,10 +39,10 @@ function HeroUnit() {
           // color="textSecondary"
           gutterBottom
         >
-          <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slow'  >
+          <div className='font-profile animate__animated animate__fadeIn animate__delay-1s animate__slow'  >
             Full Stack Developer
           </div>
-          <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slow'  >
+          <div className='font-profile animate__animated animate__fadeIn animate__delay-1s animate__slower'  >
             Physics Instructor
           </div>
         </Typography>

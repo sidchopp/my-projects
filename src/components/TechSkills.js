@@ -15,7 +15,7 @@ import "animate.css"
 function TechSkills() {
   return (
     <div>
-      <div className=' animate__animated animate__fadeInRight animate__delay-3s animate__slow'   >
+      <div className=' animate__animated animate__fadeIn animate__delay-2s animate__slow'   >
         <Typography variant="h5" gutterBottom component="div" >
           <span className="font-technology"> Technologies, I Love </span>
         </Typography>
@@ -23,7 +23,7 @@ function TechSkills() {
       <Grid columns={6} doubling style={{ marginTop: '10px' }}>
         <Grid.Row id='db_1'>
           <Grid.Column>
-            <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slow'   >
+            <div className=' animate__animated animate__fadeIn animate__delay-3s animate__slower'   >
               <Header as="h1">
                 <a href='https://reactjs.org/' target="_blank" rel="noreferrer">
                   <Icon size="large" style={{ color: "#61dafb" }} name="react" />
@@ -32,7 +32,7 @@ function TechSkills() {
             </div>
           </Grid.Column>
           <Grid.Column>
-            <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slow'   >
+            <div className=' animate__animated animate__fadeIn animate__delay-3s animate__slower'   >
               <Header as="h1">
                 <a href='https://nodejs.org/en/' target="_blank" rel="noreferrer">
                   <Icon size="large" style={{ color: "#68A063" }} name="node" />
@@ -41,7 +41,7 @@ function TechSkills() {
             </div>
           </Grid.Column>
           <Grid.Column>
-            <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slow'   >
+            <div className=' animate__animated animate__fadeIn animate__delay-3s animate__slower'   >
               <Header as="h1">
                 <a href='https://aws.amazon.com/' target="_blank" rel="noreferrer">
                   <Icon size="large" style={{ color: " #FF9900" }} name="aws" />
@@ -50,7 +50,7 @@ function TechSkills() {
             </div>
           </Grid.Column>
           <Grid.Column>
-            <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slow'   >
+            <div className=' animate__animated animate__fadeIn animate__delay-3s animate__slower'   >
               <Header as="h1">
                 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noreferrer"> <Icon size="large" style={{ color: "#323330" }} name="js square" />
                 </a>
@@ -58,7 +58,7 @@ function TechSkills() {
             </div>
           </Grid.Column>
           <Grid.Column>
-            <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slow'   >
+            <div className=' animate__animated animate__fadeIn animate__delay-3s animate__slower'   >
               <Header as="h1">
                 <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank" rel="noreferrer"> <Icon size="large" style={{ color: "#f06529" }} name="html5" />
                 </a>
@@ -66,7 +66,7 @@ function TechSkills() {
             </div>
           </Grid.Column>
           <Grid.Column>
-            <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slow'   >
+            <div className=' animate__animated animate__fadeIn animate__delay-3s animate__slower'   >
               <Header as="h1">
                 <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="_blank" rel="noreferrer"> <Icon size="large" style={{ color: "#264de4" }} name="css3 alternate" />
                 </a>
@@ -77,7 +77,7 @@ function TechSkills() {
       </Grid>
 
       {/* Component import */}
-      <div className=' animate__animated animate__fadeIn animate__delay-4s animate__slower'   >
+      <div className=' animate__animated animate__fadeInDownBig animate__delay-3s animate__slower'   >
         <AnimatedDownArrow />
       </div>
       {/*  */}
