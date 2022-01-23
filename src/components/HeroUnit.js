@@ -29,7 +29,7 @@ function HeroUnit() {
           // color="textPrimary"
           gutterBottom
         >
-          <span className='font-name' >Siddharth Chopra</span>
+          <div className='font-name animate__animated animate__fadeInRight animate__slower ' >Siddharth Chopra</div>
         </Typography>
         <Typography
           variant="h4"
@@ -37,43 +37,43 @@ function HeroUnit() {
           color="textSecondary"
           gutterBottom
         >
-          <span className='font-profile'  >
+          <div className='font-profile animate__animated animate__fadeInRight animate__delay-1s animate__slower'  >
             Full Stack Developer |  Physics Instructor
-          </span>
+          </div>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <div className="animate__animated animate__lightSpeedInLeft">
-                <Button
-                  variant="contained"
-                  color="primary"
-                  href='https://github.com/sidchopp'
-                  target="_blank"
-                >
-                  <GitHubIcon style={{ fontSize: 28 }} />
-                </Button>
-              </div>
+              {/* <div className="animate__animated animate__lightSpeedInLeft"> */}
+              <Button
+                variant="contained"
+                color="primary"
+                href='https://github.com/sidchopp'
+                target="_blank"
+              >
+                <GitHubIcon style={{ fontSize: 28 }} />
+              </Button>
+              {/* </div> */}
             </Grid>
             <Grid item>
-              <div className="animate__animated animate__lightSpeedInRight">
-                <Button
-                  variant="contained"
-                  color="primary"
-                  href='https://www.linkedin.com/in/sidchopp/'
-                  target="_blank"
-                >
-                  <LinkedInIcon style={{ fontSize: 28 }} />
-                </Button>
-              </div>
+              {/* <div className="animate__animated animate__lightSpeedInRight"> */}
+              <Button
+                variant="contained"
+                color="primary"
+                href='https://www.linkedin.com/in/sidchopp/'
+                target="_blank"
+              >
+                <LinkedInIcon style={{ fontSize: 28 }} />
+              </Button>
+              {/* </div> */}
             </Grid>
           </Grid>
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/* component import */}
-              <div className="animate__animated animate__backInUp">
-                <Resume />
-              </div>
+              {/* <div className="animate__animated animate__backInUp"> */}
+              <Resume />
+              {/* </div> */}
               {/*  */}
             </Grid>
           </Grid>
