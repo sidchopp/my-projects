@@ -17,6 +17,10 @@ import '../App.css'
 // Amimate.css
 import "animate.css"
 
+const nameAnimate = 'font-name animate__animated animate__fadeIn animate__slow ';
+const profileAnimate = 'font-profile animate__animated animate__fadeIn animate__delay-1s animate__slower';
+const iconsAnimate = "animate__animated animate__fadeIn animate__delay-2s animate__slower";
+
 function HeroUnit() {
   const classes = UseStyles();
   return (
@@ -29,7 +33,7 @@ function HeroUnit() {
           // color="textPrimary"
           gutterBottom
         >
-          <div className='font-name animate__animated animate__fadeIn animate__slow ' >
+          <div className={nameAnimate} >
             Siddharth Chopra
           </div>
         </Typography>
@@ -39,17 +43,17 @@ function HeroUnit() {
           // color="textSecondary"
           gutterBottom
         >
-          <div className='font-profile animate__animated animate__fadeIn animate__delay-1s animate__slow'  >
+          <div className={profileAnimate}  >
             Full Stack Developer
           </div>
-          <div className='font-profile animate__animated animate__fadeIn animate__delay-1s animate__slower'  >
+          <div className={profileAnimate}  >
             Physics Instructor
           </div>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <div className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
+              <div className={iconsAnimate}>
                 <Button
                   variant="contained"
                   color="primary"
@@ -61,7 +65,7 @@ function HeroUnit() {
               </div>
             </Grid>
             <Grid item>
-              <div className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
+              <div className={iconsAnimate}>
                 <Button
                   variant="contained"
                   color="primary"
@@ -76,7 +80,7 @@ function HeroUnit() {
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/* component import */}
-              <div className="animate__animated animate__fadeIn animate__delay-2s animate__slow">
+              <div className={iconsAnimate}>
                 <Resume />
               </div>
 
@@ -89,7 +93,11 @@ function HeroUnit() {
           // color="textPrimary"
           gutterBottom
         >
+
+          {/* Component Import */}
           <TechSkills />
+          {/*  */}
+
         </Typography>
       </Container>
     </div>

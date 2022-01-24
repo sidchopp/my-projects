@@ -18,6 +18,8 @@ import UseStyles from './UseStyles'
 // Amimate.css
 import "animate.css"
 
+const contactAnimate = "animate__animated animate__fadeInUp animate__delay-1s  animate__slow";
+
 const ContactMe = () => {
   const classes = UseStyles();
   //States
@@ -46,7 +48,7 @@ const ContactMe = () => {
         className={classes.darkColor}
         closeIcon
         open={open}
-        trigger={<EmailIcon className={classes.darkColor} sidsi />}
+        trigger={<EmailIcon className={classes.darkColor} />}
         onClose={() => {
           setOpen(false)
           setMessage("")
@@ -69,7 +71,7 @@ const ContactMe = () => {
             align="center"
             paragraph
           >
-            <div className=' animate__animated animate__fadeIn animate__slow ' >
+            <div className={contactAnimate} >
               <span className={classes.darkColor}> I would <span>
                 <Icon name='like' />
               </span>
@@ -128,7 +130,7 @@ const ContactMe = () => {
                 </div>
               </Typography>
               <Typography gutterBottom align="left" variant="subtitle1" color="text.secondary">
-                <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                <div className={contactAnimate}>
                   sidchopp@gmail.com
                 </div>
               </Typography>
@@ -138,7 +140,7 @@ const ContactMe = () => {
                 </div>
               </Typography>
               <Typography align="left" variant="subtitle1" color="text.secondary">
-                <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                <div className={contactAnimate}>
                   (587)-436-7497
                 </div>
               </Typography>
@@ -150,7 +152,7 @@ const ContactMe = () => {
                   onClick={() => window.open('https://www.facebook.com/siddchopp')}
                   size="large"
                 >
-                  <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                  <div className={contactAnimate}>
                     <FacebookIcon fontSize="large" />
                   </div>
                 </IconButton>
@@ -159,7 +161,7 @@ const ContactMe = () => {
                   onClick={() => window.open('https://www.linkedin.com/in/sidchopp/')}
                   size="large"
                 >
-                  <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                  <div className={contactAnimate}>
                     <LinkedInIcon fontSize="large" />
                   </div>
                 </IconButton>
