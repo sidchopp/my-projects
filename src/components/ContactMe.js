@@ -11,8 +11,12 @@ import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 
 import 'semantic-ui-css/semantic.min.css'
+//Components
 import sidImage from '../images/sidImage.jpeg'
 import UseStyles from './UseStyles'
+
+// Amimate.css
+import "animate.css"
 
 const ContactMe = () => {
   const classes = UseStyles();
@@ -42,7 +46,7 @@ const ContactMe = () => {
         className={classes.darkColor}
         closeIcon
         open={open}
-        trigger={<EmailIcon className={classes.darkColor} sidsi/>}
+        trigger={<EmailIcon className={classes.darkColor} sidsi />}
         onClose={() => {
           setOpen(false)
           setMessage("")
@@ -63,11 +67,14 @@ const ContactMe = () => {
           <Typography
             variant="h5"
             align="center"
-            // color="text.secondary"
             paragraph
           >
-            <span className={classes.darkColor}> I would <span><Icon name='like' />
-            </span> to hear from you, so feel free to drop a line.</span>
+            <div className=' animate__animated animate__fadeIn animate__slow ' >
+              <span className={classes.darkColor}> I would <span>
+                <Icon name='like' />
+              </span>
+                to hear from you, so feel free to drop a line.</span>
+            </div>
           </Typography>
         </Modal.Header>
         <Modal.Content  >
@@ -116,16 +123,24 @@ const ContactMe = () => {
           <Grid container spacing={1}>
             <Grid item xs={6}>
               <Typography align="left" component="h2" variant="h6">
-                <Icon fitted name='mail outline' />  EMAIL
+                <div className=' animate__animated animate__fadeIn  animate__slow'>
+                  <Icon fitted name='mail outline' />  EMAIL
+                </div>
               </Typography>
               <Typography gutterBottom align="left" variant="subtitle1" color="text.secondary">
-                sidchopp@gmail.com
+                <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                  sidchopp@gmail.com
+                </div>
               </Typography>
               <Typography align="left" component="h2" variant="h6">
-                <Icon fitted name='mobile alternate' />  MOBILE
+                <div className=' animate__animated animate__fadeIn   animate__slow'>
+                  <Icon fitted name='mobile alternate' />  MOBILE
+                </div>
               </Typography>
               <Typography align="left" variant="subtitle1" color="text.secondary">
-                (587)-436-7497
+                <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                  (587)-436-7497
+                </div>
               </Typography>
             </Grid>
             <Grid item xs={6} >
@@ -135,14 +150,18 @@ const ContactMe = () => {
                   onClick={() => window.open('https://www.facebook.com/siddchopp')}
                   size="large"
                 >
-                  <FacebookIcon fontSize="large" />
+                  <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                    <FacebookIcon fontSize="large" />
+                  </div>
                 </IconButton>
                 <IconButton
                   color="primary"
                   onClick={() => window.open('https://www.linkedin.com/in/sidchopp/')}
                   size="large"
                 >
-                  <LinkedInIcon fontSize="large" />
+                  <div className=' animate__animated animate__fadeInUp animate__delay-1s  animate__slow'>
+                    <LinkedInIcon fontSize="large" />
+                  </div>
                 </IconButton>
               </Typography>
             </Grid>
