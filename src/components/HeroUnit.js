@@ -30,7 +30,6 @@ function HeroUnit() {
           component="h1"
           variant="h2"
           align="center"
-          // color="textPrimary"
           gutterBottom
         >
           <div className={nameAnimate} >
@@ -40,7 +39,6 @@ function HeroUnit() {
         <Typography
           variant="h4"
           align="center"
-          // color="textSecondary"
           gutterBottom
         >
           <div className={profileAnimate}  >
@@ -90,7 +88,6 @@ function HeroUnit() {
         <Typography
           variant="h4"
           align="center"
-          // color="textPrimary"
           gutterBottom
         >
 

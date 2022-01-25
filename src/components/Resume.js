@@ -7,7 +7,8 @@ import 'semantic-ui-css/semantic.min.css'
 
 // Components
 import DetailedResume from './DetailedResume';
-import UseStyles from './UseStyles'
+import UseStyles from './UseStyles';
+
 //CSS
 import '../App.css'
 

@@ -1,15 +1,12 @@
 import React, { useState, useRef } from 'react'
 import Typography from '@mui/material/Typography';
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
-
 import 'semantic-ui-css/semantic.min.css'
 //Components
 import sidImage from '../images/sidImage.jpeg'
@@ -61,7 +58,6 @@ const ContactMe = () => {
             component="h1"
             variant="h2"
             align="center"
-            // color="text.primary"
             gutterBottom
           >
             <span className={classes.darkColor}>Let's talk.</span>
@@ -72,10 +68,13 @@ const ContactMe = () => {
             paragraph
           >
             <div className={contactAnimate} >
-              <span className={classes.darkColor}> I would <span>
-                <Icon name='like' />
+              <span className={classes.darkColor}>
+                I would
+                <span>
+                  <Icon name='like' />
+                </span>
+                to hear from you, so feel free to drop a line.
               </span>
-                to hear from you, so feel free to drop a line.</span>
             </div>
           </Typography>
         </Modal.Header>
@@ -84,20 +83,17 @@ const ContactMe = () => {
             <form style={{ marginTop: '30px' }} className="ui form" ref={form} onSubmit={sendEmail}>
               <div className="equal width fields">
                 <div className="field">
-                  {/* <label>Your Name</label> */}
                   <div className="ui input">
                     <input autoFocus required type="text" placeholder="Your Name" name="user_name" />
                   </div>
                 </div>
                 <div className="field">
-                  {/* <label>Your Email</label> */}
                   <div className="ui input">
                     <input required type="text" placeholder="Your Email" name="user_email" />
                   </div>
                 </div>
               </div>
               <div className="field">
-                {/* <label>Your Message</label> */}
                 <textarea placeholder="Your Message.." rows="10" name="message" ></textarea>
               </div>
               <div className="field">

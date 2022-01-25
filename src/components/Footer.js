@@ -17,33 +17,26 @@ function Footer() {
   return (
     <footer className={classes.footer}>
       <Typography
-        // style={{ color: 'black' }}
         variant="subtitle1"
         align="center"
-        // color="textSecondary"
         component="p"
         gutterBottom
       >
         Hope you liked my work. Please let me know, if I can be helpful.
       </Typography>
       <Typography
-        // style={{ color: 'black' }}
         variant="subtitle1"
         align="center"
-        // color="textSecondary"
         component="p"
       >
         <Icon
-          // style={{ color: 'black' }}
           name='mobile alternate'
           fitted
         /> Wanna Talk? Dial (587)-436-7497
       </Typography>
       <Typography
-        // style={{ color: 'black' }}
         variant="subtitle1"
         align="center"
-        // color="textSecondary"
         component="p"
       >
         Not a big talker? Drop a
@@ -53,9 +46,7 @@ function Footer() {
         </IconButton>
       </Typography>
       <Typography
-        // style={{ color: 'black' }}
         variant="body2"
-        // color="textSecondary"
         align="center"
         gutterBottom
       >
@@ -66,7 +57,6 @@ function Footer() {
       </Typography>
       <Typography
         variant="body2"
-        // color="textSecondary"
         align="center"
         gutterBottom
       >
@@ -75,7 +65,6 @@ function Footer() {
       </Typography>
       <Typography
         variant="body2"
-        // color="textSecondary"
         align="center"
       >
         <Today />

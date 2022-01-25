@@ -36,8 +36,6 @@ function DetailedResume() {
         <Icon circular size="large" className={classes.darkColor} name='address card' />
         {" "} {title}
       </h3>
-
-
       <p ><i>{dates}</i></p>
       {duties.map((duty, index) => {
         return (

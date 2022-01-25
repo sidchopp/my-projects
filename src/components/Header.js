@@ -8,13 +8,6 @@ import Typography from '@material-ui/core/Typography';
 // Components
 import UseStyles from './UseStyles';
 
-
-// const useStyles = makeStyles((theme) => ({
-//   icon: {
-//     marginRight: theme.spacing(2),
-//   },
-// }));
-
 function Header() {
   const classes = UseStyles();
   return (
