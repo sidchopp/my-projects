@@ -30,7 +30,7 @@ function ProjectsCards() {
   };
   return (
     <Container className={classes.cardGrid} maxWidth="lg">
-      <LazyLoad height={1200} offset={[-150, 0]} >
+      <LazyLoad height={1200} offset={[-250, 0]} >
         <Paper sx={{ backgroundColor: "#4cbfa6" }} className={classes.projectPaper} elevation={4} >
           <Container className={classes.myProjectsHeader} maxWidth="lg">
             <Typography
@@ -50,45 +50,47 @@ function ProjectsCards() {
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                    <CardHeader
-                      action={typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
-                      title={title}
-                      subheader={techUsed}
+                    <LazyLoad height={1200} offset={[-250, 0]} >
+                      <CardHeader
+                        action={typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
+                        title={title}
+                        subheader={techUsed}
 
-                    />
-                    <CardMedia
-                      className={classes.cardMedia}
-                      image={img}
-                      alt={title}
-                    />
-                    <CardContent className={classes.cardContent}>
-                      <Typography>
-                        {duties}
-                      </Typography>
-                    </CardContent>
-                    <CardActions>
-                      <Button variant="outlined" color="inherit" href={website} target="_blank" >
-                        <TouchAppIcon /> View
-                      </Button>
-                      <IconButton
-                        style={{ marginLeft: 'auto' }}
-                        className={clsx(classes.expand, {
-                          [classes.expandOpen]: expanded,
-                        })}
-                        onClick={handleExpandClick}
-                        aria-expanded={expanded}
-                        aria-label="show more"
-                      >
-                        {/* To change the icon with each click depending on state */}
-                        {/* {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />} */}
-                        <ExpandMoreIcon />
-                      </IconButton>
-                    </CardActions>
-                    {/* Iff only showInfo is true, only then show info, use AND operator */}
-                    {expanded && <CardContent>
-                      <div style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
-                      {/* <div style={{ margin: '3px' }}> <h4>Made from: </h4>{dates}</div> */}
-                    </CardContent>}
+                      />
+                      <CardMedia
+                        className={classes.cardMedia}
+                        image={img}
+                        alt={title}
+                      />
+                      <CardContent className={classes.cardContent}>
+                        <Typography>
+                          {duties}
+                        </Typography>
+                      </CardContent>
+                      <CardActions>
+                        <Button variant="outlined" color="inherit" href={website} target="_blank" >
+                          <TouchAppIcon /> View
+                        </Button>
+                        <IconButton
+                          style={{ marginLeft: 'auto' }}
+                          className={clsx(classes.expand, {
+                            [classes.expandOpen]: expanded,
+                          })}
+                          onClick={handleExpandClick}
+                          aria-expanded={expanded}
+                          aria-label="show more"
+                        >
+                          {/* To change the icon with each click depending on state */}
+                          {/* {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />} */}
+                          <ExpandMoreIcon />
+                        </IconButton>
+                      </CardActions>
+                      {/* Iff only showInfo is true, only then show info, use AND operator */}
+                      {expanded && <CardContent>
+                        <div style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
+                        {/* <div style={{ margin: '3px' }}> <h4>Made from: </h4>{dates}</div> */}
+                      </CardContent>}
+                    </LazyLoad>
                   </Card>
                 </Grid>
               )
