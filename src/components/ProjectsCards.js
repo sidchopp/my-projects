@@ -55,6 +55,7 @@ function ProjectsCards() {
                         action={typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
                         title={title}
                         subheader={techUsed}
+                        className={classes.darkColor}
 
                       />
                       <CardMedia
@@ -87,7 +88,7 @@ function ProjectsCards() {
                       </CardActions>
                       {/* Iff only showInfo is true, only then show info, use AND operator */}
                       {expanded && <CardContent>
-                        <div style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
+                        <div className={classes.darkColor} style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
                         {/* <div style={{ margin: '3px' }}> <h4>Made from: </h4>{dates}</div> */}
                       </CardContent>}
                     </LazyLoad>

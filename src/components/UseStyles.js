@@ -42,6 +42,7 @@ const UseStyles = makeStyles((theme) => ({
   },
   cardContent: {
     flexGrow: 1,
+    color: darkColor
   },
   expand: {
     transform: 'rotate(0deg)',
