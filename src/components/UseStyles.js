@@ -44,6 +44,19 @@ const UseStyles = makeStyles((theme) => ({
     flexGrow: 1,
     color: darkColor
   },
+  scrollToTop: {
+    background: darkColor,
+    color: lightColor,
+    bottom: "12.5px",
+    right: "8.5px",
+    position: "fixed",
+    boxShadow: `0 8px 6px -6px ${darkColor}`,
+    transition: "all 0.4s ease 0s",
+    borderRadius: "5px",
+    '&:hover': {
+      backgroundColor: midColor,
+    }
+  },
   expand: {
     transform: 'rotate(0deg)',
     marginLeft: 'auto',

@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import IconButton from '@mui/material/IconButton';
 
-function ScrollToTop() {
+import UseStyles from './UseStyles';
 
+function ScrollToTop() {
+  const classes = UseStyles();
   // The back-to-top button is hidden at the beginning
   const [showButton, setShowButton] = useState(false);
 
@@ -26,21 +28,13 @@ function ScrollToTop() {
   };
 
   return (
-    <div>
+    <div >
       {showButton && (
-        <IconButton
-          onClick={scrollToTop}
-          sx={{
-            bottom: "12.5px",
-            right: "8.5px",
-            position: "fixed",
-            boxShadow: 5,
-            background: "#482673",
-            color: '#4cbfa6'
-          }}
-        >
-          <ArrowUpwardIcon fontSize="medium" />
-        </IconButton>
+        <div className={classes.scrollToTop}>
+          <IconButton onClick={scrollToTop}>
+            <KeyboardDoubleArrowUpIcon className={classes.lightColor} fontSize="medium" />
+          </IconButton>
+        </div>
       )}
     </div>
   )
