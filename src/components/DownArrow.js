@@ -1,4 +1,3 @@
-import React from 'react'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 // animate CSS
@@ -8,8 +7,10 @@ const arrowDownAnimate = 'animate__animated animate__fadeOutDown animate__slow a
 
 function DownArrow() {
   return (
-    <div style={{ paddingTop: "70px" }} className={arrowDownAnimate}>
-      <KeyboardDoubleArrowDownIcon sx={{ fontSize: 40 }} />
+    <div className=' animate__animated animate__fadeInDownBig animate__delay-3s animate__slower'   >
+      <div style={{ paddingTop: "70px" }} className={arrowDownAnimate}>
+        <KeyboardDoubleArrowDownIcon sx={{ fontSize: 40 }} />
+      </div>
     </div>
   )
 }

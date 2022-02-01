@@ -1,9 +1,5 @@
-import React from 'react'
-import { Icon, Grid, Container, Header } from 'semantic-ui-react'
+import { Icon, Grid, Header } from 'semantic-ui-react';
 import Typography from '@material-ui/core/Typography';
-
-//Components
-import DownArrow from './DownArrow';
 
 //CSS
 import '../App.css'
@@ -76,13 +72,6 @@ function TechSkills() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-
-      {/* Component import */}
-      <div className=' animate__animated animate__fadeInDownBig animate__delay-3s animate__slower'   >
-        <DownArrow />
-      </div>
-      {/*  */}
-
     </div>
   )
 }

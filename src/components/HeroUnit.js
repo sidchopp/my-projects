@@ -10,6 +10,7 @@ import Container from '@material-ui/core/Container';
 import Resume from './Resume';
 import TechSkills from './TechSkills';
 import UseStyles from './UseStyles';
+import DownArrow from './DownArrow';
 
 //CSS
 import '../App.css'
@@ -93,6 +94,7 @@ function HeroUnit() {
 
           {/* Component Import */}
           <TechSkills />
+          <DownArrow />
           {/*  */}
 
         </Typography>
