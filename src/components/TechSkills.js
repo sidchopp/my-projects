@@ -1,6 +1,9 @@
 import { Icon, Grid, Header } from 'semantic-ui-react';
 import Typography from '@material-ui/core/Typography';
 
+//Components
+import UseStyles from './UseStyles';
+
 //CSS
 import '../App.css'
 
@@ -10,6 +13,7 @@ import "animate.css"
 const techAnimate = ' animate__animated animate__fadeIn animate__delay-3s animate__slower';
 
 function TechSkills() {
+  const classes = UseStyles();
   return (
     <div>
       <div className={techAnimate}  >
@@ -23,7 +27,7 @@ function TechSkills() {
             <div className={techAnimate}  >
               <Header as="h1">
                 <a href='https://reactjs.org/' target="_blank" rel="noreferrer">
-                  <Icon size="large" style={{ color: "#61dafb" }} name="react" />
+                  <Icon circular className={classes.onHover} style={{ color: "#61dafb" }} name="react" />
                 </a>
               </Header>
             </div>
@@ -32,7 +36,7 @@ function TechSkills() {
             <div className={techAnimate}   >
               <Header as="h1">
                 <a href='https://nodejs.org/en/' target="_blank" rel="noreferrer">
-                  <Icon size="large" style={{ color: "#68A063" }} name="node" />
+                  <Icon circular className={classes.onHover} style={{ color: "#68A063" }} name="node" />
                 </a>
               </Header>
             </div>
@@ -41,7 +45,7 @@ function TechSkills() {
             <div className={techAnimate}   >
               <Header as="h1">
                 <a href='https://aws.amazon.com/' target="_blank" rel="noreferrer">
-                  <Icon size="large" style={{ color: " #FF9900" }} name="aws" />
+                  <Icon circular className={classes.onHover} style={{ color: " #FF9900" }} name="aws" />
                 </a>
               </Header>
             </div>
@@ -49,7 +53,8 @@ function TechSkills() {
           <Grid.Column>
             <div className={techAnimate}   >
               <Header as="h1">
-                <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noreferrer"> <Icon size="large" style={{ color: "#323330" }} name="js square" />
+                <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noreferrer">
+                  <Icon circular className={classes.onHover} style={{ color: "#323330" }} name="js square" />
                 </a>
               </Header>
             </div>
@@ -57,7 +62,7 @@ function TechSkills() {
           <Grid.Column>
             <div className={techAnimate}   >
               <Header as="h1">
-                <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank" rel="noreferrer"> <Icon size="large" style={{ color: "#f06529" }} name="html5" />
+                <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank" rel="noreferrer"> <Icon circular className={classes.onHover} style={{ color: "#f06529" }} name="html5" />
                 </a>
               </Header>
             </div>
@@ -65,7 +70,7 @@ function TechSkills() {
           <Grid.Column>
             <div className={techAnimate}   >
               <Header as="h1">
-                <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="_blank" rel="noreferrer"> <Icon size="large" style={{ color: "#264de4" }} name="css3 alternate" />
+                <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="_blank" rel="noreferrer"> <Icon circular className={classes.onHover} style={{ color: "#264de4" }} name="css3 alternate" />
                 </a>
               </Header>
             </div>

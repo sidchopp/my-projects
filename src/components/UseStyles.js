@@ -51,10 +51,11 @@ const UseStyles = makeStyles((theme) => ({
     right: "8.5px",
     position: "fixed",
     boxShadow: `0 8px 6px -6px ${darkColor}`,
-    transition: "all 0.4s ease 0s",
+    transition: "all 0.6s ease-in-out 0s",
     borderRadius: "5px",
     '&:hover': {
       backgroundColor: midColor,
+      transform: "scale(1.1, 1.1)"
     }
   },
   expand: {
@@ -86,7 +87,13 @@ const UseStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
-
+  onHover: {
+    transition: "all 0.6s ease-in-out 0s",
+    '&:hover': {
+      backgroundColor: midColor,
+      transform: "scale(1.1, 1.1)"
+    }
+  },
   resume: {
     backgroundColor: lightColor,
     color: darkColor
