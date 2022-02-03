@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import IconButton from '@mui/material/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Grid from '@material-ui/core/Grid';
@@ -53,26 +54,30 @@ function HeroUnit() {
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
               <div className={iconsAnimate}>
-                <Button
-                  variant="contained"
-                  color="primary"
+                <IconButton
+                  // variant="contained"
+                  // color="primary"
                   href='https://github.com/sidchopp'
                   target="_blank"
+                  size="large"
+                  className={classes.onHover}
                 >
-                  <GitHubIcon style={{ fontSize: 28 }} />
-                </Button>
+                  <GitHubIcon className={classes.darkColor} fontSize="large" />
+                </IconButton>
               </div>
             </Grid>
             <Grid item>
               <div className={iconsAnimate}>
-                <Button
+                <IconButton
                   variant="contained"
                   color="primary"
                   href='https://www.linkedin.com/in/sidchopp/'
                   target="_blank"
+                  size="large"
+                  className={classes.onHover}
                 >
-                  <LinkedInIcon style={{ fontSize: 28 }} />
-                </Button>
+                  <LinkedInIcon className={classes.darkColor} fontSize="large" />
+                </IconButton>
               </div>
             </Grid>
           </Grid>
