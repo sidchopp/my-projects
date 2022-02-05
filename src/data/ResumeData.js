@@ -25,7 +25,8 @@ const ResumeData = [
     ],
     "role": " As Stack Developer",
     "certifications": [
-      "AWS Certified Cloud Practitioner.",
+      "AWS Certified Developer Associate",
+      "AWS Certified Cloud Practitioner",
     ],
     "img": `${developerPic}`
   },
