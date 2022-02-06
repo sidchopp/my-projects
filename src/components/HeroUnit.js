@@ -1,8 +1,9 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import IconButton from '@mui/material/IconButton';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
@@ -18,6 +19,7 @@ import '../App.css'
 
 // Amimate.css
 import "animate.css"
+import Badges from './Badges';
 
 const nameAnimate = 'font-name animate__animated animate__fadeIn animate__slow ';
 const profileAnimate = 'font-profile animate__animated animate__fadeIn animate__delay-1s animate__slower';
@@ -68,6 +70,12 @@ function HeroUnit() {
             </Grid>
             <Grid item>
               <div className={iconsAnimate}>
+                {/* component import */}
+                <Badges />
+              </div>
+            </Grid>
+            <Grid item>
+              <div className={iconsAnimate}>
                 <IconButton
                   variant="contained"
                   color="primary"
@@ -80,6 +88,7 @@ function HeroUnit() {
                 </IconButton>
               </div>
             </Grid>
+
           </Grid>
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
