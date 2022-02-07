@@ -17,6 +17,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import GroupIcon from '@mui/icons-material/Group';
 import Paper from '@mui/material/Paper';
 
+import { Header, Icon } from 'semantic-ui-react'
+
 //Components
 import ProjectData from '../data/ProjectData'
 import UseStyles from './UseStyles';
@@ -30,7 +32,7 @@ function ProjectsCards() {
   };
   return (
     <Container className={classes.cardGrid} maxWidth="lg">
-      <LazyLoad height={1200} offset={[-250, 0]} >
+      <LazyLoad height={1000} offset={[-65, 0]} >
         <Paper sx={{ backgroundColor: "#4cbfa6" }} className={classes.projectPaper} elevation={4} >
           <Container className={classes.myProjectsHeader} maxWidth="lg">
             <Typography
@@ -50,7 +52,16 @@ function ProjectsCards() {
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                    <LazyLoad height={1200} offset={[-250, 0]} >
+                    <LazyLoad height={1000} offset={[-150, 0]}
+                      placeholder={
+                        <div>
+                          <Header as='h2' icon textAlign='center'>
+                            <Icon disabled style={{ margin: '20px' }} loading name='asterisk' size='big' />
+                            {/* <Header.Content disabled>Loading...</Header.Content> */}
+                          </Header>
+                        </div>
+                      }
+                    >
                       <CardHeader
                         action={typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
                         title={title}

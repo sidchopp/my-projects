@@ -1,18 +1,18 @@
-import React from 'react'
-import { Modal, Grid } from 'semantic-ui-react'
+import React from 'react';
+import { Modal, Grid } from 'semantic-ui-react';
 import IconButton from '@mui/material/IconButton';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import BackspaceIcon from '@mui/icons-material/Backspace';
 
 //Components
-import awsDev from '../images/awsDev.png'
-import awsCP from '../images/awsCP.png'
-import ibmCloud from '../images/ibmCloud.png'
+import awsDev from '../images/awsDev.png';
+import awsCP from '../images/awsCP.png';
+import ibmCloud from '../images/ibmCloud.png';
 import UseStyles from './UseStyles';
 
 function Badges() {
   const classes = UseStyles();
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(false);
 
   return (
     <Modal
@@ -50,21 +50,7 @@ function Badges() {
   )
 }
 
-export default Badges
+export default Badges;
 
 
 
-// import React from 'react';
-// import AWSDev from '../images/awsDev.png'
-
-
-// function Badges() {
-//   return (
-//     <>
-//       <img src={AWSDev} alt="Girl in a jacket" width="150" height="150">
-//       </img>
-//     </>
-//   );
-// }
-
-// export default Badges;
