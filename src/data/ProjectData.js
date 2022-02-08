@@ -1,10 +1,22 @@
 const ProjectData = [
-
-
-
   {
-    "id": "5",
-    "order": 5,
+    "id": "10",
+    "order": 10,
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "title": "All Weather",
+    "dates": "November 2021 - February 2022",
+    "duties": [
+      "A Weather App."
+    ],
+    'img': "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+    "website": "https://sid-allweather.netlify.app/",
+    "techUsed": "Web Stack : Node.js, React,  MUI",
+    "company": "SID",
+    "typeOfProject": "Individual"
+  },
+  {
+    "id": "9",
+    "order": 9,
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "title": "About My Location",
     "dates": "September 2021 - September 2021",
@@ -19,8 +31,8 @@ const ProjectData = [
   },
 
   {
-    "id": "4",
-    "order": 4,
+    "id": "8",
+    "order": 8,
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles(Horizontal position better than Vertical)',
     "title": "Periodic Table",
     "dates": "September 2021 - September 2021",
@@ -34,8 +46,8 @@ const ProjectData = [
     "typeOfProject": "Individual"
   },
   {
-    "id": "3",
-    "order": 3,
+    "id": "7",
+    "order": 7,
     "title": "My Projects",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "August 2021 - September 2021",
@@ -49,8 +61,8 @@ const ProjectData = [
     "typeOfProject": "Individual"
   },
   {
-    "id": "2",
-    "order": 2,
+    "id": "6",
+    "order": 6,
     "title": "Guess My Number",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "July 2021 - August 2021",
@@ -64,8 +76,8 @@ const ProjectData = [
     "typeOfProject": "Individual"
   },
   {
-    "id": "0",
-    "order": 0,
+    "id": "5",
+    "order": 5,
     "title": "Fusion Alberta",
     "bestView": 'Big Screens and Laptops only',
     "dates": "December 2020 - February 2021",
@@ -80,8 +92,8 @@ const ProjectData = [
   },
 
   {
-    "id": "1",
-    "order": 1,
+    "id": "4",
+    "order": 4,
     "title": "Rolling Dice",
     "bestView": 'Big Screens and Laptops only',
     "dates": "July 2021 - July 2021",
@@ -95,8 +107,8 @@ const ProjectData = [
     "typeOfProject": "Individual"
   },
   {
-    "id": "7",
-    "order": 7,
+    "id": "3",
+    "order": 3,
     "title": "Seasons",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "October 2021 - October 2021",
@@ -110,8 +122,8 @@ const ProjectData = [
     "typeOfProject": "Individual"
   },
   {
-    "id": "1",
-    "order": 7,
+    "id": "2",
+    "order": 2,
     "title": "I Will Be Back",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "October 2021 - October 2021",
@@ -125,8 +137,8 @@ const ProjectData = [
     "typeOfProject": "Individual"
   },
   {
-    "id": "6",
-    "order": 6,
+    "id": "1",
+    "order": 1,
     "title": "Face Detect",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "September 2021 - September 2021",
@@ -137,20 +149,6 @@ const ProjectData = [
     "website": "https://sid-face-detect.herokuapp.com/",
     "websiteFallback": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI, postgreSQL, Heroku",
-    "company": "SID",
-    "typeOfProject": "Individual"
-  },
-  {
-    "id": "2",
-    "order": 8,
-    "title": "My Recipes",
-    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "dates": "October 2021 - Present",
-    "duties": [
-      "I am currently working on this amazing project.Will update shortly...."
-    ],
-    'img': "https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI, Google Firebase",
     "company": "SID",
     "typeOfProject": "Individual"
   },
