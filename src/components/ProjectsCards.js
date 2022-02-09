@@ -55,8 +55,8 @@ function ProjectsCards() {
                     <LazyLoad height={1000} offset={[-150, 0]}
                       placeholder={
                         <div>
-                          <Header as='h2' icon textAlign='center'>
-                            <Icon disabled style={{ margin: '20px' }} loading name='asterisk' size='big' />
+                          <Header as='h3' icon textAlign='center'>
+                            <Icon disabled style={{ margin: '20px' }} loading name='spinner' />
                             {/* <Header.Content disabled>Loading...</Header.Content> */}
                           </Header>
                         </div>
