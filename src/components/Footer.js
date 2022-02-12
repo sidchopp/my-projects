@@ -1,6 +1,6 @@
 
 import Typography from '@material-ui/core/Typography';
-import { Icon, Button } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 import IconButton from '@mui/material/IconButton';
 
 // Components

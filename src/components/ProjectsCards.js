@@ -43,7 +43,6 @@ function ProjectsCards() {
             >
               <span className='font-projects' >My Projects</span>
             </Typography>
-            {/* <Icon className='arrow-animation' size='big' name='chevron down' /> */}
           </Container>
           <Grid style={{ marginTop: '10px' }} container spacing={4}>
 
@@ -57,7 +56,6 @@ function ProjectsCards() {
                         <div>
                           <Header as='h3' icon textAlign='center'>
                             <Icon disabled style={{ margin: '20px' }} loading name='spinner' />
-                            {/* <Header.Content disabled>Loading...</Header.Content> */}
                           </Header>
                         </div>
                       }

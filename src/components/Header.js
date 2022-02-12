@@ -6,10 +6,10 @@ import Typography from '@material-ui/core/Typography';
 // import { makeStyles } from '@material-ui/core/styles';
 
 // Components
-import UseStyles from './UseStyles';
+// import UseStyles from './UseStyles';
 
 function Header() {
-  const classes = UseStyles();
+  // const classes = UseStyles();
   return (
     <AppBar position="relative">
       <Toolbar>
