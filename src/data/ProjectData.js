@@ -1,5 +1,20 @@
 const ProjectData = [
   {
+    "id": "11",
+    "order": 11,
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "title": "My first AWS App",
+    "dates": "February 2021 - February 2022",
+    "duties": [
+      "Authentication and Authorization."
+    ],
+    'img': "https://images.unsplash.com/photo-1607968980162-8cdb8f0dae6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    "website": "https://main.ds0bmm4pbq3oh.amplifyapp.com/",
+    "techUsed": "Web Stack :  React, AWS",
+    "company": "SID",
+    "typeOfProject": "Individual"
+  },
+  {
     "id": "10",
     "order": 10,
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
@@ -10,7 +25,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
     "website": "https://sid-allweather.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React,  MUI",
+    "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -25,7 +40,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -41,7 +56,7 @@ const ProjectData = [
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://sid-periodic-table.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -56,7 +71,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-projects.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, MUI, Semantic",
+    "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -86,7 +101,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
-    "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Semantic UI, Heroku.",
+    "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Heroku.",
     "company": "InceptionU Ltd.",
     "typeOfProject": "Team"
   },
@@ -117,7 +132,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
     "website": "https://sid-seasons.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -132,7 +147,7 @@ const ProjectData = [
     ],
     'img': "https://images.unsplash.com/photo-1636304304049-b2e4e7ebe6bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://i-will-be-back.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, Semantic UI",
+    "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -148,7 +163,7 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://sid-face-detect.herokuapp.com/",
     "websiteFallback": "https://i-will-be-back.netlify.app/",
-    "techUsed": "Web Stack : Node.js, React, MUI, Semantic UI, postgreSQL, Heroku",
+    "techUsed": "Web Stack : Node.js, React, postgreSQL, Heroku",
     "company": "SID",
     "typeOfProject": "Individual"
   },
