@@ -16,6 +16,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PersonIcon from '@mui/icons-material/Person';
 import GroupIcon from '@mui/icons-material/Group';
 import Paper from '@mui/material/Paper';
+import Tooltip from '@mui/material/Tooltip';
 
 import { Header, Icon } from 'semantic-ui-react'
 
@@ -61,11 +62,18 @@ function ProjectsCards() {
                       }
                     >
                       <CardHeader
-                        action={typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
+                        action={
+                          typeOfProject === "Individual"
+                            ? <Tooltip title={<Typography>{typeOfProject}</Typography>}>
+                              <PersonIcon />
+                            </Tooltip>
+                            : <Tooltip title={<Typography>{typeOfProject}</Typography>}>
+                              <GroupIcon />
+                            </Tooltip>
+                        }
                         title={title}
                         subheader={techUsed}
                         className={classes.darkColor}
-
                       />
                       <CardMedia
                         className={classes.cardMedia}
