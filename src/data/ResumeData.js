@@ -25,8 +25,10 @@ const ResumeData = [
     ],
     "role": " As Stack Developer",
     "certifications": [
-      "AWS Certified Developer Associate",
-      "AWS Certified Cloud Practitioner",
+      "AWS Certified Developer Associate.",
+      "AWS Certified Cloud Practitioner.",
+      "Full Stack Developer Program(6 months-Full Time) from InceptionU, Calgary.",
+      "Pursuing Software Product Management Specialization(Online), University of Alberta."
     ],
     "img": `${developerPic}`
   },
