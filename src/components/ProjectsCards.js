@@ -63,13 +63,11 @@ function ProjectsCards() {
                     >
                       <CardHeader
                         action={
-                          typeOfProject === "Individual"
-                            ? <Tooltip title={<Typography>{typeOfProject}</Typography>}>
-                              <PersonIcon />
-                            </Tooltip>
-                            : <Tooltip title={<Typography>{typeOfProject}</Typography>}>
-                              <GroupIcon />
-                            </Tooltip>
+                          <Tooltip
+                            placement="left-start"
+                            title={<Typography>{typeOfProject}</Typography>}>
+                            {typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
+                          </Tooltip>
                         }
                         title={title}
                         subheader={techUsed}
