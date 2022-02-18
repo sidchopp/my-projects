@@ -9,7 +9,7 @@ const ProjectData = [
       "Authentication and Authorization."
     ],
     'img': "https://images.unsplash.com/photo-1607968980162-8cdb8f0dae6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
-    "website": "https://main.ds0bmm4pbq3oh.amplifyapp.com/",
+    "website": "https://main.d30a6z92p9jj0o.amplifyapp.com/",
     "techUsed": "Web Stack :  React, AWS",
     "company": "SID",
     "typeOfProject": "Individual"
