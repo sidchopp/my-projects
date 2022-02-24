@@ -84,7 +84,16 @@ function ProjectsCards() {
                         </Typography>
                       </CardContent>
                       <CardActions>
-                        <Button variant="outlined" color="inherit" href={website} target="_blank" >
+                        <Button
+                          variant="outlined"
+                          color="inherit"
+                          href={
+                            website !== 'https://sid-projects.netlify.app/' ? website : ""
+                          }
+                          target={
+                            website === 'https://sid-projects.netlify.app/' ? false : "_blank"
+                          }
+                        >
                           <TouchAppIcon /> View
                         </Button>
                         <IconButton

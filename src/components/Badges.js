@@ -1,13 +1,11 @@
 import React from 'react';
-import { Modal, Grid } from 'semantic-ui-react';
+import { Modal, Grid, Header, Button } from 'semantic-ui-react';
 import IconButton from '@mui/material/IconButton';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import BackspaceIcon from '@mui/icons-material/Backspace';
 
 //Components
-import awsDev from '../images/awsDev.png';
-import awsCP from '../images/awsCP.png';
-import ibmCloud from '../images/ibmCloud.png';
+import certificationsData from '../data/CertificationsData';
 import UseStyles from './UseStyles';
 
 function Badges() {
@@ -16,13 +14,12 @@ function Badges() {
 
   return (
     <Modal
-      basic
+      // basic
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
       size='medium'
       trigger={
-        // <Button style={{ marginBottom: '10px' }}>Badges</Button>
         <IconButton variant="contained" className={classes.onHover} size="large">
           <MilitaryTechIcon color="error" className={classes.darkColor} fontSize="large" />
         </IconButton>
@@ -30,15 +27,15 @@ function Badges() {
     >
       <Modal.Content>
         <Grid stackable relaxed columns={3} >
-          <Grid.Column textAlign='center'>
-            <img src={awsDev} alt="AWS Developer Associate" width="150" height="150" />
-          </Grid.Column>
-          <Grid.Column textAlign='center'>
-            <img src={awsCP} alt="AWS Cloud Practitioner" width="150" height="150" />
-          </Grid.Column>
-          <Grid.Column textAlign='center'>
-            <img src={ibmCloud} alt="IBM Cloud" width="150" height="150" />
-          </Grid.Column>
+          {certificationsData.map((data) => {
+            return (
+              <Grid.Column textAlign='center'>
+                <img src={data.img} alt="IBM Cloud" width="150" height="150" />
+                <Header as='h4'>{data.title}</Header>
+                <Button size='small' primary href={data.website} target="_blank" >View</Button>
+              </Grid.Column>
+            )
+          })};
         </Grid>
       </Modal.Content>
       <Modal.Actions>
