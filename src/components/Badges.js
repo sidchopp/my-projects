@@ -30,12 +30,12 @@ function Badges() {
           {certificationsData.map((data) => {
             return (
               <Grid.Column textAlign='center'>
-                <img src={data.img} alt="IBM Cloud" width="150" height="150" />
+                <img src={data.img} alt="certificate img" width="150" height="150" />
                 <Header as='h4'>{data.title}</Header>
                 <Button size='small' primary href={data.website} target="_blank" >View</Button>
               </Grid.Column>
             )
-          })};
+          })}
         </Grid>
       </Modal.Content>
       <Modal.Actions>
