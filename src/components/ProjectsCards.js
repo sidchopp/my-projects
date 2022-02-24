@@ -52,7 +52,7 @@ function ProjectsCards() {
               return (
                 <Grid item key={card} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                    <LazyLoad height={1000} offset={[-150, 0]}
+                    <LazyLoad height={1000} offset={[-50, 0]}
                       placeholder={
                         <div>
                           <Header as='h3' icon textAlign='center'>
