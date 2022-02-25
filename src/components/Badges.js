@@ -14,7 +14,7 @@ function Badges() {
 
   return (
     <Modal
-      // basic
+      closeIcon
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
