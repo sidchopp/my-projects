@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Grid, Header, Button } from 'semantic-ui-react';
+import { Modal, Grid, Header, } from 'semantic-ui-react';
 import IconButton from '@mui/material/IconButton';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import BackspaceIcon from '@mui/icons-material/Backspace';
@@ -30,17 +30,20 @@ function Badges() {
           {certificationsData.map((data) => {
             return (
               <Grid.Column textAlign='center'>
+                <Header as='h4'>
+                  <a href={data.website} target="_blank" rel="noreferrer">
+                    {data.title}
+                  </a>
+                </Header>
                 <img src={data.img} alt="certificate img" width="150" height="150" />
-                <Header as='h4'>{data.title}</Header>
-                <Button size='small' primary href={data.website} target="_blank" >View</Button>
               </Grid.Column>
             )
           })}
         </Grid>
       </Modal.Content>
       <Modal.Actions>
-        <IconButton color="primary" variant="contained" size="large" onClick={() => setOpen(false)}>
-          <BackspaceIcon color="primary" fontSize='large' />
+        <IconButton variant="contained" size="large" onClick={() => setOpen(false)}>
+          <BackspaceIcon className={classes.darkColor} />
         </IconButton >
       </Modal.Actions>
     </Modal>
