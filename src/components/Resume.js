@@ -40,8 +40,8 @@ function Resume() {
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
-          <IconButton color="primary" variant="contained" size="large" onClick={() => setOpen(false)}>
-            <BackspaceIcon color="primary" fontSize='large' />
+          <IconButton variant="contained" onClick={() => setOpen(false)}>
+            <BackspaceIcon className={classes.darkColor} />
           </IconButton >
         </Modal.Actions>
       </Modal>
