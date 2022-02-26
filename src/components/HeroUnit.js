@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
 // Components
-import Resume from './Resume';
+import ResumeModal from './ResumeModal';
 import TechSkills from './TechSkills';
 import UseStyles from './UseStyles';
 import DownArrow from './DownArrow';
@@ -92,7 +92,7 @@ function HeroUnit() {
             <Grid item>
               {/* component import */}
               <div className={iconsAnimate}>
-                <Resume />
+                <ResumeModal />
               </div>
 
             </Grid>

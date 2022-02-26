@@ -12,7 +12,7 @@ import UseStyles from './UseStyles';
 //CSS
 import '../App.css'
 
-function Resume() {
+function ResumeModal() {
   const classes = UseStyles();
   const [open, setOpen] = useState(false);
 
@@ -49,4 +49,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default ResumeModal;
