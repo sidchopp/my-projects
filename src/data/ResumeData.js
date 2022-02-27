@@ -49,7 +49,7 @@ const ResumeData = [
     "role": "As Physics Instructor",
     "certifications": [
       "A Master’s Degree (with Honors) in Physics, assessed by IQAS (International Qualifications Assessment Service).",
-      "Joint CSIR UGC NET is a test being conducted to determine the eligibility of Indian nationals for Junior Research Fellowship (JRF) and for Lectureship (LS) /Assistant Professor in Indian universities and colleges subject to fulfilling the eligibility criteria laid down by UGC. For more details check: 'https://csirnet.nta.nic.in/webinfo/Page/Page?PageId=1&LangId=P'.",
+      "CSIR UGC NET certified. CSIR UGC NET is a test being conducted to determine the eligibility of Indian nationals for Junior Research Fellowship (JRF) and for Lectureship (LS) /Assistant Professor in Indian universities and colleges subject to fulfilling the eligibility criteria laid down by UGC. For more details check: https://csirnet.nta.nic.in/webinfo/Page/Page?PageId=1&LangId=P.",
     ],
     "img": `${instructorPic}`
   },

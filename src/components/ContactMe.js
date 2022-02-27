@@ -5,11 +5,11 @@ import IconButton from '@mui/material/IconButton';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Icon, Modal, Header, Divider, Image } from 'semantic-ui-react';
+import { Icon, Modal } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 import 'semantic-ui-css/semantic.min.css'
 //Components
-import sidImage from '../images/sidImage.jpeg'
+// import sidImage from '../images/sidImage.jpeg'
 import UseStyles from './UseStyles'
 
 // Amimate.css

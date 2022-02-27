@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Icon, Image } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
 
 
 //components

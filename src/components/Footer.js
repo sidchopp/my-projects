@@ -66,6 +66,7 @@ function Footer() {
       <Typography
         variant="body2"
         align="center"
+        component="div"
       >
         <Today />
       </Typography>

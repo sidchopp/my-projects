@@ -18,7 +18,7 @@ function Badges() {
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
-      size='medium'
+      size='large'
       trigger={
         <IconButton variant="contained" className={classes.onHover} size="large">
           <MilitaryTechIcon color="error" className={classes.darkColor} fontSize="large" />
@@ -29,7 +29,7 @@ function Badges() {
         <Grid stackable relaxed columns={3} >
           {certificationsData.map((data) => {
             return (
-              <Grid.Column textAlign='center'>
+              <Grid.Column key={data.id} textAlign='center'>
                 <Header as='h4'>
                   <a href={data.website} target="_blank" rel="noreferrer">
                     {data.title}
