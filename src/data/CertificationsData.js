@@ -32,7 +32,7 @@ const certificationsData = [
     "issuedBy": "Amazon Web Services Training and Certification",
     "validity": "Feb 2022 - Feb 2025",
     "skills": [
-      "Amazon Web Services", "AWS Certification", "AWS Cloud", "Code Deployment", "Code Development"
+      "Cloud Native", "Devops", "Iaas PaaS Saas", "Hybrid Multicloud", "Cloud Computing"
     ],
     "img": `${ibmCloud}`,
     "website": "https://www.coursera.org/account/accomplishments/verify/HASHBWKTZQG8?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
