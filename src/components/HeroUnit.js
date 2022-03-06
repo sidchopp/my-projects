@@ -60,7 +60,7 @@ function HeroUnit() {
                   href='https://github.com/sidchopp'
                   target="_blank"
                   size="large"
-                  className={classes.onHover}
+                // className={classes.onHover}
                 >
                   <GitHubIcon className={classes.darkColor} fontSize="large" />
                 </IconButton>
@@ -80,7 +80,7 @@ function HeroUnit() {
                   href='https://www.linkedin.com/in/sidchopp/'
                   target="_blank"
                   size="large"
-                  className={classes.onHover}
+                // className={classes.onHover}
                 >
                   <LinkedInIcon className={classes.darkColor} fontSize="large" />
                 </IconButton>

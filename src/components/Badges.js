@@ -21,7 +21,7 @@ function Badges() {
       open={open}
       size='large'
       trigger={
-        <IconButton variant="contained" className={classes.onHover} size="large">
+        <IconButton variant="contained" size="large">
           <MilitaryTechIcon color="error" className={classes.darkColor} fontSize="large" />
         </IconButton>
       }
