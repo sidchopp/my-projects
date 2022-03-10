@@ -13,7 +13,7 @@ function DetailedResume() {
   const [value, setValue] = useState(0)
   //const [activeItem, setActiveItem] = useState(value)
 
-  const { role, dates, duties, title, img, certifications, frameworks } = jobs[value]
+  const { role, dates, duties, title, title2, dates2, duties2, img, certifications, frameworks } = jobs[value]
   return (
     <>
       <div>
@@ -44,6 +44,26 @@ function DetailedResume() {
           </div>
         )
       })}
+
+      {/* Conditional rendering for the 2nd job in same profile */}
+      {(title2 && dates2 && duties2) ?
+        <>
+          <h3>
+            <Icon circular size="large" className={classes.darkColor} name='address card' />
+            {" "} {title2}
+          </h3>
+          <p ><i>{dates2}</i></p>
+          {duties2.map((duty, index) => {
+            return (
+              <div key={index} >
+                <p><Icon className={classes.darkColor} name="angle right" />{duty}</p>
+              </div>
+            )
+          })}
+        </>
+        :
+        <></>
+      }
 
       <h3>
         <Icon circular size="large" className={classes.darkColor} name='cogs' />

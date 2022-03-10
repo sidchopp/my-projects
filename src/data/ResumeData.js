@@ -20,8 +20,13 @@ const ResumeData = [
       "Strong desire to learn, improve upon software development skills, deliver consistent results with little or no supervision, listen to feedback with a growth mindset.",
       "Strong work ethics & openness to differentiated learning approaches and experiential learning."
     ],
+    "title2": "Web Developer, adlib advertising & marketing consultants, India.",
+    "duties2": [
+      "Worked with an agile team of Web developers and Digital Strategists and supported many early-stage ventures in achieving their goals. "
+    ],
+    "dates2": "January 2018 - March 2020",
     "frameworks": [
-      "React", "Node", "JavaScript", "AWS", "HTML/CSS", "GitHub/Git", "MongoDB"
+      "React", "Node", "JavaScript", "AWS", "HTML/CSS", "Express", "GitHub/Git", "MongoDB"
     ],
     "role": " As Stack Developer",
     "certifications": [
