@@ -46,9 +46,6 @@ function HeroUnit() {
           <div className={profileAnimate}  >
             Full Stack Developer
           </div>
-          <div className={profileAnimate}  >
-            Physics Instructor
-          </div>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
