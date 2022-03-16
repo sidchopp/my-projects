@@ -9,73 +9,56 @@ const ResumeData = [
   {
     "id": "recAGJfiU4CeaV0HL",
     "order": 1,
-    "title": "Full Stack Developer",
-    "dates": "September 2020 - Present",
+    "title": "Full Stack Developer, Freelance, Calgary-AB, Canada.",
+    "dates": "March 2021 - Present",
     "duties": [
-      "Successfully completed a full time 6-month Full Stack Developer Course (Facilitators' lead, Projects- based), while working independently as well as in Agile teams using Scrum Development processes like engaging in sprint cycles around planning with estimation, using Figma, Trello boards and version control, unit testing, demos and retrospectives.",
-      "Hands-on experience in implementing responsive designs and optimizing performance across common devices and browsers and identifying potential risks and issues.",
-      "Demonstrable experience with applying design patterns, writing unit tests, clean functional codes on Front-end as well Back-end and optimizing performance in highly-scalable web applications.",
-      "Responsive to fast-paced environment, strong aptitude for solving problems efficiently.",
-      "Fast learner with great attention to details and make User experience a top priority.",
-      "Strong desire to learn, improve upon software development skills, deliver consistent results with little or no supervision, listen to feedback with a growth mindset.",
-      "Strong work ethics & openness to differentiated learning approaches and experiential learning."
+      "Developed and deployed 20+ web applications, encompassing design, coding, testing and maintenance",
+      "Demonstrable experience with applying design patterns, writing clean functional codes on Front-end as well Back-end and optimizing performance in highly-scalable web applications.",
+      "Maximized applications’ efficiency, data quality, scope, operability, and flexibility",
+      "Ensured compatibility with all major browsers on desktop and mobile platforms",
+      "Fast learner with great attention to details and make Users' experience a top priority"
     ],
-    "title2": "Web Developer, adlib advertising & marketing consultants, India.",
+    "title2": "Full Stack Developer, InceptionU, Calgary-AB, Canada.",
     "duties2": [
-      "Worked with an agile team of Web developers and Digital Strategists and supported many early-stage ventures in achieving their goals. "
+      "Worked independently and in Agile teams on multiple projects using Scrum Development processes like engaging in sprint cycles, planning with estimation, conceptualizing, developing web apps by creating user stories, backlogs, testing, demos and retrospectives",
+      "Built and deployed a MERN stack web application for a client, which provides a centralized list of tech events happening in Alberta",
+      "Teamed up with client to understand needs for improved functionality, and communicated with other developers to create enhancements that boosted client's satisfaction ",
+      "Responsive to fast-paced environment, strong aptitude for solving problems efficiently",
     ],
-    "dates2": "January 2018 - March 2020",
+    "dates2": "September 2020 - February 2021",
     "frameworks": [
       "React", "Node", "JavaScript", "AWS", "HTML/CSS", "Express", "GitHub/Git", "MongoDB"
     ],
     "role": " As Stack Developer",
     "certifications": [
-      "AWS Certified Developer Associate.",
-      "AWS Certified Cloud Practitioner.",
-      "Full Stack Developer Program(6 months-Full Time) from InceptionU, Calgary.",
-      "Pursuing Software Product Management Specialization(Online), University of Alberta."
+      "AWS Certified Developer Associate",
+      "AWS Certified Cloud Practitioner",
+      "Full Stack Developer Program, InceptionU, Calgary -AB",
+      "Pursuing Software Product Management Specialization(Online), University of Alberta"
     ],
     "img": `${developerPic}`
   },
   {
     "id": "recIL6mJNfWObonls",
     "order": 2,
-    "title": "MCAT Physics Instructor, The Princeton Review - Calgary AB, Canada (Permanent Part time)",
-    "dates": "March 2020 - Present",
+    "title": "Web Developer, adlib advertising & marketing consultants, India ",
+    "dates": "November 2017 - September 2020",
     "duties": [
-      "The Princeton Review (TPR) provides private test preparation services for exams like MCAT, GRE, GMAT and many more. This is where I pursue my years' old passion of TEACHING PHYSICS.",
+      "Worked with an agile team of Web developers and Digital Strategists and supported many early-stage ventures in achieving their goals",
+      "Transformed legacy applications’ UIs using React, and increased viewers base by 30%",
+      "Participated in code reviews with product teams, contributed in writing custom, scalable codes which reduced the instances of bugs by 15%, improvised regularly on feedback from other developers"
 
     ],
     "frameworks": [
-      "Delivering Online lectures, engaging and educating students (typically 3rd or 2nd year science undergrads) who are preparing for the MCAT exam, while maintaining high standards of professionalism and consistency in producing high quality results.",
-      "Demonstrate flexibility and openness to bring creative solutions to address issues.",
-      "Effective in working remotely.",
+      "React", "JavaScript", "HTML/CSS", "Git/GitHub"
     ],
-    "role": "As Physics Instructor",
+    "role": "As Web Developer",
     "certifications": [
-      "A Master’s Degree (with Honors) in Physics, assessed by IQAS (International Qualifications Assessment Service)."
+      "A Master’s Degree in Physics (with Mathematics)"
 
     ],
     "img": `${instructorPic}`
-  },
-  {
-    "id": "secAGJfiU4CeaV0HL",
-    "order": 3,
-    "title": "Fulfillment Center Associate, Amazon- Balzac AB, Canada(Seasonal Full time)",
-    "dates": "September 2019 - January 2020",
-    "duties": [
-      " First time I got an opportunity to see the culture of (and actually work with) one of the largest companies in the world - AMAZON. It is also the place where i actually used AWS for the first time and this kindled a strong desire to dive deeper into AWS."
-    ],
-    "frameworks": [
-      "Resolved customers' complaints/problems quickly. Hands on experience of verifying information accuracy in work orders, inspecting received products following standard operating procedure in a quickly growing, fast-paced & constantly changing environment."
-    ],
-    "role": " As FC Associate",
-    "certifications": [
-      "Got training for muliple roles like Customer Complaints Associate, Receiver, Picker, etc.",
-    ],
-    "img": `${associatePic}`
-  },
-
+  }
 
 ]
 
