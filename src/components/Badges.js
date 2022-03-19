@@ -28,7 +28,7 @@ function Badges() {
     >
       <Modal.Header >Certifications</Modal.Header>
       <Modal.Content>
-        <Grid divided stackable columns={3} >
+        <Grid celled stackable columns={3} >
           {certificationsData.map((data) => {
             return (
               <Grid.Column key={data.id} textAlign='center'>
