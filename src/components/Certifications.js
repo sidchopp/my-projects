@@ -8,7 +8,7 @@ import BackspaceIcon from '@mui/icons-material/Backspace';
 import certificationsData from '../data/CertificationsData';
 import UseStyles from './UseStyles';
 
-function Badges() {
+function Certifications() {
   const classes = UseStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -22,7 +22,7 @@ function Badges() {
       size='large'
       trigger={
         <IconButton variant="contained" size="large">
-          <MilitaryTechIcon color="error" className={classes.darkColor} fontSize="large" />
+          <MilitaryTechIcon className={classes.darkColor} fontSize="large" />
         </IconButton>
       }
     >
@@ -69,7 +69,7 @@ function Badges() {
   )
 }
 
-export default Badges;
+export default Certifications;
 
 
 

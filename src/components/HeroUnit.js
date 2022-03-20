@@ -11,13 +11,13 @@ import ResumeModal from './ResumeModal';
 import TechSkills from './TechSkills';
 import UseStyles from './UseStyles';
 import DownArrow from './DownArrow';
+import Certifications from './Certifications';
 
 //CSS
 import '../App.css'
 
 // Amimate.css
 import "animate.css"
-import Badges from './Badges';
 
 const nameAnimate = 'font-name animate__animated animate__fadeIn animate__slow ';
 const profileAnimate = 'font-profile animate__animated animate__fadeIn animate__delay-1s animate__slower';
@@ -66,7 +66,7 @@ function HeroUnit() {
             <Grid item>
               <div className={iconsAnimate}>
                 {/* component import */}
-                <Badges />
+                <Certifications />
               </div>
             </Grid>
             <Grid item>
