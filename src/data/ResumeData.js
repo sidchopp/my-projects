@@ -10,7 +10,7 @@ const ResumeData = [
     "id": "recAGJfiU4CeaV0HL",
     "order": 1,
     "title": "Full Stack Developer, Freelance, Calgary-AB, Canada.",
-    "dates": "March 2021 - Present",
+    "dates": "February 2021 - Present",
     "duties": [
       "Developed and deployed 20+ web applications, encompassing design, coding, testing and maintenance",
       "Demonstrable experience with applying design patterns, writing clean functional codes on Front-end as well Back-end and optimizing performance in highly-scalable web applications.",
@@ -29,7 +29,7 @@ const ResumeData = [
     "frameworks": [
       "React", "Node", "JavaScript", "AWS", "HTML/CSS", "Express", "GitHub/Git", "MongoDB"
     ],
-    "role": " As Stack Developer",
+    "role": " As Full Stack Developer",
     "certifications": [
       "AWS Certified Developer Associate",
       "AWS Certified Cloud Practitioner",
