@@ -90,7 +90,7 @@ const certificationsData = [
       "Utilize core programming tools such as functions and loops"
     ],
     "img": `${UOM}`,
-    "website": "https://coursera.org/share/d360b0a443bf8da365ca29b5c1137340"
+    "website": "https://coursera.org/share/a5f3e64297689bdc0f3ed4ae4083031a"
   },
 
 
