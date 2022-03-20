@@ -3,6 +3,7 @@ import awsDev from '../images/awsDev.png';
 import awsCP from '../images/awsCP.png';
 import ibmCloud from '../images/ibmCloud.png';
 import UOA from '../images/UOA.png';
+import UOM from '../images/UOM.png';
 
 const certificationsData = [
   {
@@ -76,6 +77,19 @@ const certificationsData = [
       "Adapt to changing product requirements"
     ],
     "img": `${UOA}`,
+    "website": "https://coursera.org/share/d360b0a443bf8da365ca29b5c1137340"
+  },
+  {
+    "id": "10",
+    "title": "Programming for Everybody (Getting Started with Python)",
+    "issuedBy": "University of Michigan",
+    "validity": "Always",
+    "skills": [
+      "Describe the basics of the Python programming language",
+      "Use variables to store, retrieve and calculate information",
+      "Utilize core programming tools such as functions and loops"
+    ],
+    "img": `${UOM}`,
     "website": "https://coursera.org/share/d360b0a443bf8da365ca29b5c1137340"
   },
 
