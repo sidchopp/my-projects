@@ -44,6 +44,14 @@ const UseStyles = makeStyles((theme) => ({
     flexGrow: 1,
     color: darkColor
   },
+  anchorTag: {
+    color: darkColor,
+    transition: "all 0.3s ease-in-out 0s",
+    '&:hover': {
+      color: midColor,
+      transform: "scale(1.1, 1.1)"
+    }
+  },
   scrollToTop: {
     background: darkColor,
     color: lightColor,
