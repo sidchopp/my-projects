@@ -32,29 +32,30 @@ function Certifications() {
           {certificationsData.map((data) => {
             return (
               <Grid.Column key={data.id} textAlign='center'>
-                <Header as='h4'>
+                <Header as='h3'>
                   <a href={data.website} target="_blank" rel="noreferrer">
                     {data.title}
                   </a>
                 </Header>
                 <img src={data.img} alt="certificate img" width="150" height="150" />
-
-                <h3>
-                  <Icon circular className={classes.darkColor} name='setting' />
-                  {" "} Skills learned
-                </h3>
-                {data.skills.map(skill => {
-                  return (<div key={skill} >
-                    <p>
-                      <Icon className={classes.darkColor} name='angle right' />
-                      {skill}
-                    </p>
-                  </div>
-                  )
-                })
-
-                }
-
+                <Grid style={{ marginTop: "20px" }}>
+                  <Grid.Column textAlign='left'>
+                    <h3>
+                      {/* <Icon circular className={classes.darkColor} name='setting' /> */}
+                      {" "} Skills learned
+                    </h3>
+                    {data.skills.map(skill => {
+                      return (<div key={skill} >
+                        <p>
+                          <Icon className={classes.darkColor} name='angle right' />
+                          {skill}
+                        </p>
+                      </div>
+                      )
+                    })
+                    }
+                  </Grid.Column>
+                </Grid>
               </Grid.Column>
             )
           })}
