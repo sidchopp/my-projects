@@ -1,7 +1,6 @@
 
 //Images 
 import developerPic from '../images/developer.jpg';
-import associatePic from '../images/associate.jpg';
 import instructorPic from '../images/instructor.jpg';
 
 
