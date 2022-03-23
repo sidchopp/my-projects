@@ -31,7 +31,11 @@ const UseStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: lightColor,
-    color: darkColor
+    color: darkColor,
+    transition: "all 0.3s  linear",
+    '&:hover': {
+      transform: "scale(1.04, 1.04)",
+    }
   },
   projectPaper: {
     padding: '22px',
