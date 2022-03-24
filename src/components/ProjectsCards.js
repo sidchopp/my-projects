@@ -27,10 +27,16 @@ import UseStyles from './UseStyles';
 function ProjectsCards() {
   const classes = UseStyles();
   const [expanded, setExpanded] = useState(false);
+  // const [raised, setRaised] = useState(false)
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
+
+  // const toggleRaised = () => {
+  //   setRaised(!raised)
+  // };
+
   return (
     <Container className={classes.cardGrid} maxWidth="lg">
       <LazyLoad height={1000} offset={[-65, 0]} >
@@ -51,7 +57,14 @@ function ProjectsCards() {
               const { title, duties, techUsed, website, img, bestView, typeOfProject } = card
               return (
                 <Grid item key={card.id} xs={12} sm={6} md={4}>
-                  <Card className={classes.card}>
+                  <Card
+
+                    className={classes.card}
+                  // onMouseEnter={toggleRaised}
+                  // onMouseLeave={toggleRaised}
+                  // elevation={state}
+                  // raised={raised}
+                  >
                     <LazyLoad height={1000} offset={[-50, 0]}
                       placeholder={
                         <div>

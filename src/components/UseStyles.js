@@ -1,7 +1,6 @@
 // Material UI
 import { makeStyles } from '@material-ui/core/styles';
 
-
 // Hex codes: Charcoal #101820FF, Yellow #FEE715FF 
 const lightColor = "#f6ebf4";
 const midColor = " #4cbfa6";
@@ -32,9 +31,13 @@ const UseStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     backgroundColor: lightColor,
     color: darkColor,
-    transition: "all 0.3s linear",
+    transition: "all 0.9s ease-out",
     '&:hover': {
-      transform: "scale(1.04, 1.04)",
+      boxShadow: `5px 10px 18px ${darkColor}`,
+      transform: "scale(1.01)",
+    },
+    '&:active': {
+      transform: "scale(1.01) translateY(0.2rem)"
     }
   },
   projectPaper: {
@@ -62,7 +65,7 @@ const UseStyles = makeStyles((theme) => ({
     bottom: "12.5px",
     right: "8.5px",
     position: "fixed",
-    boxShadow: `0 8px 6px -6px ${darkColor}`,
+    boxShadow: `0 8px 6px 6px ${darkColor}`,
     transition: "all 0.6s ease-in-out 0s",
     borderRadius: "5px",
     '&:hover': {
