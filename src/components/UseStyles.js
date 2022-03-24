@@ -65,7 +65,7 @@ const UseStyles = makeStyles((theme) => ({
     bottom: "12.5px",
     right: "8.5px",
     position: "fixed",
-    boxShadow: `0 8px 6px 6px ${darkColor}`,
+    boxShadow: `0 8px 6px -6px ${darkColor}`,
     transition: "all 0.6s ease-in-out 0s",
     borderRadius: "5px",
     '&:hover': {
