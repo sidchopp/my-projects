@@ -6,11 +6,11 @@ const ProjectData = [
     "title": "My first AWS App",
     "dates": "February 2021 - February 2022",
     "duties": [
-      "THis App uses AWS Amplify for UI and AWS Cognito for Authentication and Authorization."
+      "This App uses AWS Amplify for UI and AWS Cognito for Authentication and Authorization."
     ],
     'img': "https://images.unsplash.com/photo-1607968980162-8cdb8f0dae6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
     "website": "https://main.d30a6z92p9jj0o.amplifyapp.com/",
-    "techUsed": "Web Stack :  React, AWS",
+    "techUsed": "Web Stack :  React, AWS, Node.js",
     "company": "SID",
     "typeOfProject": "Individual"
   },
@@ -36,7 +36,7 @@ const ProjectData = [
     "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "This App will display the exact location of the user, along with a lot of other useful info."
+      "This App will display the exact location of a User along with a lot of other useful info."
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
