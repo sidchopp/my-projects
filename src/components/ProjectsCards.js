@@ -24,6 +24,9 @@ import { Header, Icon } from 'semantic-ui-react'
 import ProjectData from '../data/ProjectData'
 import UseStyles from './UseStyles';
 
+//CSS
+import '../App.css';
+
 function ProjectsCards() {
   const classes = UseStyles();
   const [expanded, setExpanded] = useState(false);
@@ -40,31 +43,25 @@ function ProjectsCards() {
   return (
     <Container className={classes.cardGrid} maxWidth="lg">
       <LazyLoad height={1000} offset={[-65, 0]} >
-        <Paper sx={{ backgroundColor: "#4cbfa6" }} className={classes.projectPaper} elevation={4} >
-          <Container className={classes.myProjectsHeader} maxWidth="lg">
-            <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              gutterBottom
-            >
-              <span className='font-projects' >My Projects</span>
-            </Typography>
-          </Container>
-          <Grid style={{ marginTop: '10px' }} container spacing={4}>
+        {/* <Paper sx={{ backgroundColor: "#4cbfa6" }} className={classes.projectPaper} elevation={4} > */}
+        <Container className={classes.myProjectsHeader} maxWidth="lg">
+          <Typography
+            component="h1"
+            variant="h2"
+            align="center"
+            gutterBottom
+          >
+            <span className='font-projects' >My Projects</span>
+          </Typography>
+        </Container>
+        <Grid style={{ marginTop: '10px' }} container spacing={4}>
 
-            {ProjectData.map((card) => {
-              const { title, duties, techUsed, website, img, bestView, typeOfProject } = card
-              return (
-                <Grid item key={card.id} xs={12} sm={6} md={4}>
-                  <Card
-
-                    className={classes.card}
-                  // onMouseEnter={toggleRaised}
-                  // onMouseLeave={toggleRaised}
-                  // elevation={state}
-                  // raised={raised}
-                  >
+          {ProjectData.map((card) => {
+            const { title, duties, techUsed, website, img, bestView, typeOfProject } = card
+            return (
+              <Grid item key={card.id} xs={12} sm={6} md={4}>
+                <div className='card'>
+                  <Card >
                     <LazyLoad height={1000} offset={[-50, 0]}
                       placeholder={
                         <div>
@@ -130,11 +127,12 @@ function ProjectsCards() {
                       </CardContent>}
                     </LazyLoad>
                   </Card>
-                </Grid>
-              )
-            })}
-          </Grid>
-        </Paper>
+                </div>
+              </Grid>
+            )
+          })}
+        </Grid>
+        {/* </Paper> */}
       </LazyLoad>
     </Container>
   )
