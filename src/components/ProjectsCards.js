@@ -61,7 +61,7 @@ function ProjectsCards() {
             return (
               <Grid item key={card.id} xs={12} sm={6} md={4}>
                 <div className='card'>
-                  <Card >
+                  <Card variant="outlined" >
                     <LazyLoad height={1000} offset={[-50, 0]}
                       placeholder={
                         <div>
