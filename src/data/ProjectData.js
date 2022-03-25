@@ -6,7 +6,7 @@ const ProjectData = [
     "title": "My first AWS App",
     "dates": "February 2021 - February 2022",
     "duties": [
-      "Authentication and Authorization."
+      "THis App uses AWS Amplify for UI and AWS Cognito for Authentication and Authorization."
     ],
     'img': "https://images.unsplash.com/photo-1607968980162-8cdb8f0dae6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
     "website": "https://main.d30a6z92p9jj0o.amplifyapp.com/",
@@ -21,7 +21,7 @@ const ProjectData = [
     "title": "All Weather",
     "dates": "November 2021 - February 2022",
     "duties": [
-      "A Weather App."
+      "A Weather App that has some cool features like graphical display of tempertures, weather forecast, etc."
     ],
     'img': "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
     "website": "https://sid-allweather.netlify.app/",
@@ -36,7 +36,7 @@ const ProjectData = [
     "title": "About My Location",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "This App will not only tell about the exact location of the user, but also provide a lot of other useful info about that country."
+      "This App will display the exact location of the user, along with a lot of other useful info."
     ],
     'img': "https://images.unsplash.com/photo-1519500099198-fd81846b8f03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://about-my-location.netlify.app/",
@@ -52,7 +52,7 @@ const ProjectData = [
     "title": "Periodic Table",
     "dates": "September 2021 - September 2021",
     "duties": [
-      "The periodic table is a tabular display of the chemical elements. It is widely used in Chemistry, Physics, and other sciences, and is generally seen as an icon of Chemistry."
+      "This Periodic Table App is a tabular display of all the known chemical elements."
     ],
     'img': "https://media.istockphoto.com/photos/silicon-element-of-mendeleev-periodic-table-magnified-with-magnifier-picture-id511921456?b=1&k=20&m=511921456&s=170667a&w=0&h=H6eAgLsAjiv2hdmLlx5fxfyp9aHwp4TOskDsq49B3vk=",
     "website": "https://sid-periodic-table.netlify.app/",
@@ -67,7 +67,7 @@ const ProjectData = [
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "August 2021 - September 2021",
     "duties": [
-      "You are watching this project in action at the moment. It is a compilation of all the Projects that i have successfully completed till date."
+      "You are watching this project in action at the moment - A compilation of all my Projects."
     ],
     'img': "https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "website": "https://sid-projects.netlify.app/",
@@ -97,11 +97,11 @@ const ProjectData = [
     "bestView": 'Big Screens and Laptops only',
     "dates": "December 2020 - February 2021",
     "duties": [
-      "Fusion is a networking platform that provides a centralized database of tech events in Alberta. It was my final project at InceptionU Ltd.(EvolveU-Full Stack Program) which I worked on with a team of three other learners."
+      "A Networking App that provides a centralized database of Tech. related events happening in Alberta."
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
-    "techUsed": "Web Stack : Node.js, React, Express, MongoDB, Google Firebase, Heroku.",
+    "techUsed": "Web Stack : Node.js, React,Express, MongoDB, Google Firebase, Heroku.",
     "company": "InceptionU Ltd.",
     "typeOfProject": "Team"
   },
@@ -128,7 +128,7 @@ const ProjectData = [
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "October 2021 - October 2021",
     "duties": [
-      "This App will show the season (Spring, Summer, Winter or Fall) based on the User's location on the globe. It also displays the Latitude and Longitude of that location."
+      "This App will show a  season (Spring, Summer, Winter or Fall) based on the User's location."
     ],
     'img': "https://images.unsplash.com/photo-1470347963396-b4fab6f71f55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80",
     "website": "https://sid-seasons.netlify.app/",
@@ -158,7 +158,7 @@ const ProjectData = [
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "September 2021 - September 2021",
     "duties": [
-      "A registered User of this App will paste a URL of an image with a face and the App will 'detect that face' in the image."
+      "An authenticated User will paste a URL of an image with a face and this App will 'detect that face' in the image."
     ],
     'img': "https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     "website": "https://sid-face-detect.herokuapp.com/",
