@@ -1,10 +1,12 @@
-import MyProjects from './components/MyProjects'
-import UseStyles from './components/UseStyles';
+//Components
+import MyProjects from './components/MyProjects';
+
+//CSS
+import './App.css';
 
 function App() {
-  const classes = UseStyles();
   return (
-    <div className={classes.body}>
+    <div>
       <MyProjects />
     </div>
   );

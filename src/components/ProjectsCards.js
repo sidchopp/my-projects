@@ -15,7 +15,6 @@ import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PersonIcon from '@mui/icons-material/Person';
 import GroupIcon from '@mui/icons-material/Group';
-import Paper from '@mui/material/Paper';
 import Tooltip from '@mui/material/Tooltip';
 
 import { Header, Icon } from 'semantic-ui-react'
@@ -24,26 +23,17 @@ import { Header, Icon } from 'semantic-ui-react'
 import ProjectData from '../data/ProjectData'
 import UseStyles from './UseStyles';
 
-//CSS
-import '../App.css';
-
 function ProjectsCards() {
   const classes = UseStyles();
   const [expanded, setExpanded] = useState(false);
-  // const [raised, setRaised] = useState(false)
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
-  // const toggleRaised = () => {
-  //   setRaised(!raised)
-  // };
-
   return (
-    <Container className={classes.cardGrid} maxWidth="lg">
+    <Container className='myProjects-header' maxWidth="lg">
       <LazyLoad height={1000} offset={[-65, 0]} >
-        {/* <Paper sx={{ backgroundColor: "#4cbfa6" }} className={classes.projectPaper} elevation={4} > */}
         <Container className={classes.myProjectsHeader} maxWidth="lg">
           <Typography
             component="h1"
@@ -132,7 +122,6 @@ function ProjectsCards() {
             )
           })}
         </Grid>
-        {/* </Paper> */}
       </LazyLoad>
     </Container>
   )

@@ -9,6 +9,10 @@
   --cardHoverShadow: 5px 10px 18px var(--darkColor);
   --transition: 0.3s ease-in-out all;
 }
+body {
+  background-color: var(--lightColor);
+  color: var(--darkColor);
+}
 
 .card {
   height: "100%";
@@ -25,6 +29,13 @@
 }
 .card:active {
   transform: scale(1.01) translateY(0.2rem);
+}
+.card-text-background {
+  background-color: var(--lightColor);
+  color: var(--darkColor);
+}
+.myProjects-header {
+  padding: 90px 0;
 }
 .font-link {
   font-family: "Fredericka the Great", cursive;

@@ -7,11 +7,6 @@ const midColor = " #4cbfa6";
 const darkColor = "#482673";
 
 const UseStyles = makeStyles((theme) => ({
-
-  body: {
-    backgroundColor: lightColor,
-    color: darkColor
-  },
   darkColor: {
     color: darkColor
   },
@@ -20,29 +15,6 @@ const UseStyles = makeStyles((theme) => ({
   },
   lightColor: {
     color: lightColor
-  },
-  cardGrid: {
-    paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8),
-  },
-  // card: {
-  //   height: '100%',
-  //   display: 'flex',
-  //   flexDirection: 'column',
-  //   backgroundColor: lightColor,
-  //   color: darkColor,
-  //   transition: "all 0.9s ease-out",
-  //   '&:hover': {
-  //     boxShadow: `5px 10px 18px ${darkColor}`,
-  //     transform: "scale(1.01)",
-  //   },
-  //   '&:active': {
-  //     transform: "scale(1.01) translateY(0.2rem)"
-  //   }
-  // },
-  projectPaper: {
-    padding: '22px',
-    backgroundColor: midColor
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
