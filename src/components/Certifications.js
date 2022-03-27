@@ -33,7 +33,7 @@ function Certifications() {
             return (
               <Grid.Column key={data.id} textAlign='center'>
                 <Header as='h3'>
-                  <a className={classes.anchorTag} href={data.website} target="_blank" rel="noreferrer">
+                  <a className='anchor-tag' href={data.website} target="_blank" rel="noreferrer">
                     {data.title}
                   </a>
                 </Header>

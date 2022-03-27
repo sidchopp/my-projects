@@ -5,7 +5,8 @@
   --lightColor: #f6ebf4;
   --midColor: #4cbfa6;
   --darkColor: #482673;
-  --cardShadow: 5px 10px 18px var(--midColor);
+  /* --cardShadow: 5px 10px 18px var(--midColor); */
+  --cardShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   --cardHoverShadow: 5px 10px 18px var(--darkColor);
   --transition: 0.3s ease-in-out all;
 }
@@ -13,7 +14,6 @@ body {
   background-color: var(--lightColor);
   color: var(--darkColor);
 }
-
 .card {
   height: "100%";
   display: "flex";
@@ -71,4 +71,13 @@ body {
 .font-technology {
   font-family: "Oldenburg", cursive;
   text-transform: capitalize;
+}
+.anchor-tag {
+  color: var(--darkColor);
+  transition: var(--transition);
+}
+.anchor-tag:hover {
+  color: var(--midColor);
+  transform: scale(1.1);
+  /* text-shadow: var(--cardHoverShadow); */
 }
