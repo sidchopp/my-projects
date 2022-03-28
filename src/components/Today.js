@@ -4,7 +4,7 @@ function Today() {
 
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   return (
-    <div>
+    <div className='font'>
       Hope you are enjoying <i>{days[new Date().getDay()]} !</i>
     </div>
   )

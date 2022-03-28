@@ -32,14 +32,14 @@ function Footer() {
         <Icon
           name='mobile alternate'
           fitted
-        /> Wanna Talk? Dial (587)-436-7497
+        /> <span className='font'> Wanna Talk? Dial (587)-436-7497</span>
       </Typography>
       <Typography
         variant="subtitle1"
         align="center"
         component="p"
       >
-        Not a big talker? Drop a
+        <span className='font'>Not a big talker? Drop a</span>
         {" "}
         <IconButton >
           <ContactMe />
@@ -53,15 +53,17 @@ function Footer() {
         <Icon
           name='map marker alternate'
           fitted
-        /> Calgary-AB, Canada
+        />  <span className='font'>Calgary-AB, Canada</span>
       </Typography>
       <Typography
         variant="body2"
         align="center"
         gutterBottom
       >
-        {' © '}2021{" "}-{" "}{new Date().getFullYear()},
-        <span className="font-link"> My Projects</span>
+        <span className='font'>
+          {' © '}2021{" "}-{" "}{new Date().getFullYear()},
+          <span className="font-link"> My Projects</span>
+        </span>
       </Typography>
       <Typography
         variant="body2"
