@@ -42,10 +42,10 @@ const ContactMe = () => {
   return (
     <div >
       <Modal
-        className={classes.darkColor}
+
         closeIcon
         open={open}
-        trigger={<EmailIcon className={classes.darkColor} />}
+        trigger={<EmailIcon className='icon' fontSize="large" />}
         onClose={() => {
           setOpen(false)
           setMessage("")
@@ -60,7 +60,7 @@ const ContactMe = () => {
             align="center"
             gutterBottom
           >
-            <span className={classes.darkColor}>Let's talk.</span>
+            <span className='font-heading' >Let's talk.</span>
           </Typography>
           <Typography
             variant="h5"
@@ -68,7 +68,7 @@ const ContactMe = () => {
             paragraph
           >
             <div className={contactAnimate} >
-              <span className={classes.darkColor}>
+              <span className='font-heading' >
                 I would
                 <span>
                   <Icon name='like' />

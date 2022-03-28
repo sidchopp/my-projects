@@ -6,15 +6,12 @@ import BackspaceIcon from '@mui/icons-material/Backspace';
 
 //Components
 import certificationsData from '../data/CertificationsData';
-import UseStyles from './UseStyles';
 
 function Certifications() {
-  const classes = UseStyles();
   const [open, setOpen] = React.useState(false);
 
   return (
     <Modal
-      className={classes.darkColor}
       closeIcon
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
@@ -22,11 +19,11 @@ function Certifications() {
       size='large'
       trigger={
         <IconButton variant="contained" size="large">
-          <MilitaryTechIcon className={classes.darkColor} fontSize="large" />
+          <MilitaryTechIcon className='icon' fontSize="large" />
         </IconButton>
       }
     >
-      <Modal.Header >Certifications</Modal.Header>
+      <Modal.Header ><span className='font-heading'>Certifications</span></Modal.Header>
       <Modal.Content>
         <Grid celled stackable columns={3} >
           {certificationsData.map((data) => {
@@ -47,7 +44,7 @@ function Certifications() {
                     {data.skills.map(skill => {
                       return (<div key={skill} >
                         <p>
-                          <Icon className={classes.darkColor} name='angle right' />
+                          <Icon className='icon' name='angle right' />
                           {skill}
                         </p>
                       </div>
@@ -63,7 +60,7 @@ function Certifications() {
       </Modal.Content>
       <Modal.Actions>
         <IconButton variant="contained" size="large" onClick={() => setOpen(false)}>
-          <BackspaceIcon className={classes.darkColor} />
+          <BackspaceIcon />
         </IconButton >
       </Modal.Actions>
     </Modal>

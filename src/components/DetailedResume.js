@@ -33,14 +33,14 @@ function DetailedResume() {
       {/* <div><Image fluid src={img} rounded bordered centered /></div> */}
 
       <h3>
-        <Icon circular size="large" className={classes.darkColor} name='address card' />
+        <Icon circular size="large" name='address card' />
         {" "}<span className='font'>{title}</span>
       </h3>
       <p ><i>{dates}</i></p>
       {duties.map((duty, index) => {
         return (
           <div key={index} >
-            <p><Icon className={classes.darkColor} name="angle right" />{duty}</p>
+            <p><Icon name="angle right" />{duty}</p>
           </div>
         )
       })}
@@ -49,14 +49,14 @@ function DetailedResume() {
       {(title2 && dates2 && duties2) ?
         <>
           <h3>
-            <Icon circular size="large" className={classes.darkColor} name='address card' />
+            <Icon circular size="large" name='address card' />
             {" "} <span className='font'>{title2}</span>
           </h3>
           <p ><i>{dates2}</i></p>
           {duties2.map((duty, index) => {
             return (
               <div key={index} >
-                <p><Icon className={classes.darkColor} name="angle right" />{duty}</p>
+                <p><Icon name="angle right" />{duty}</p>
               </div>
             )
           })}
@@ -66,25 +66,25 @@ function DetailedResume() {
       }
 
       <h3>
-        <Icon circular size="large" className={classes.darkColor} name='cogs' />
+        <Icon circular size="large" name='cogs' />
         {" "}<span className='font'>Hands-On Experience</span>
       </h3>
       {frameworks.map((framework, index) => {
         return (
           <div key={index} >
-            <p><Icon className={classes.darkColor} name='angle right' />{framework}</p>
+            <p><Icon name='angle right' />{framework}</p>
           </div>
         )
       })}
 
       <h3>
-        <Icon circular size="large" className={classes.darkColor} name='trophy' />
+        <Icon circular size="large" name='trophy' />
         {" "}<span className='font'>Qualifications & Certifications</span>
       </h3>
       {certifications.map((certificate, index) => {
         return (
           <div key={index} >
-            <p><Icon className={classes.darkColor} name='angle right' />{certificate}</p>
+            <p><Icon name='angle right' />{certificate}</p>
           </div>
         )
       })}

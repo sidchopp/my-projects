@@ -7,34 +7,31 @@ import 'semantic-ui-css/semantic.min.css'
 
 // Components
 import DetailedResume from './DetailedResume';
-import UseStyles from './UseStyles';
-
-//CSS
-import '../App.css'
 
 function ResumeModal() {
-  const classes = UseStyles();
   const [open, setOpen] = useState(false);
 
   return (
     <div >
       <Modal
-        className={classes.darkColor}
         size='small'
         closeIcon
         open={open}
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
-        trigger={<Button variant="contained" color="primary" >
-          <span className="font-resume">
-            My Resume
-          </span>
-        </Button>
+        trigger={
+
+          <Button className='font-heading' variant="contained"  >
+            <span className="font-resume">
+              My Resume
+            </span>
+          </Button>
+
         }
       >
         {/* <div><Image fluid src={image} rounded bordered centered /></div> */}
         <Modal.Header>
-          <span className='font-my-experience'> My Experience</span>
+          <span className='font-heading'> My Experience</span>
         </Modal.Header>
         <Modal.Content  >
           <Modal.Description >
@@ -43,7 +40,7 @@ function ResumeModal() {
         </Modal.Content>
         <Modal.Actions>
           <IconButton variant="contained" onClick={() => setOpen(false)}>
-            <BackspaceIcon className={classes.darkColor} />
+            <BackspaceIcon />
           </IconButton >
         </Modal.Actions>
       </Modal>

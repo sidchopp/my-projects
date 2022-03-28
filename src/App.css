@@ -29,7 +29,7 @@ body {
   font-size: 18px;
   text-transform: capitalize;
 }
-.font-my-experience {
+.font-heading {
   font-family: var(--bodyFont);
   color: var(--darkColor);
 }
@@ -37,6 +37,12 @@ body {
   font-family: var(--bodyFont);
   font-size: 40px;
   color: var(--darkColor);
+}
+.font-profile {
+  font-family: var(--bodyFont);
+  color: var(--lightColor);
+  font-size: 40px;
+  text-shadow: 2px 5px 8px #482673;
 }
 .card {
   height: "100%";
@@ -81,12 +87,8 @@ body {
   /* font-family: "Fredericka the Great", cursive; */
   font-weight: bold;
 }
-
-.font-profile {
-  font-family: var(--bodyFont);
-  color: var(--lightColor);
-  font-size: 40px;
-  text-shadow: 2px 5px 8px #482673;
+.icon {
+  color: var(--darkColor);
 }
 
 .anchor-tag {
