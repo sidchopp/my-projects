@@ -32,7 +32,7 @@ function ScrollToTop() {
       {showButton && (
         <div className='scrollToTop'>
           <IconButton onClick={scrollToTop}>
-            <KeyboardDoubleArrowUpIcon className={classes.lightColor} fontSize="medium" />
+            <KeyboardDoubleArrowUpIcon className='icon' fontSize="medium" />
           </IconButton>
         </div>
       )}

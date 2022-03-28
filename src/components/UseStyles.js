@@ -31,20 +31,7 @@ const UseStyles = makeStyles((theme) => ({
       transform: "scale(1.1, 1.1)"
     }
   },
-  scrollToTop: {
-    background: darkColor,
-    color: lightColor,
-    bottom: "12.5px",
-    right: "8.5px",
-    position: "fixed",
-    boxShadow: `0 8px 6px -6px ${darkColor}`,
-    transition: "all 0.6s ease-in-out 0s",
-    borderRadius: "5px",
-    '&:hover': {
-      backgroundColor: midColor,
-      transform: "scale(1.1, 1.1)"
-    }
-  },
+
   expand: {
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
@@ -67,18 +54,9 @@ const UseStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(4),
     marginBottom: theme.spacing(10),
   },
-
   icon: {
     marginRight: theme.spacing(2),
   },
-  onHover: {
-    transition: "all 0.6s ease-in-out 0s",
-    '&:hover': {
-      backgroundColor: midColor,
-      transform: "scale(1.1, 1.1)"
-    }
-  },
-
   footer: {
     // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),

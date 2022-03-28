@@ -102,7 +102,7 @@ body {
   /* text-shadow: var(--cardHoverShadow); */
 }
 .scrollToTop {
-  background: var(--darkColor);
+  background: var(--midColor);
   color: var(--lightColor);
   bottom: 12.5px;
   right: 8.5px;
@@ -112,6 +112,11 @@ body {
   border-radius: 5px;
 }
 .scrollToTop:hover {
-  background-color: var(--midColor);
+  transform: scale(1.1);
+}
+.tech-icon {
+  transition: var(--transition);
+}
+.tech-icon:hover {
   transform: scale(1.1);
 }
