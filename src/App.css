@@ -20,6 +20,15 @@ body {
 .font {
   font-family: var(--bodyFont);
 }
+.font-name {
+  font-family: var(--bodyFont);
+  font-size: 4.5rem;
+}
+.font-resume {
+  font-family: var(--bodyFont);
+  font-size: 18px;
+  text-transform: capitalize;
+}
 .card {
   height: "100%";
   display: "flex";
@@ -63,12 +72,6 @@ body {
   /* font-family: "Fredericka the Great", cursive; */
   font-weight: bold;
 }
-.font-name {
-  /* font-family: "Oldenburg", cursive; */
-  font-size: 65px;
-  /* font-weight: 700; */
-  /* font-weight: bold; */
-}
 
 .font-projects {
   /* font-family: "Oldenburg", cursive; */
@@ -77,19 +80,11 @@ body {
 }
 
 .font-profile {
-  /* font-family: "Oldenburg", cursive; */
+  font-family: var(--bodyFont);
   color: var(--lightColor);
   font-size: 40px;
   text-shadow: 2px 5px 8px #482673;
 }
-
-.font-resume {
-  /* font-family: "Oldenburg", cursive; */
-  font-size: 18px;
-  text-transform: capitalize;
-  /* font-weight: bold; */
-}
-
 .font-technology {
   /* font-family: "Oldenburg", cursive; */
   text-transform: capitalize;
