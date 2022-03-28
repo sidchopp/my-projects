@@ -33,6 +33,11 @@ body {
   font-family: var(--bodyFont);
   color: var(--darkColor);
 }
+.font-projects {
+  font-family: var(--bodyFont);
+  font-size: 40px;
+  color: var(--darkColor);
+}
 .card {
   height: "100%";
   display: "flex";
@@ -77,22 +82,13 @@ body {
   font-weight: bold;
 }
 
-.font-projects {
-  /* font-family: "Oldenburg", cursive; */
-  font-size: 40px;
-  color: var(--darkColor);
-}
-
 .font-profile {
   font-family: var(--bodyFont);
   color: var(--lightColor);
   font-size: 40px;
   text-shadow: 2px 5px 8px #482673;
 }
-.font-technology {
-  /* font-family: "Oldenburg", cursive; */
-  text-transform: capitalize;
-}
+
 .anchor-tag {
   color: var(--darkColor);
   transition: var(--transition);

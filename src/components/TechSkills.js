@@ -4,8 +4,6 @@ import Typography from '@material-ui/core/Typography';
 //Components
 import UseStyles from './UseStyles';
 
-//CSS
-import '../App.css'
 
 // Amimate.css
 import "animate.css"
@@ -18,7 +16,7 @@ function TechSkills() {
     <div>
       <div className={techAnimate}  >
         <Typography variant="h5" gutterBottom component="div" >
-          <span className="font-technology"> Technologies, I Love </span>
+          <span className="font"> Technologies, I Love </span>
         </Typography>
       </div>
       <Grid columns={6} doubling style={{ marginTop: '10px' }}>
