@@ -24,7 +24,7 @@ function DetailedResume() {
               className={` ui  button medium   ${index === value && 'ui  button primary large '}`}
               onClick={() => setValue(index)} key={item.id}
             >
-              {item.role}
+              <span className='font'> {item.role}</span>
             </button>
           )
         })}
@@ -34,7 +34,7 @@ function DetailedResume() {
 
       <h3>
         <Icon circular size="large" className={classes.darkColor} name='address card' />
-        {" "} {title}
+        {" "}<span className='font'>{title}</span>
       </h3>
       <p ><i>{dates}</i></p>
       {duties.map((duty, index) => {
@@ -50,7 +50,7 @@ function DetailedResume() {
         <>
           <h3>
             <Icon circular size="large" className={classes.darkColor} name='address card' />
-            {" "} {title2}
+            {" "} <span className='font'>{title2}</span>
           </h3>
           <p ><i>{dates2}</i></p>
           {duties2.map((duty, index) => {
@@ -67,7 +67,7 @@ function DetailedResume() {
 
       <h3>
         <Icon circular size="large" className={classes.darkColor} name='cogs' />
-        {" "}Hands-On Experience
+        {" "}<span className='font'>Hands-On Experience</span>
       </h3>
       {frameworks.map((framework, index) => {
         return (
@@ -79,7 +79,7 @@ function DetailedResume() {
 
       <h3>
         <Icon circular size="large" className={classes.darkColor} name='trophy' />
-        {" "}Qualifications & Certifications
+        {" "}<span className='font'>Qualifications & Certifications</span>
       </h3>
       {certifications.map((certificate, index) => {
         return (

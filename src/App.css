@@ -29,6 +29,10 @@ body {
   font-size: 18px;
   text-transform: capitalize;
 }
+.font-my-experience {
+  font-family: var(--bodyFont);
+  color: var(--darkColor);
+}
 .card {
   height: "100%";
   display: "flex";

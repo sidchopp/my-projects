@@ -34,7 +34,7 @@ function ResumeModal() {
       >
         {/* <div><Image fluid src={image} rounded bordered centered /></div> */}
         <Modal.Header>
-          My Experience
+          <span className='font-my-experience'> My Experience</span>
         </Modal.Header>
         <Modal.Content  >
           <Modal.Description >
