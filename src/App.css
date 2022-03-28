@@ -1,18 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap");
 
 :root {
   --lightColor: #f6ebf4;
   --midColor: #4cbfa6;
   --darkColor: #482673;
+  /* --darkColor: red; */
+  /* --lightColor: yellow; */
   /* --cardShadow: 5px 10px 18px var(--midColor); */
   --cardShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   --cardHoverShadow: 5px 10px 18px var(--darkColor);
   --transition: 0.3s ease-in-out all;
+  --bodyFont: "Merriweather", serif;
 }
 body {
   background-color: var(--lightColor);
   color: var(--darkColor);
+  font-family: var(--bodyFont);
+}
+.font {
+  font-family: var(--bodyFont);
 }
 .card {
   height: "100%";
@@ -34,42 +40,58 @@ body {
   background-color: var(--lightColor);
   color: var(--darkColor);
 }
+.card-header {
+  color: var(--darkColor);
+  font-family: var(--bodyFont);
+  font-size: 1.25rem;
+}
+.card-content {
+  flex-grow: 1;
+  color: var(--darkColor);
+}
+.card-content-extra {
+  color: var(--darkColor);
+}
+.card-media {
+  padding-top: 56.25%;
+  font-family: var(--bodyFont);
+}
 .myProjects-header {
   padding: 90px 0;
 }
 .font-link {
-  font-family: "Fredericka the Great", cursive;
+  /* font-family: "Fredericka the Great", cursive; */
   font-weight: bold;
 }
 .font-name {
-  font-family: "Oldenburg", cursive;
+  /* font-family: "Oldenburg", cursive; */
   font-size: 65px;
   /* font-weight: 700; */
   /* font-weight: bold; */
 }
 
 .font-projects {
-  font-family: "Oldenburg", cursive;
+  /* font-family: "Oldenburg", cursive; */
   font-size: 40px;
   color: var(--darkColor);
 }
 
 .font-profile {
-  font-family: "Oldenburg", cursive;
+  /* font-family: "Oldenburg", cursive; */
   color: var(--lightColor);
   font-size: 40px;
   text-shadow: 2px 5px 8px #482673;
 }
 
 .font-resume {
-  font-family: "Oldenburg", cursive;
+  /* font-family: "Oldenburg", cursive; */
   font-size: 18px;
   text-transform: capitalize;
   /* font-weight: bold; */
 }
 
 .font-technology {
-  font-family: "Oldenburg", cursive;
+  /* font-family: "Oldenburg", cursive; */
   text-transform: capitalize;
 }
 .anchor-tag {

@@ -65,22 +65,25 @@ function ProjectsCards() {
                         action={
                           <Tooltip
                             placement="left-start"
-                            title={<Typography>{typeOfProject}</Typography>}>
+                            title={
+                              <Typography> <span className='font'>{typeOfProject}</span> </Typography>
+                            }
+                          >
                             {typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
                           </Tooltip>
                         }
-                        title={title}
+                        title={<Typography> <span className='card-header'>{title}</span> </Typography>}
                         subheader={techUsed}
-                        className={classes.darkColor}
+
                       />
                       <CardMedia
-                        className={classes.cardMedia}
+                        className='card-media'
                         image={img}
                         alt={title}
                       />
-                      <CardContent className={classes.cardContent}>
+                      <CardContent className='card-content'>
                         <Typography>
-                          {duties}
+                          <span className='font'>{duties}</span>
                         </Typography>
                       </CardContent>
                       <CardActions>
@@ -94,7 +97,7 @@ function ProjectsCards() {
                             website === 'https://sid-projects.netlify.app/' ? false : "_blank"
                           }
                         >
-                          <TouchAppIcon /> View
+                          <TouchAppIcon /> <span className='font'> View</span>
                         </Button>
                         <IconButton
                           style={{ marginLeft: 'auto' }}
@@ -112,7 +115,10 @@ function ProjectsCards() {
                       </CardActions>
                       {/* Iff only showInfo is true, only then show info, use AND operator */}
                       {expanded && <CardContent>
-                        <div className={classes.darkColor} style={{ margin: '3px' }}> <h4> Best View: </h4> {bestView}</div>
+                        <div className='card-content-extra' style={{ margin: '3px' }}>
+                          <h4 className='font'> Best View: </h4>
+                          {bestView}
+                        </div>
                         {/* <div style={{ margin: '3px' }}> <h4>Made from: </h4>{dates}</div> */}
                       </CardContent>}
                     </LazyLoad>
