@@ -3,10 +3,10 @@ const ProjectData = [
     "id": "11",
     "order": 11,
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "title": "My first AWS App",
+    "title": "Authentication & Authorization",
     "dates": "February 2021 - February 2022",
     "duties": [
-      "This App uses AWS Amplify for UI and AWS Cognito for Authentication and Authorization."
+      "This App uses AWS Amplify for UI & AWS Cognito for Authentication/Authorization."
     ],
     'img': "https://images.unsplash.com/photo-1607968980162-8cdb8f0dae6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
     "website": "https://main.d30a6z92p9jj0o.amplifyapp.com/",
@@ -21,7 +21,7 @@ const ProjectData = [
     "title": "All Weather",
     "dates": "November 2021 - February 2022",
     "duties": [
-      "A Weather App that has some cool features like graphical display of tempertures, weather forecast, etc."
+      "It has some cool features like graphical display of temperatures, weather forecast, etc."
     ],
     'img': "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
     "website": "https://sid-allweather.netlify.app/",
@@ -97,7 +97,7 @@ const ProjectData = [
     "bestView": 'Big Screens and Laptops only',
     "dates": "December 2020 - February 2021",
     "duties": [
-      "A Networking App that provides a centralized database of Tech. related events happening in Alberta."
+      "It provides a centralized database of tech events happening in Alberta."
     ],
     'img': "https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80",
     "website": "https://fusion-alberta.herokuapp.com/",
