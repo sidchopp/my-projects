@@ -6,7 +6,7 @@ const ProjectData = [
     "title": "Full Stack Web App",
     "dates": "March 2021 - April 2022",
     "duties": [
-      "I am working on it at the moment. It's live and you can view it..."
+      "I am working on it at the moment but, it's live so you can take a sneak peek.. "
     ],
     'img': "https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     "website": "https://main.d1vvpug5kati3r.amplifyapp.com/",
