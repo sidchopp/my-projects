@@ -53,6 +53,7 @@ body {
   color: var(--darkColor);
   transition: var(--transition);
   box-shadow: var(--cardShadow);
+  border-radius: 4px;
 }
 .card:hover {
   box-shadow: var(--cardHoverShadow);
