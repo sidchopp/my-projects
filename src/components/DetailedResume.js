@@ -3,11 +3,9 @@ import { Icon } from 'semantic-ui-react'
 
 
 //components
-import ResumeData from '../data/ResumeData'
-import UseStyles from './UseStyles'
+import ResumeData from '../data/ResumeData';
 
 function DetailedResume() {
-  const classes = UseStyles();
   //states
   const [jobs, setJobs] = useState(ResumeData)
   const [value, setValue] = useState(0)

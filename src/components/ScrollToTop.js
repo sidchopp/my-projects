@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import IconButton from '@mui/material/IconButton';
 
-import UseStyles from './UseStyles';
-
 function ScrollToTop() {
-  const classes = UseStyles();
+
   // The back-to-top button is hidden at the beginning
   const [showButton, setShowButton] = useState(false);
 

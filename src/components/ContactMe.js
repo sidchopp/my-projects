@@ -10,7 +10,6 @@ import emailjs from 'emailjs-com';
 import 'semantic-ui-css/semantic.min.css'
 //Components
 // import sidImage from '../images/sidImage.jpeg'
-import UseStyles from './UseStyles'
 
 // Amimate.css
 import "animate.css"
@@ -18,7 +17,7 @@ import "animate.css"
 const contactAnimate = "animate__animated animate__fadeInUp animate__delay-1s  animate__slow";
 
 const ContactMe = () => {
-  const classes = UseStyles();
+
   //States
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState("");
@@ -42,7 +41,6 @@ const ContactMe = () => {
   return (
     <div >
       <Modal
-
         closeIcon
         open={open}
         trigger={<EmailIcon className='icon' fontSize="large" />}
@@ -110,7 +108,7 @@ const ContactMe = () => {
                   Back
                 </button>
               </div>
-              <Typography variant="h5" align="center" color="text.primary">
+              <Typography variant="h5" align="center" >
                 {message}
               </Typography>
             </form>
