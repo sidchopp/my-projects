@@ -3,17 +3,18 @@ const ProjectData = [
     "id": "12",
     "order": 12,
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "title": "Full Stack Web App",
+    "title": "Serverless Web App",
     "dates": "March 2021 - April 2022",
     "duties": [
-      "I am working on it at the moment but, it's live so you can take a sneak peek.. "
+      "It let's you call a Unicorn for a ride. Cool, isn't it? "
     ],
-    'img': "https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-    "website": "https://main.d1vvpug5kati3r.amplifyapp.com/",
-    "techUsed": "Web Stack :  React, AWS, Node.js",
+    'img': "https://images.unsplash.com/photo-1623973792500-d2fa0aad9723?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+    "website": "https://main.d293z9el5ll7lo.amplifyapp.com/",
+    "techUsed": "Web Stack :AWS Lambda, API Gateway, DynamoDB, Cognito, Amplify",
     "company": "SID",
     "typeOfProject": "Individual"
   },
+
   {
     "id": "11",
     "order": 11,
@@ -179,6 +180,21 @@ const ProjectData = [
     "website": "https://sid-face-detect.herokuapp.com/",
     "websiteFallback": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, postgreSQL, Heroku",
+    "company": "SID",
+    "typeOfProject": "Individual"
+  },
+  {
+    "id": "0",
+    "order": 0,
+    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
+    "title": "Full Stack Web App",
+    "dates": "March 2021 - April 2022",
+    "duties": [
+      "I am working on it at the moment but, it's live so you can take a sneak peek.. "
+    ],
+    'img': "https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "website": "https://main.d1vvpug5kati3r.amplifyapp.com/",
+    "techUsed": "Web Stack :  React, AWS, Node.js",
     "company": "SID",
     "typeOfProject": "Individual"
   },
