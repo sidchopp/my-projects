@@ -10,6 +10,10 @@
   --cardShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   --cardHoverShadow: 5px 10px 18px var(--darkColor);
   --scrollToTopShadow: 0 8px 6px -6px var(--darkColor);
+  --resumeButtonShadow: rgba(0, 0, 0, 0.25) 0px 14px 28px -5px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --resumeButtonHover: var(--darkColor) 0px 14px 28px -7px,
+    var(--darkColor) 0px 10px 10px -4px;
   --transition: 0.3s ease-in-out all;
   --bodyFont: "Merriweather", serif;
 }
@@ -26,9 +30,12 @@ body {
   font-size: 4.5rem;
 }
 .font-resume {
+  color: var(--darkColor);
   font-family: var(--bodyFont);
   font-size: 18px;
   text-transform: capitalize;
+  padding: 1px;
+  border-radius: 4px;
 }
 .font-heading {
   font-family: var(--bodyFont);
@@ -44,6 +51,15 @@ body {
   color: var(--lightColor);
   font-size: 40px;
   text-shadow: 2px 5px 8px #482673;
+}
+.resume-button {
+  border-radius: 4px;
+  transition: var(--transition);
+  box-shadow: var(--resumeButtonShadow);
+}
+.resume-button:hover {
+  box-shadow: var(--resumeButtonHover);
+  transform: scale(1.001);
 }
 .card {
   height: "100%";

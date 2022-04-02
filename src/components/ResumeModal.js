@@ -20,12 +20,13 @@ function ResumeModal() {
         onClose={() => setOpen(false)}
         onOpen={() => setOpen(true)}
         trigger={
-
-          <Button className='font-heading' variant="contained"  >
-            <span className="font-resume">
-              My Resume
-            </span>
-          </Button>
+          <div className=' resume-button ' >
+            <Button  >
+              <span className="font-resume ">
+                My Resume
+              </span>
+            </Button>
+          </div>
 
         }
       >
