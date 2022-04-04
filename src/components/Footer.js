@@ -22,7 +22,7 @@ function Footer() {
         component="p"
         gutterBottom
       >
-        <span className='font'>Hope you liked my work. Please let me know, if I can be helpful.</span>
+        <span className='font'>Hope you liked my work. Please let me know if, I can be helpful.</span>
       </Typography>
       <Typography
         variant="subtitle1"
