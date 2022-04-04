@@ -192,7 +192,7 @@ const ProjectData = [
     "duties": [
       "I am working on it at the moment but, it's live so you can take a sneak peek.. "
     ],
-    'img': "https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    'img': "https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
     "website": "https://main.d1vvpug5kati3r.amplifyapp.com/",
     "techUsed": "Web Stack :  React, AWS, Node.js",
     "company": "SID",
