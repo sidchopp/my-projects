@@ -6,7 +6,7 @@ const ProjectData = [
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "April 2022 - April 2022",
     "duties": [
-      "A lambda function is triggered when a user submits a Form."
+      "A Lambda function is triggered when a user submits a Form."
     ],
     'img': "https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "website": "https://main.d13ao79z6eohsa.amplifyapp.com/",
