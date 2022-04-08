@@ -11,11 +11,6 @@ import 'semantic-ui-css/semantic.min.css'
 //Components
 // import sidImage from '../images/sidImage.jpeg'
 
-// Amimate.css
-import "animate.css"
-
-const contactAnimate = "animate__animated animate__fadeInUp animate__delay-1s  animate__slow";
-
 const ContactMe = () => {
 
   //States
@@ -65,7 +60,7 @@ const ContactMe = () => {
             align="center"
             paragraph
           >
-            <div className={contactAnimate} >
+            <div  >
               <span className='font-heading' >
                 I would
                 <span>
@@ -96,7 +91,7 @@ const ContactMe = () => {
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
-                  Send Message
+                  <span className='font'>Send Message</span>
                 </button>
                 <button
                   className="ui right floated button secondary"
@@ -105,7 +100,7 @@ const ContactMe = () => {
                     setOpen(false);
                     setMessage("");
                   }} >
-                  Back
+                  <span className='font'>Back</span>
                 </button>
               </div>
               <Typography variant="h5" align="center" >
@@ -119,22 +114,22 @@ const ContactMe = () => {
           <Grid container spacing={1}>
             <Grid item xs={6}>
               <Typography align="left" component="h2" variant="h6">
-                <div className=' animate__animated animate__fadeIn  animate__slow'>
+                <div className='font'>
                   <Icon fitted name='mail outline' />  EMAIL
                 </div>
               </Typography>
               <Typography gutterBottom align="left" variant="subtitle1" color="text.secondary">
-                <div className={contactAnimate}>
+                <div className='font'>
                   sidchopp@gmail.com
                 </div>
               </Typography>
               <Typography align="left" component="h2" variant="h6">
-                <div className=' animate__animated animate__fadeIn   animate__slow'>
+                <div className='font'>
                   <Icon fitted name='mobile alternate' />  MOBILE
                 </div>
               </Typography>
               <Typography align="left" variant="subtitle1" color="text.secondary">
-                <div className={contactAnimate}>
+                <div className='font'>
                   (587)-436-7497
                 </div>
               </Typography>
@@ -146,7 +141,7 @@ const ContactMe = () => {
                   onClick={() => window.open('https://www.facebook.com/siddchopp')}
                   size="large"
                 >
-                  <div className={contactAnimate}>
+                  <div >
                     <FacebookIcon fontSize="large" />
                   </div>
                 </IconButton>
@@ -155,7 +150,7 @@ const ContactMe = () => {
                   onClick={() => window.open('https://www.linkedin.com/in/sidchopp/')}
                   size="large"
                 >
-                  <div className={contactAnimate}>
+                  <div >
                     <LinkedInIcon fontSize="large" />
                   </div>
                 </IconButton>

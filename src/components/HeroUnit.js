@@ -16,13 +16,6 @@ import Certifications from './Certifications';
 //CSS
 import '../App.css'
 
-// Amimate.css
-import "animate.css"
-
-const nameAnimate = 'font-name animate__animated animate__fadeIn animate__slow ';
-const profileAnimate = 'font-profile animate__animated animate__fadeIn animate__delay-1s animate__slower';
-const iconsAnimate = "animate__animated animate__fadeIn animate__delay-2s animate__slower";
-
 function HeroUnit() {
   const classes = UseStyles();
   return (
@@ -34,7 +27,7 @@ function HeroUnit() {
           align="center"
           gutterBottom
         >
-          <div className={nameAnimate} >
+          <div className='font-name  ' >
             Siddharth Chopra
           </div>
         </Typography>
@@ -43,14 +36,14 @@ function HeroUnit() {
           align="center"
           gutterBottom
         >
-          <div className={profileAnimate}  >
+          <div className='font-profile '  >
             Full Stack Developer
           </div>
         </Typography>
         <div className={classes.heroButtons}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <div className={iconsAnimate}>
+              <div >
                 <IconButton
                   // variant="contained"
                   // color="primary"
@@ -64,13 +57,13 @@ function HeroUnit() {
               </div>
             </Grid>
             <Grid item>
-              <div className={iconsAnimate}>
+              <div >
                 {/* component import */}
                 <Certifications />
               </div>
             </Grid>
             <Grid item>
-              <div className={iconsAnimate}>
+              <div >
                 <IconButton
                   variant="contained"
                   color="primary"
@@ -87,7 +80,7 @@ function HeroUnit() {
           <Grid container spacing={6} justifyContent="center">
             <Grid item>
               {/* component import */}
-              <div className={iconsAnimate}>
+              <div >
                 <ResumeModal />
               </div>
 

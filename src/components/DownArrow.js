@@ -1,14 +1,12 @@
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
-// animate CSS
-import 'animate.css';
-
-const arrowDownAnimate = 'animate__animated animate__fadeOutDown animate__slow animate__infinite';
+const beforeArrowComes = 'animate__animated animate__fadeIn animate__slow ';
+const afterArrowComes = ' animate__animated animate__fadeIn  animate__slow animate__delay-1s animate__infinite';
 
 function DownArrow() {
   return (
-    <div className=' animate__animated animate__fadeInDownBig animate__delay-3s animate__slower'   >
-      <div style={{ paddingTop: "70px" }} className={arrowDownAnimate}>
+    <div className={afterArrowComes}  >
+      <div style={{ paddingTop: "70px" }} className={beforeArrowComes}>
         <KeyboardDoubleArrowDownIcon sx={{ fontSize: 40 }} />
       </div>
     </div>
