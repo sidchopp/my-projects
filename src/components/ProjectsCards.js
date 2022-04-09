@@ -15,7 +15,6 @@ import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PersonIcon from '@mui/icons-material/Person';
 import GroupIcon from '@mui/icons-material/Group';
-import Tooltip from '@mui/material/Tooltip';
 
 import { Header, Icon } from 'semantic-ui-react'
 
@@ -63,18 +62,11 @@ function ProjectsCards() {
                     >
                       <CardHeader
                         action={
-                          <Tooltip
-                            placement="left-start"
-                            title={
-                              <Typography> <span className='font'>{typeOfProject}</span> </Typography>
-                            }
-                          >
-                            {typeOfProject === "Individual" ? <PersonIcon /> : <GroupIcon />}
-                          </Tooltip>
-                        }
+                          typeOfProject === "React" ? <Icon size='big' name='react' />
+                            : typeOfProject === "AWS" ? <Icon size='big' name='aws' />
+                              : <Icon size='big' name='js' />}
                         title={<Typography> <span className='card-header'>{title}</span> </Typography>}
                         subheader={techUsed}
-
                       />
                       <CardMedia
                         className='card-media'
@@ -128,8 +120,8 @@ function ProjectsCards() {
             )
           })}
         </Grid>
-      </LazyLoad>
-    </Container>
+      </LazyLoad >
+    </Container >
   )
 }
 

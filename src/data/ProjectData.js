@@ -12,7 +12,7 @@ const ProjectData = [
     "website": "https://main.d13ao79z6eohsa.amplifyapp.com/",
     "techUsed": "Web Stack :AWS Lambda, API Gateway, DynamoDB",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "AWS"
   },
   {
     "id": "12",
@@ -27,7 +27,7 @@ const ProjectData = [
     "website": "https://main.d293z9el5ll7lo.amplifyapp.com/",
     "techUsed": "Web Stack :AWS Lambda, API Gateway, DynamoDB, Cognito, Amplify",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "AWS"
   },
 
   {
@@ -43,7 +43,7 @@ const ProjectData = [
     "website": "https://main.d30a6z92p9jj0o.amplifyapp.com/",
     "techUsed": "Web Stack :  React, AWS, Node.js",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "AWS"
   },
   {
     "id": "10",
@@ -58,7 +58,7 @@ const ProjectData = [
     "website": "https://sid-allweather.netlify.app/",
     "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
   {
     "id": "9",
@@ -73,7 +73,7 @@ const ProjectData = [
     "website": "https://about-my-location.netlify.app/",
     "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
 
   {
@@ -89,7 +89,7 @@ const ProjectData = [
     "website": "https://sid-periodic-table.netlify.app/",
     "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
   {
     "id": "7",
@@ -104,7 +104,7 @@ const ProjectData = [
     "website": "https://sid-projects.netlify.app/",
     "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
   {
     "id": "6",
@@ -119,7 +119,7 @@ const ProjectData = [
     "website": "https://sid-guess-number.netlify.app/",
     "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "JavaScript"
   },
   {
     "id": "5",
@@ -134,7 +134,7 @@ const ProjectData = [
     "website": "https://fusion-alberta.herokuapp.com/",
     "techUsed": "Web Stack : Node.js, React,Express, MongoDB, Google Firebase, Heroku.",
     "company": "InceptionU Ltd.",
-    "typeOfProject": "Team"
+    "typeOfProject": "React"
   },
 
   {
@@ -150,7 +150,7 @@ const ProjectData = [
     "website": "https://sid-rolling-dice.netlify.app/",
     "techUsed": "Web Stack : HTML, CSS, Vanilla JavaScript",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "JavaScript"
   },
   {
     "id": "3",
@@ -165,7 +165,7 @@ const ProjectData = [
     "website": "https://sid-seasons.netlify.app/",
     "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
   {
     "id": "2",
@@ -180,7 +180,7 @@ const ProjectData = [
     "website": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
   {
     "id": "1",
@@ -196,7 +196,7 @@ const ProjectData = [
     "websiteFallback": "https://i-will-be-back.netlify.app/",
     "techUsed": "Web Stack : Node.js, React, postgreSQL, Heroku",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "React"
   },
   {
     "id": "0",
@@ -211,7 +211,7 @@ const ProjectData = [
     "website": "https://main.d1vvpug5kati3r.amplifyapp.com/",
     "techUsed": "Web Stack :  React, AWS, Node.js",
     "company": "SID",
-    "typeOfProject": "Individual"
+    "typeOfProject": "AWS"
   },
 
 ];
