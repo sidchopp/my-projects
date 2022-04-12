@@ -13,8 +13,6 @@ import Container from '@material-ui/core/Container';
 import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import PersonIcon from '@mui/icons-material/Person';
-import GroupIcon from '@mui/icons-material/Group';
 
 import { Header, Icon } from 'semantic-ui-react'
 
