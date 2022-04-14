@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Grid, Header, Icon } from 'semantic-ui-react';
 import IconButton from '@mui/material/IconButton';
-import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import BackspaceIcon from '@mui/icons-material/Backspace';
 
 //Components
@@ -19,7 +19,7 @@ function Certifications() {
       size='large'
       trigger={
         <IconButton variant="contained" size="large">
-          <MilitaryTechIcon className='icon' fontSize="large" />
+          <WorkspacePremiumIcon className='icon' fontSize="large" />
         </IconButton>
       }
     >
