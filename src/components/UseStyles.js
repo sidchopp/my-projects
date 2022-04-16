@@ -5,6 +5,12 @@ import { makeStyles } from '@material-ui/core/styles';
 const lightColor = "#f6ebf4";
 const midColor = " #4cbfa6";
 const darkColor = "#482673";
+const reactIconColor = "#61dafb";
+const nodeIconColor = "#68A063";
+const awsIconColor = " #FF9900";
+const jsIconColor = "#323330";
+const htmlIconColor = "#f06529";
+const cssIconColor = "#264de4";
 
 const UseStyles = makeStyles((theme) => ({
   darkColor: {
@@ -15,6 +21,24 @@ const UseStyles = makeStyles((theme) => ({
   },
   lightColor: {
     color: lightColor
+  },
+  reactIcon: {
+    color: reactIconColor
+  },
+  nodeIcon: {
+    color: nodeIconColor
+  },
+  awsIcon: {
+    color: awsIconColor
+  },
+  jsIcon: {
+    color: jsIconColor
+  },
+  htmlIcon: {
+    color: htmlIconColor
+  },
+  cssIcon: {
+    color: cssIconColor
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
