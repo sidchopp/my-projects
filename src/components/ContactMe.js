@@ -77,21 +77,21 @@ const ContactMe = () => {
               <div className="equal width fields">
                 <div className="field">
                   <div className="ui input">
-                    <input autoFocus required type="text" placeholder="Your Name" name="user_name" />
+                    <input autoFocus required type="text" placeholder=" Name" name="user_name" />
                   </div>
                 </div>
                 <div className="field">
                   <div className="ui input">
-                    <input required type="text" placeholder="Your Email" name="user_email" />
+                    <input required type="text" placeholder=" Email" name="user_email" />
                   </div>
                 </div>
               </div>
               <div className="field">
-                <textarea placeholder="Your Message.." rows="10" name="message" ></textarea>
+                <textarea placeholder=" Message.." rows="10" name="message" ></textarea>
               </div>
               <div className="field">
                 <button className="ui button primary " value="Send" >
-                  <span className='font'>Send Message</span>
+                  <span className='font'>Submit</span>
                 </button>
                 <button
                   className="ui right floated button secondary"
