@@ -11,6 +11,8 @@ import 'semantic-ui-css/semantic.min.css'
 //Components
 // import sidImage from '../images/sidImage.jpeg'
 
+const myEmail = "sidchopp@gmail.com";
+
 const ContactMe = () => {
 
   //States
@@ -120,7 +122,9 @@ const ContactMe = () => {
               </Typography>
               <Typography gutterBottom align="left" variant="subtitle1" color="text.secondary">
                 <div className='font'>
-                  sidchopp@gmail.com
+                  <a href={`mailto:${myEmail}`}>
+                    {myEmail}
+                  </a>
                 </div>
               </Typography>
               <Typography align="left" component="h2" variant="h6">
