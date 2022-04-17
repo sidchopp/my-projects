@@ -137,6 +137,9 @@ body {
 .tech-icon:hover {
   transform: scale(1.1);
 }
+.tech-container {
+  margin-top: 20px;
+}
 .down-arrow {
   font-size: 40px;
 }

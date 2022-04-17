@@ -11,7 +11,7 @@ function DetailedResume() {
   const [value, setValue] = useState(0)
   //const [activeItem, setActiveItem] = useState(value)
 
-  const { role, dates, duties, title, title2, dates2, duties2, img, certifications, frameworks } = jobs[value]
+  const { dates, duties, title, title2, dates2, duties2, certifications, frameworks } = jobs[value]
   return (
     <>
       <div>
@@ -27,8 +27,6 @@ function DetailedResume() {
           )
         })}
       </div>
-
-      {/* <div><Image fluid src={img} rounded bordered centered /></div> */}
 
       <h3>
         <Icon circular size="large" name='address card' />

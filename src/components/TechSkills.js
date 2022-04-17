@@ -15,50 +15,52 @@ function TechSkills() {
           <span className="font"> Technologies, I Love </span>
         </Typography>
       </div>
-      <Grid columns={6} doubling style={{ marginTop: '10px' }}>
-        <Grid.Row id='db_1'>
-          <Grid.Column>
-            <Header as="h1">
-              <a href='https://reactjs.org/' target="_blank" rel="noreferrer">
-                <Icon circular className={`${reactIcon} tech-icon `} name="react" />
-              </a>
-            </Header>
-          </Grid.Column>
-          <Grid.Column>
-            <Header as="h1">
-              <a href='https://nodejs.org/en/' target="_blank" rel="noreferrer">
-                <Icon circular className={`${nodeIcon} tech-icon `} name="node" />
-              </a>
-            </Header>
-          </Grid.Column>
-          <Grid.Column>
-            <Header as="h1">
-              <a href='https://aws.amazon.com/' target="_blank" rel="noreferrer">
-                <Icon circular className={`${awsIcon} tech-icon `} name="aws" />
-              </a>
-            </Header>
-          </Grid.Column>
-          <Grid.Column>
-            <Header as="h1">
-              <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noreferrer">
-                <Icon circular className={`${jsIcon} tech-icon `} name="js square" />
-              </a>
-            </Header>
-          </Grid.Column>
-          <Grid.Column>
-            <Header as="h1">
-              <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank" rel="noreferrer"> <Icon circular className={`${htmlIcon} tech-icon `} name="html5" />
-              </a>
-            </Header>
-          </Grid.Column>
-          <Grid.Column>
-            <Header as="h1">
-              <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="_blank" rel="noreferrer"> <Icon circular className={`${cssIcon} tech-icon `} name="css3 alternate" />
-              </a>
-            </Header>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
+      <div className='tech-container'>
+        <Grid columns={6} doubling >
+          <Grid.Row >
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://reactjs.org/' target="_blank" rel="noreferrer">
+                  <Icon circular className={`${reactIcon} tech-icon `} name="react" />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://nodejs.org/en/' target="_blank" rel="noreferrer">
+                  <Icon circular className={`${nodeIcon} tech-icon `} name="node" />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://aws.amazon.com/' target="_blank" rel="noreferrer">
+                  <Icon circular className={`${awsIcon} tech-icon `} name="aws" />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noreferrer">
+                  <Icon circular className={`${jsIcon} tech-icon `} name="js square" />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank" rel="noreferrer"> <Icon circular className={`${htmlIcon} tech-icon `} name="html5" />
+                </a>
+              </Header>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as="h1">
+                <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="_blank" rel="noreferrer"> <Icon circular className={`${cssIcon} tech-icon `} name="css3 alternate" />
+                </a>
+              </Header>
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </div>
     </div>
   )
 }
