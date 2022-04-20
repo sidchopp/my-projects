@@ -40,7 +40,7 @@ const ContactMe = () => {
       <Modal
         closeIcon
         open={open}
-        trigger={<EmailIcon className='icon' fontSize="large" />}
+        trigger={<EmailIcon className='icon' />}
         onClose={() => {
           setOpen(false)
           setMessage("")
