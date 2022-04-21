@@ -32,8 +32,8 @@ const ResumeData = [
     "certifications": [
       "AWS Certified Developer Associate",
       "AWS Certified Cloud Practitioner",
-      "Full Stack Developer Program, InceptionU, Calgary -AB",
-      "Pursuing Software Product Management Specialization(Online), University of Alberta"
+      "Full Stack Development program from InceptionU, Calgary, Alberta",
+      "Software Product Management Specialization, University of Alberta"
     ],
     "img": `${developerPic}`
   },
