@@ -34,12 +34,12 @@ function Certifications() {
                     {data.title}
                   </a>
                 </Header>
-                <div class="flip-box">
-                  <div class="flip-box-inner">
-                    <div class="flip-box-front">
+                <div className="flip-box">
+                  <div className="flip-box-inner">
+                    <div className="flip-box-front">
                       <img src={data.img} alt="certificate img" width="150" height="150" />
                     </div>
-                    <div class="flip-box-back">
+                    <div className="flip-box-back">
                       <img src={data.img} alt="certificate img" width="150" height="150" />
                     </div>
                   </div>
