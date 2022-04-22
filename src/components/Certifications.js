@@ -34,7 +34,16 @@ function Certifications() {
                     {data.title}
                   </a>
                 </Header>
-                <img src={data.img} alt="certificate img" width="150" height="150" />
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img src={data.img} alt="certificate img" width="150" height="150" />
+                    </div>
+                    <div class="flip-box-back">
+                      <img src={data.img} alt="certificate img" width="150" height="150" />
+                    </div>
+                  </div>
+                </div>
                 <Grid style={{ marginTop: "20px" }}>
                   <Grid.Column textAlign='left'>
                     <h3>
