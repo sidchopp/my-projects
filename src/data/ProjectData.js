@@ -1,7 +1,7 @@
 const ProjectData = [
   {
-    "id": "13",
-    "order": 13,
+    "id": "12",
+    "order": 12,
     "title": "A simple Form",
     "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
     "dates": "April 2022 - April 2022",
@@ -11,21 +11,6 @@ const ProjectData = [
     'img': "https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "website": "https://main.d13ao79z6eohsa.amplifyapp.com/",
     "techUsed": "Web Stack :AWS Lambda, API Gateway, DynamoDB",
-    "company": "SID",
-    "typeOfProject": "AWS"
-  },
-  {
-    "id": "12",
-    "order": 12,
-    "bestView": 'On ALL Big Screens, Laptops, Tablets, Mobiles',
-    "title": "Serverless Web App",
-    "dates": "March 2021 - April 2022",
-    "duties": [
-      "It let's you call a Unicorn for a ride. Cool, isn't it? "
-    ],
-    'img': "https://images.unsplash.com/photo-1623973792500-d2fa0aad9723?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
-    "website": "https://main.d293z9el5ll7lo.amplifyapp.com/",
-    "techUsed": "Web Stack :AWS Lambda, API Gateway, DynamoDB, Cognito, Amplify",
     "company": "SID",
     "typeOfProject": "AWS"
   },
