@@ -28,7 +28,7 @@ const ResumeData = [
     "frameworks": [
       "React", "Node", "JavaScript", "AWS", "HTML/CSS", "Express", "GitHub/Git", "MongoDB"
     ],
-    "role": " As Full Stack Developer",
+    "role": " Full Stack Developer",
     "certifications": [
       "AWS Certified Developer Associate",
       "AWS Certified Cloud Practitioner",
@@ -51,7 +51,7 @@ const ResumeData = [
     "frameworks": [
       "React", "JavaScript", "HTML/CSS", "Git/GitHub"
     ],
-    "role": "As Web Developer",
+    "role": " Web Developer",
     "certifications": [
       "A Master’s Degree in Physics (with Mathematics)"
 
