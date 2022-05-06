@@ -1,8 +1,6 @@
-
 //Images 
 import developerPic from '../images/developer.jpg';
 import instructorPic from '../images/instructor.jpg';
-
 
 const ResumeData = [
   {

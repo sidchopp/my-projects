@@ -27,7 +27,8 @@ body {
 }
 .font-name {
   font-family: var(--bodyFont);
-  font-size: 4.5rem;
+  /* font-size: 4.5rem; */
+  font-size: 8.5vw;
 }
 .font-resume {
   color: var(--darkColor);
@@ -49,7 +50,8 @@ body {
 .font-profile {
   font-family: var(--bodyFont);
   color: var(--lightColor);
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 6.5vw;
   text-shadow: 2px 5px 8px #482673;
 }
 .resume-button {
